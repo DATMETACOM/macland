@@ -1,36 +1,120 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏢 Macland - Bất Động Sản Công Nghiệp
 
-## Getting Started
+Website bất động sản công nghiệp được xây dựng với **Next.js 14**, **TypeScript**, và **Tailwind CSS**.
 
-First, run the development server:
+## ✨ Tính năng
+
+- ⚡ **Tối ưu hiệu suất**: Next.js App Router với Server Components
+- 🎨 **UI đẹp**: Framer Motion animations + Tailwind CSS
+- 📱 **Responsive**: Mobile-first design
+- 🖼️ **Image Optimization**: Tự động optimize ảnh với Next.js Image
+- 🔍 **SEO**: Server-side rendering cho Google indexing
+- 📄 **Pagination**: Load sản phẩm theo trang (20 items/trang)
+- 🎯 **Type Safety**: TypeScript toàn bộ
+
+## 🚀 Quick Start
 
 ```bash
+# Cài đặt dependencies
+npm install
+
+# Chạy development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Mở browser tại
+http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📂 Cấu trúc dự án
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+src/
+├── app/                    # Next.js App Router
+│   ├── (routes)/          # Route groups
+│   │   ├── page.tsx       # Trang chủ
+│   │   └── san-pham/      # Trang sản phẩm
+│   │       ├── page.tsx   # Listing với pagination
+│   │       └── [slug]/    # Dynamic routes cho detail
+│   ├── layout.tsx         # Root layout
+│   └── globals.css        # Global styles
+├── components/            # React components
+│   ├── layout/           # Header, Footer
+│   ├── product/          # ProductCard
+│   └── ui/               # Reusable UI components
+├── lib/                  # Utilities
+│   ├── data/            # Data fetching functions
+│   └── utils/           # Helper functions
+└── types/               # TypeScript types
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎨 Tech Stack
 
-## Learn More
+- **Framework**: Next.js 14 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Fonts**: Plus Jakarta Sans
 
-To learn more about Next.js, take a look at the following resources:
+## 📊 Data
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Data được lấy từ file `public/data.json` với:
+- **359 sản phẩm** bất động sản công nghiệp
+- Thông tin chi tiết từng sản phẩm
+- Hình ảnh và thumbnails
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🏗️ Commands
 
-## Deploy on Vercel
+```bash
+# Development
+npm run dev
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Production build
+npm run build
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Start production server
+npm start
+
+# Lint code
+npm run lint
+```
+
+## 🌐 Deployment
+
+### Vercel (Recommended)
+```bash
+# Install Vercel CLI
+npm i -g vercel
+
+# Deploy
+vercel
+```
+
+### Static Export
+Để export ra static HTML:
+1. Update `next.config.ts`: `output: 'export'`
+2. Run: `npm run build`
+3. Deploy folder `out/`
+
+## ⚡ Performance Optimization
+
+- ✅ Static Generation cho trang detail (top 50 products)
+- ✅ Image Optimization với Next.js Image
+- ✅ Code Splitting tự động
+- ✅ Lazy Loading components
+- ✅ Infinite Scroll ready (có thể implement)
+- ✅ Server Components để giảm JS bundle
+
+## 🎯 Tính năng kế hoạch
+
+- [ ] Search functionality
+- [ ] Advanced filters
+- [ ] Infinite scroll
+- [ ] Image gallery lightbox
+- [ ] Contact form
+- [ ] Multi-language support
+- [ ] Dark mode
+
+## 📝 License
+
+MIT
