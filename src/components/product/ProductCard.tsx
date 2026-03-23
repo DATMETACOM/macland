@@ -10,7 +10,7 @@ import {
   formatProductType,
   getImageUrl,
   getProductLocationLabel,
-} from '@/lib/data/products'
+} from '@/lib/data/product-utils'
 import ProductImage from './ProductImage'
 
 interface ProductCardProps {
