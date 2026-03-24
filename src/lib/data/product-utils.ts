@@ -6,6 +6,12 @@ const IMAGE_SIZE_MAP: Record<'thumbnail' | 'medium' | 'large', string[]> = {
   large: ['1024x1024', '768x768', '300x300'],
 }
 
+const DEFAULT_PRODUCT_IMAGES: Record<string, string> = {
+  'khu-cong-nghiep': '/images/default-products/khu-cong-nghiep-macland.png',
+  'cum-cong-nghiep': '/images/default-products/cum-cong-nghiep-macland.png',
+  'nha-xuong': '/images/default-products/nha-xuong-macland.png',
+}
+
 const VIETNAM_LOCATIONS = [
   'An Giang', 'Bà Rịa - Vũng Tàu', 'Bac Giang', 'Bắc Giang', 'Bac Kan', 'Bắc Kạn',
   'Bac Lieu', 'Bạc Liêu', 'Bac Ninh', 'Bắc Ninh', 'Ben Tre', 'Bến Tre', 'Binh Dinh',
@@ -194,8 +200,28 @@ export function getCleanProductImages(product: Product) {
   return product.media.images || []
 }
 
-export function getImageUrl(product: Product, size: 'thumbnail' | 'medium' | 'large' = 'medium'): string {
+export function getDefaultProductImageUrl(product: Product): string {
+  return DEFAULT_PRODUCT_IMAGES[normalizeComparableText(product.type)] || '/images/placeholder.svg'
+}
+
+export function getDisplayProductImages(product: Product): Product['media']['images'] {
   const images = getCleanProductImages(product)
+
+  if (images.length > 0) {
+    return images
+  }
+
+  return [{
+    url: getDefaultProductImageUrl(product),
+    filename: `${normalizeComparableText(product.type) || 'default'}-macland-default.png`,
+    type: 'image/png',
+    downloaded_path: '',
+    thumbnails: [],
+  }]
+}
+
+export function getImageUrl(product: Product, size: 'thumbnail' | 'medium' | 'large' = 'medium'): string {
+  const images = getDisplayProductImages(product)
 
   if (!images.length) {
     return '/images/placeholder.svg'
@@ -217,5 +243,5 @@ export function getImageUrl(product: Product, size: 'thumbnail' | 'medium' | 'la
     return matchingThumbnail.url
   }
 
-  return image.url || '/images/placeholder.svg'
+  return image.url || getDefaultProductImageUrl(product)
 }

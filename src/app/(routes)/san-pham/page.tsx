@@ -13,7 +13,7 @@ export default async function ProductsPage({
   const page = parseInt(params.page || '1')
   const limit = 20
 
-  const { products, total, totalPages } = await getProductsPaginated(page, limit)
+  const { products, total, totalPages } = await getProductsPaginated(page, limit, params.type)
   const allProducts = await getAllProducts()
   const types = getProductTypes(allProducts)
 

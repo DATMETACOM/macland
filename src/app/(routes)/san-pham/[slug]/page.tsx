@@ -4,7 +4,7 @@ import {
   formatPrice,
   formatProductType,
   getAllProducts,
-  getCleanProductImages,
+  getDisplayProductImages,
   getImageUrl,
   getProductBySlug,
   getProductLocationLabel,
@@ -47,7 +47,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
     notFound()
   }
 
-  const images = getCleanProductImages(product)
+  const images = getDisplayProductImages(product)
   const locationLabel = getProductLocationLabel(product)
 
   return (

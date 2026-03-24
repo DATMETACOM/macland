@@ -6,6 +6,7 @@ import {
   formatPrice,
   formatProductType,
   getCleanProductImages,
+  getDisplayProductImages,
   getImageUrl,
   getProductLocationLabel,
 } from '@/lib/data/product-utils'
@@ -183,14 +184,15 @@ export async function getProductsByType(type: string): Promise<Product[]> {
 
 export async function getProductsPaginated(
   page = 1,
-  limit = 20
+  limit = 20,
+  type?: string
 ): Promise<{
   products: Product[]
   total: number
   page: number
   totalPages: number
 }> {
-  const products = await getAllProducts()
+  const products = type ? await getProductsByType(type) : await getAllProducts()
   const start = (page - 1) * limit
   const end = start + limit
   const paginatedProducts = products.slice(start, end)
@@ -213,6 +215,7 @@ export {
   formatPrice,
   formatProductType,
   getCleanProductImages,
+  getDisplayProductImages,
   getImageUrl,
   getProductLocationLabel,
 }
