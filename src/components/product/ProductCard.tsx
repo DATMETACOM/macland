@@ -5,11 +5,13 @@ import Link from 'next/link'
 import { MapPin, Ruler, DollarSign } from 'lucide-react'
 import { Product } from '@/types/product'
 import {
+  getDisplayProductTitle,
   formatArea,
   formatPrice,
   formatProductType,
   getImageUrl,
   getProductLocationLabel,
+  getProductTransactionStatus,
 } from '@/lib/data/product-utils'
 import ProductImage from './ProductImage'
 
@@ -21,6 +23,10 @@ interface ProductCardProps {
 export default function ProductCard({ product, index = 0 }: ProductCardProps) {
   const imageUrl = getImageUrl(product, 'medium')
   const locationLabel = getProductLocationLabel(product)
+  const displayTitle = getDisplayProductTitle(product)
+  const transactionStatus = getProductTransactionStatus(product)
+  const areaLabel = formatArea(product)
+  const areaMetaLabel = transactionStatus || areaLabel
 
   return (
     <motion.div
@@ -36,7 +42,7 @@ export default function ProductCard({ product, index = 0 }: ProductCardProps) {
           <div className="relative aspect-[4/3] w-full overflow-hidden bg-gradient-to-br from-gray-100 to-gray-200">
             <ProductImage
               src={imageUrl}
-              alt={product.title}
+              alt={displayTitle}
               className="object-cover group-hover:scale-110 transition-transform duration-500"
             />
 
@@ -52,7 +58,7 @@ export default function ProductCard({ product, index = 0 }: ProductCardProps) {
           <div className="p-5 flex-1 flex flex-col">
             {/* Title */}
             <h3 className="text-base font-bold text-gray-900 mb-3 line-clamp-2 group-hover:text-red-600 transition-colors leading-snug">
-              {product.title}
+              {displayTitle}
             </h3>
 
             {/* Location */}
@@ -65,7 +71,7 @@ export default function ProductCard({ product, index = 0 }: ProductCardProps) {
             <div className="flex items-center gap-4 text-xs text-gray-700 mb-4">
               <div className="flex items-center gap-1.5 bg-gray-50 px-2.5 py-1.5 rounded-lg">
                 <Ruler className="w-3.5 h-3.5 text-red-600" />
-                <span className="font-medium">{formatArea(product)}</span>
+                <span className="font-medium">{areaMetaLabel}</span>
               </div>
               <div className="flex items-center gap-1.5 bg-gray-50 px-2.5 py-1.5 rounded-lg">
                 <DollarSign className="w-3.5 h-3.5 text-red-600" />

@@ -2,6 +2,7 @@ import 'server-only'
 
 import { Product, ProductData } from '@/types/product'
 import {
+  getDisplayProductTitle,
   formatArea,
   formatPrice,
   formatProductType,
@@ -9,6 +10,7 @@ import {
   getDisplayProductImages,
   getImageUrl,
   getProductLocationLabel,
+  getProductTransactionStatus,
 } from '@/lib/data/product-utils'
 
 let cachedData: ProductData | null = null
@@ -211,6 +213,7 @@ export function getProductTypes(products: Product[]): string[] {
 }
 
 export {
+  getDisplayProductTitle,
   formatArea,
   formatPrice,
   formatProductType,
@@ -218,4 +221,5 @@ export {
   getDisplayProductImages,
   getImageUrl,
   getProductLocationLabel,
+  getProductTransactionStatus,
 }

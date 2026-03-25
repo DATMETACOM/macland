@@ -9,7 +9,8 @@ const IMAGE_SIZE_MAP: Record<'thumbnail' | 'medium' | 'large', string[]> = {
 const DEFAULT_PRODUCT_IMAGES: Record<string, string> = {
   'khu-cong-nghiep': '/images/default-products/khu-cong-nghiep-macland.png',
   'cum-cong-nghiep': '/images/default-products/cum-cong-nghiep-macland.png',
-  'nha-xuong': '/images/default-products/nha-xuong-macland.png',
+  'nha-xuong': '/images/default-products/mat-bang-macland-1.png',
+  'mat-bang': '/images/default-products/mat-bang-macland-1.png',
 }
 
 const VIETNAM_LOCATIONS = [
@@ -137,6 +138,22 @@ function toPublicImagePath(imagePath?: string) {
   return undefined
 }
 
+function stripTransactionPrefix(title?: string | null) {
+  return normalizeText(title).replace(/^\[(CHUYỂN NHƯỢNG|SẮP MỞ BÁN)\]\s*/iu, '')
+}
+
+function getTransactionPrefix(title?: string | null) {
+  const match = normalizeText(title).match(/^\[(CHUYỂN NHƯỢNG|SẮP MỞ BÁN)\]/iu)
+
+  if (!match) return null
+
+  const normalizedPrefix = normalizeComparableText(match[1])
+  if (normalizedPrefix === 'chuyen nhuong') return 'Chuyển nhượng'
+  if (normalizedPrefix === 'sap mo ban') return 'Sắp mở bán'
+
+  return null
+}
+
 export function formatProductType(type: string): string {
   const normalized = normalizeComparableText(type)
 
@@ -147,6 +164,16 @@ export function formatProductType(type: string): string {
   }
 
   return typeLabels[normalized] || normalizeText(type).replace(/-/g, ' ')
+}
+
+export function getDisplayProductTitle(product: Product): string {
+  const baseTitle = stripTransactionPrefix(product.title)
+
+  if (/^mặt bằng nhà xưởng tại\s+/iu.test(baseTitle)) {
+    return baseTitle.replace(/^mặt bằng nhà xưởng tại\s+/iu, 'Cho thuê nhà xưởng tại ')
+  }
+
+  return baseTitle
 }
 
 export function formatPrice(product: Product): string {
@@ -182,6 +209,17 @@ export function formatArea(product: Product): string {
   return [area, unit].filter(Boolean).join(' ')
 }
 
+export function getProductTransactionStatus(product: Product): string | null {
+  const transactionStatus = getTransactionPrefix(product.title)
+  const isIndustrialSite = ['khu-cong-nghiep', 'cum-cong-nghiep'].includes(normalizeComparableText(product.type))
+
+  if (!transactionStatus || !isIndustrialSite) {
+    return null
+  }
+
+  return formatArea(product) === 'Đang cập nhật' ? transactionStatus : null
+}
+
 export function getProductLocationLabel(product: Product): string {
   const preferredDistrict = normalizeText(product.location.district)
   if (isUsefulLocationValue(preferredDistrict)) {
@@ -189,7 +227,7 @@ export function getProductLocationLabel(product: Product): string {
   }
 
   return (
-    inferLocationFromText(product.title) ||
+    inferLocationFromText(getDisplayProductTitle(product)) ||
     inferLocationFromText(product.location.address) ||
     (isUsefulLocationValue(product.location.province) ? normalizeText(product.location.province) : null) ||
     'Đang cập nhật'
@@ -201,7 +239,27 @@ export function getCleanProductImages(product: Product) {
 }
 
 export function getDefaultProductImageUrl(product: Product): string {
-  return DEFAULT_PRODUCT_IMAGES[normalizeComparableText(product.type)] || '/images/placeholder.svg'
+  const normalizedType = normalizeComparableText(product.type)
+  const normalizedTitle = normalizeComparableText(product.title)
+
+  if (normalizedType === 'khu-cong-nghiep') {
+    return DEFAULT_PRODUCT_IMAGES['khu-cong-nghiep']
+  }
+
+  if (normalizedType === 'cum-cong-nghiep') {
+    return DEFAULT_PRODUCT_IMAGES['cum-cong-nghiep']
+  }
+
+  const isStandaloneMatBang = normalizedTitle.includes('mat bang')
+    && !normalizedTitle.includes('nha xuong')
+    && !normalizedTitle.includes('khu cong nghiep')
+    && !normalizedTitle.includes('cum cong nghiep')
+
+  if (isStandaloneMatBang) {
+    return DEFAULT_PRODUCT_IMAGES['mat-bang']
+  }
+
+  return DEFAULT_PRODUCT_IMAGES[normalizedType] || DEFAULT_PRODUCT_IMAGES['nha-xuong']
 }
 
 export function getDisplayProductImages(product: Product): Product['media']['images'] {

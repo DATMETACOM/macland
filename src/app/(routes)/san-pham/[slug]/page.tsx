@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation'
 import {
+  getDisplayProductTitle,
   formatArea,
   formatPrice,
   formatProductType,
@@ -8,12 +9,12 @@ import {
   getImageUrl,
   getProductBySlug,
   getProductLocationLabel,
+  getProductTransactionStatus,
 } from '@/lib/data/products'
 import { MapPin, Ruler, DollarSign, FileText, ArrowLeft, Share2, Heart } from 'lucide-react'
 import Link from 'next/link'
 import Button from '@/components/ui/Button'
 import ProductImage from '@/components/product/ProductImage'
-import { primaryPhone } from '@/lib/config/contact'
 
 export async function generateStaticParams() {
   const products = await getAllProducts()
@@ -33,9 +34,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     }
   }
 
+  const displayTitle = getDisplayProductTitle(product)
+
   return {
-    title: `${product.title} - Macland`,
-    description: product.content.description || product.content.full_content?.slice(0, 160) || product.title,
+    title: `${displayTitle} - Macland`,
+    description: product.content.description || product.content.full_content?.slice(0, 160) || displayTitle,
   }
 }
 
@@ -49,35 +52,50 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
 
   const images = getDisplayProductImages(product)
   const locationLabel = getProductLocationLabel(product)
+  const displayTitle = getDisplayProductTitle(product)
+  const transactionStatus = getProductTransactionStatus(product)
+  const areaLabel = formatArea(product)
+  const areaMetaLabel = transactionStatus || areaLabel
+  const visibleImages = images.slice(0, 4)
+  const galleryItemWidth = `${100 / Math.max(visibleImages.length, 1)}%`
+  const contactHref = {
+    pathname: '/lien-he',
+    query: {
+      sourcePage: 'product-detail',
+      productTitle: displayTitle,
+      productSlug: product.slug,
+      productUrl: `/san-pham/${product.slug}`,
+    },
+  }
 
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Breadcrumb */}
-      <div className="bg-white border-b">
-        <div className="container mx-auto px-4 py-4">
+      <div className="bg-white">
+        <div className="mx-auto w-full max-w-[1400px] px-4 py-5 sm:px-6 lg:px-8">
           <div className="flex items-center gap-2 text-sm text-gray-600">
             <Link href="/" className="hover:text-red-600">Trang chủ</Link>
             <span>/</span>
             <Link href="/san-pham" className="hover:text-red-600">Sản phẩm</Link>
             <span>/</span>
-            <span className="text-gray-900">{product.title}</span>
+            <span className="text-gray-900">{displayTitle}</span>
           </div>
         </div>
       </div>
 
-      <div className="container mx-auto px-4 py-8">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+      <div className="mx-auto w-full max-w-[1400px] px-4 py-8 sm:px-6 sm:py-10 lg:px-8 lg:py-12">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:items-start lg:gap-10">
           {/* Main Content */}
-          <div className="lg:col-span-2">
+          <div className="lg:col-span-2 min-w-0">
             {/* Back Button */}
-            <Link href="/san-pham" className="inline-flex items-center text-red-600 hover:text-red-700 mb-6">
+            <Link href="/san-pham" className="mb-6 inline-flex items-center text-red-600 hover:text-red-700">
               <ArrowLeft className="w-4 h-4 mr-2" />
               Quay lại danh sách
             </Link>
 
             {/* Title */}
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              {product.title}
+              {displayTitle}
             </h1>
 
             {/* Type Badge */}
@@ -88,32 +106,40 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
             </div>
 
             {/* Image Gallery */}
-            {images.length > 0 && (
-              <div className="grid grid-cols-2 gap-4 mb-8">
-                {images.slice(0, 4).map((image, index) => {
-                  const imageUrl = getImageUrl({ ...product, media: { images: [image] } }, 'large')
-                  return (
-                    <div
-                      key={index}
-                      className={`aspect-[4/3] rounded-xl overflow-hidden bg-gray-100 group ${
-                        index === 0 ? 'col-span-2' : ''
-                      }`}
-                    >
-                      <ProductImage
-                        src={imageUrl}
-                        alt={`${product.title} - ${index + 1}`}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                        priority={index === 0}
-                      />
-                    </div>
-                  )
-                })}
+            {visibleImages.length > 0 && (
+              <div className="mb-8 rounded-3xl bg-white p-4 shadow-md sm:p-5 lg:p-6">
+                <div className="flex h-[240px] flex-col gap-3 sm:h-[300px] lg:h-[400px] lg:flex-row">
+                  {visibleImages.map((image, index) => {
+                    const imageUrl = getImageUrl({ ...product, media: { images: [image] } }, 'large')
+
+                    return (
+                      <a
+                        key={index}
+                        href={imageUrl}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="group relative block min-h-0 min-w-0 flex-1 overflow-hidden rounded-2xl bg-gray-100"
+                        style={visibleImages.length === 1 ? undefined : { flexBasis: galleryItemWidth }}
+                      >
+                        <ProductImage
+                          src={imageUrl}
+                          alt={`${displayTitle} - ${index + 1}`}
+                          className="object-cover"
+                          priority={index === 0}
+                        />
+                        <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/45 via-black/10 to-transparent px-4 py-3 text-sm font-medium text-white opacity-0 transition-opacity duration-200 group-hover:opacity-100">
+                          Xem ảnh lớn
+                        </div>
+                      </a>
+                    )
+                  })}
+                </div>
               </div>
             )}
 
             {/* Content */}
-            <div className="bg-white rounded-xl p-6 shadow-md mb-8">
-              <h2 className="text-2xl font-bold mb-4 flex items-center">
+            <div className="mb-8 rounded-2xl bg-white p-6 shadow-md sm:p-7 lg:p-8">
+              <h2 className="mb-5 flex items-center text-2xl font-bold">
                 <FileText className="w-6 h-6 mr-2 text-red-600" />
                 Thông tin chi tiết
               </h2>
@@ -130,25 +156,13 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
                 })}
               </div>
             </div>
-
-            {/* Infrastructure */}
-            <div className="bg-white rounded-xl p-6 shadow-md">
-              <h2 className="text-2xl font-bold mb-4">Cơ sở hạ tầng</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {product.details.investment_sectors.filter(Boolean).map((sector, index) => (
-                  <div key={index} className="flex items-start">
-                    <div className="w-2 h-2 bg-red-600 rounded-full mt-2 mr-3 flex-shrink-0" />
-                    <p className="text-gray-700">{sector}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
           </div>
 
           {/* Sidebar */}
-          <aside className="lg:col-span-1">
-            <div className="bg-white rounded-xl p-6 shadow-md sticky top-24">
-              <h3 className="text-xl font-bold mb-6">Thông tin chính</h3>
+          <aside className="lg:col-span-1 min-w-0">
+            <div className="space-y-8 lg:sticky lg:top-24">
+              <div className="rounded-2xl bg-white p-6 shadow-md sm:p-7">
+              <h3 className="mb-6 text-xl font-bold">Thông tin chính</h3>
 
               {/* Key Details */}
               <div className="space-y-4 mb-6">
@@ -157,8 +171,8 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
                     <Ruler className="w-5 h-5 mr-2" />
                     <span>Diện tích</span>
                   </div>
-                  <span className="font-semibold text-gray-900">
-                    {formatArea(product)}
+                  <span className="font-semibold text-gray-900 text-right">
+                    {areaMetaLabel}
                   </span>
                 </div>
 
@@ -197,36 +211,93 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
 
               {/* Location */}
               <div className="mb-6">
-                <h4 className="font-semibold mb-2">Địa chỉ</h4>
+                <h4 className="mb-2 font-semibold">Địa chỉ</h4>
                 <p className="text-gray-600 text-sm">{product.location.address}</p>
               </div>
 
               {/* CTA Buttons */}
-              <div className="space-y-3">
-                <Link href="/lien-he">
+              <div className="mt-6 flex flex-col gap-3">
+                <Link
+                  href={{
+                    ...contactHref,
+                    query: {
+                      ...contactHref.query,
+                      actionLabel: 'dang-ky-tu-van',
+                    },
+                  }}
+                  className="block"
+                >
                   <Button variant="primary" className="w-full" size="lg">
                     Đăng ký tư vấn
                   </Button>
                 </Link>
-                <Button variant="outline" className="w-full">
-                  <Share2 className="w-4 h-4 mr-2" />
-                  Chia sẻ
-                </Button>
-                <Button variant="ghost" className="w-full">
-                  <Heart className="w-4 h-4 mr-2" />
-                  Lưu tin
-                </Button>
+                <Link
+                  href={{
+                    ...contactHref,
+                    query: {
+                      ...contactHref.query,
+                      actionLabel: 'chia-se',
+                    },
+                  }}
+                  className="block"
+                >
+                  <Button variant="outline" className="w-full">
+                    <Share2 className="w-4 h-4 mr-2" />
+                    Chia sẻ
+                  </Button>
+                </Link>
+                <Link
+                  href={{
+                    ...contactHref,
+                    query: {
+                      ...contactHref.query,
+                      actionLabel: 'luu-tin',
+                    },
+                  }}
+                  className="block"
+                >
+                  <Button variant="ghost" className="w-full">
+                    <Heart className="w-4 h-4 mr-2" />
+                    Lưu tin
+                  </Button>
+                </Link>
               </div>
-
-              {/* Contact Info */}
-              <div className="mt-6 pt-6 border-t">
-                <p className="text-sm text-gray-600 mb-2">Liên hệ ngay:</p>
-                <a href={primaryPhone.href} className="text-lg font-bold text-red-600 hover:text-red-700">
-                  {primaryPhone.display}
-                </a>
+            </div>
+              <div className="rounded-2xl bg-white p-6 shadow-md sm:p-7">
+                <h2 className="mb-4 text-2xl font-bold">Cơ sở hạ tầng</h2>
+                <div className="grid grid-cols-1 gap-4">
+                  {product.details.investment_sectors.filter(Boolean).map((sector, index) => (
+                    <div key={index} className="flex items-start">
+                      <div className="mt-2 mr-3 h-2 w-2 flex-shrink-0 rounded-full bg-red-600" />
+                      <p className="text-gray-700">{sector}</p>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           </aside>
+        </div>
+
+        <div className="mt-8 rounded-3xl bg-white px-4 py-5 shadow-md sm:mt-10 sm:px-6 sm:py-6 lg:px-7">
+          <div className="flex flex-col items-center justify-center gap-3 text-center sm:gap-4">
+            <p className="max-w-3xl text-base leading-7 text-gray-700">
+              Quý nhà đầu tư và đối tác có nhu cầu được tư vấn, vui lòng liên hệ Hotline hoặc để lại thông tin qua:
+            </p>
+            <Link
+              href={{
+                ...contactHref,
+                query: {
+                  ...contactHref.query,
+                  actionLabel: 'nhan-tu-van-mien-phi',
+                },
+              }}
+              className="block"
+            >
+              <Button variant="primary" size="lg" className="min-w-[200px] w-full sm:w-auto">
+                Nhận tư vấn miễn phí
+              </Button>
+            </Link>
+          </div>
         </div>
       </div>
     </div>
