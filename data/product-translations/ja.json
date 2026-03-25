@@ -1,0 +1,740 @@
+{
+  "chuyen-nhuong-khu-cong-nghiep-trang-due-hai-phong": {
+    "title": "ハイフォン チャンズエ工業団地の産業用地",
+    "content": {
+      "description": "チャンズエ工業団地は、電子製造や関連産業の集積が進む、ハイフォンを代表するハイテク工業拠点の一つです。",
+      "full_content": "I. 概要\nハイフォンのチャンズエ工業団地は既に稼働している工業団地で、工業用地、工場、倉庫、生産拠点を探す企業に適しています。ハイテク志向のポジションと形成済みの投資家エコシステムが強みです。\n\nII. 立地と接続性\n本プロジェクトはアンラオ地区、ディンブー・カットハイ経済区内に位置し、ハイフォン港湾網、市街地、広域交通回廊への接続性に優れています。\n\nIII. 想定ユーザー\n電子メーカー、裾野産業企業、実績あるハイフォンの工業環境へ進出したい生産型投資家に適しています。"
+    },
+    "location": {
+      "address": "ハイフォン市アンラオ県のアンティエン、チュオンタイン、チュオンホー、バットチャン各社にまたがり、ディンブー・カットハイ経済区に属します。"
+    }
+  },
+  "chuyen-nhuong-khu-cong-nghiep-nam-dinh-vu-khu-1-hai-phong": {
+    "title": "ハイフォン ナムディンブ工業団地第1区の産業用地",
+    "content": {
+      "description": "ナムディンブ工業団地第1区は、工業用地、倉庫、物流スペース、港湾連携型の生産環境を必要とする企業に適しています。",
+      "full_content": "I. 概要\nナムディンブ工業団地第1区はハイフォンの稼働中工業エリアの一つで、物流対応インフラと柔軟な運営スペースを求める企業にとって実務的な選択肢です。\n\nII. 立地と接続性\n本プロジェクトはディンブー・カットハイ経済区に属し、ディンブー港および周辺物流ネットワークとの結び付きが強いため、輸出入型ビジネスに向いています。\n\nIII. 想定ユーザー\n物流事業者、製造企業、倉庫利用企業、港湾アクセスと統合型産業サービスを重視する投資家に適しています。"
+    },
+    "location": {
+      "address": "ハイフォン市ディンブー・カットハイ経済区内に位置し、ディンブー港と物流エコシステムに直結しています。"
+    }
+  },
+  "chuyen-nhuong-khu-cong-nghiep-nam-dinh-vu-khu-2-hai-phong": {
+    "title": "ハイフォン ナムディンブ工業団地第2区の産業用地",
+    "content": {
+      "description": "ナムディンブ工業団地第2区は、大規模な工業用地、港湾連携インフラ、統合物流機能を求める企業に適しています。",
+      "full_content": "I. 概要\nナムディンブ工業団地第2区は、広域ナムディンブ工業コンプレックスの一部であり、拡張余地のある工業拠点を探す企業にとって注目すべきハイフォン案件です。\n\nII. 立地と接続性\n本プロジェクトはディンブー・カットハイ経済区に位置し、港湾インフラ、産業輸送ルート、物流サービスへ近接しています。\n\nIII. 想定ユーザー\n製造、保管、港湾関連サービス、中大規模の産業プロジェクトを計画する投資家に適しています。"
+    },
+    "location": {
+      "address": "ハイフォン市ディンブー・カットハイ経済区内にあり、ナムディンブー複合エリアの重要区画です。"
+    }
+  },
+  "chuyen-nhuong-khu-cong-nghiep-vsip-hai-phong": {
+    "title": "ハイフォン VSIP 工業団地の産業用地",
+    "content": {
+      "description": "VSIP ハイフォンは、国際ブランド力と整った計画性を備えた工業団地で、専門的な運営と近代的インフラを重視する FDI 製造企業に適しています。",
+      "full_content": "I. 概要\nVSIP ハイフォンは市内でも知名度の高い国際標準工業団地の一つです。整理された計画、安定したインフラ、プロフェッショナルな管理体制で評価される稼働中プロジェクトです。\n\nII. 立地と接続性\n工業団地はディンブー・カットハイ経済区内、トゥイグエン地区にまたがっており、ハイフォンの産業・物流ネットワークへ接続しやすい立地です。\n\nIII. 想定ユーザー\n外資系製造業、輸出志向企業、国際水準の工業環境を必要とする企業に特に適しています。"
+    },
+    "location": {
+      "address": "ハイフォン市ディンブー・カットハイ経済区内、トゥイグエン地区の複数コミューンにまたがります。"
+    }
+  },
+  "chuyen-nhuong-khu-cong-nghiep-nam-cau-kien-hai-phong": {
+    "title": "ハイフォン ナムカウキエン工業団地の産業用地",
+    "content": {
+      "description": "ナムカウキエン工業団地は、グリーン製造、ESG、持続可能な運営環境を重視する企業に適した、ハイフォンの代表的なエコ工業団地です。",
+      "full_content": "I. 概要\nナムカウキエン工業団地はハイフォンで稼働中の産業プロジェクトであり、エコ工業団地の方向性で広く知られています。生産スペースとサステナビリティの両方を重視する企業にとって有力な選択肢です。\n\nII. 立地と接続性\n本プロジェクトはトゥイグエン地区に位置し、ハイフォンの港湾システムと主要産業交通ルートへ実務的に接続できます。\n\nIII. 想定ユーザー\n製造企業、輸出企業、グリーン運営と ESG を重視する長期投資家に適しています。"
+    },
+    "location": {
+      "address": "ハイフォン市トゥイグエン地区に位置し、港湾および主要産業交通回廊へのアクセスに優れます。"
+    }
+  },
+  "chuyen-nhuong-khu-cong-nghiep-nhat-ban-hai-phong": {
+    "title": "ハイフォン 日本工業団地の産業用地",
+    "content": {
+      "description": "ハイフォン日本工業団地は、地域内で歴史が長く信頼性の高い工業団地の一つで、日本企業や安定した運営環境を求める投資家に適しています。",
+      "full_content": "I. 概要\nハイフォン日本工業団地は稼働中の工業団地であり、日本企業や外資系製造業の間で高い認知度があります。実績ある生産拠点を求める企業にとって実務的な選択肢です。\n\nII. 立地と接続性\n本プロジェクトはハイフォン市アンズオン県タンティエン社に位置し、工業地区、都市サービス、物流施設への移動が効率的です。\n\nIII. 想定ユーザー\n日系メーカー、裾野産業サプライヤー、安定運営と計画品質を重視する投資家に適しています。"
+    },
+    "location": {
+      "address": "ハイフォン市アンズオン県タンティエン社。"
+    }
+  },
+  "chuyen-nhuong-khu-cong-nghiep-an-duong-hai-phong": {
+    "title": "ハイフォン アンズオン工業団地の産業用地",
+    "content": {
+      "description": "アンズオン工業団地は、工業用地、標準工場、製造スペースを探す企業にとって注目できる選択肢です。",
+      "full_content": "I. 概要\nアンズオン工業団地はハイフォンの稼働型工業団地の一つで、市西部の産業エリアへ接続しやすい実用的な工業拠点を求める企業に適しています。\n\nII. 立地と接続性\n本プロジェクトはアンズオン地区に位置し、ハイフォンの主要産業ルート、人材供給、周辺物流サービスへ接続できます。\n\nIII. 想定ユーザー\n製造企業、工場賃借企業、都市部と産業エリアの双方へのアクセスを重視する利用者に適しています。"
+    },
+    "location": {
+      "address": "ハイフォン市アンズオン地区に位置し、市西部エリアで事業を行う企業に適しています。"
+    }
+  },
+  "chuyen-nhuong-khu-cong-nghiep-do-son-hai-phong": {
+    "title": "ハイフォン ドーソン工業団地の産業用地",
+    "content": {
+      "description": "ドーソン工業団地は、ハイフォンで工業用地を探す企業に追加の選択肢を提供します。",
+      "full_content": "I. 概要\nドーソン工業団地はハイフォンの稼働中産業プロジェクトの一つで、工場、倉庫、工業用地の機会を比較検討する企業にとって補完的な候補地です。\n\nII. 立地と接続性\n本プロジェクトはハイフォンのドーソン地区に位置し、市内の生産・物流ネットワークに接続したい企業へ追加の立地選択肢を提供します。\n\nIII. 想定ユーザー\nハイフォン内で複数候補地を比較しながら追加供給を探す企業に適しています。"
+    },
+    "location": {
+      "address": "ハイフォン市ドーソン地区。"
+    }
+  },
+  "chuyen-nhuong-deep-c-hai-phong-i-khu-cong-nghiep-dinh-vu": {
+    "title": "ハイフォン DEEP C I - ディンブー工業団地の産業用地",
+    "content": {
+      "description": "DEEP C ハイフォン I は、物流、電子、化学、港湾関連産業に適した、ハイフォンを代表する国際工業団地の一つです。",
+      "full_content": "I. 概要\nDEEP C ハイフォン I - ディンブー工業団地は稼働中の産業プロジェクトであり、ハイフォンでも知名度の高い国際型工業拠点の一つです。物流と港湾アクセスに依存する産業ユーザーに強い基盤を提供します。\n\nII. 立地と接続性\n本プロジェクトはディンブー工業エリアを基盤として整備されており、港湾および産業物流ネットワークと緊密に接続しています。\n\nIII. 想定ユーザー\n物流事業者、電子メーカー、化学企業、国際的な工業環境を求める投資家に特に適しています。"
+    },
+    "location": {
+      "address": "ハイフォン市ディンブー工業エリアを基盤に整備されています。"
+    }
+  },
+  "chuyen-nhuong-khu-cong-nghiep-mp-dinh-vu-hai-phong": {
+    "title": "ハイフォン MP ディンブー工業団地の産業用地",
+    "content": {
+      "description": "MP ディンブー工業団地は、工業スペース、倉庫、港湾隣接の運営メリットを求める企業に適しています。",
+      "full_content": "I. 概要\nMP ディンブー工業団地はハイフォンの稼働型工業エリアの一つで、工業用地、倉庫スペース、安定した物流支援を必要とするユーザーに実務的です。\n\nII. 立地と接続性\n本プロジェクトはディンブー地区に位置し、港湾オペレーションおよびハイフォン主要物流ルートに近接しています。\n\nIII. 想定ユーザー\n保管、製造、貿易支援、港湾エコシステムと連動する物流型ビジネスに適しています。"
+    },
+    "location": {
+      "address": "ハイフォンのディンブー地区に位置します。"
+    }
+  },
+  "chuyen-nhuong-khu-cong-nghiep-va-dich-vu-hang-hai-hai-phong": {
+    "title": "ハイフォン 海事産業・サービスパークの産業用地",
+    "content": {
+      "description": "ハイフォン海事産業・サービスパークは、港湾、物流、海事サービスと連動する工業用地を探す企業に適しています。",
+      "full_content": "I. 概要\nハイフォン海事産業・サービスパークは、海事および物流需要を軸に配置された稼働型産業プロジェクトであり、港湾型工業スペースを検討する企業にとって注目すべき選択肢です。\n\nII. 立地と接続性\n本プロジェクトはハイフォンの産業・海事サービス開発回廊に位置し、港湾関連オペレーションや産業輸送インフラにアクセスできます。\n\nIII. 想定ユーザー\n物流企業、海事サービス会社、倉庫ユーザー、港湾立地のメリットを活用する製造業に適しています。"
+    },
+    "location": {
+      "address": "ハイフォンの産業・海事サービス開発エリア内に位置します。"
+    }
+  },
+  "sap-mo-ban-khu-cong-nghiep-trang-due-3-hai-phong": {
+    "title": "ハイフォン チャンズエ 3 工業団地の産業用地",
+    "content": {
+      "description": "チャンズエ 3 工業団地はチャンズエ地区の注目拡張プロジェクトで、ハイフォンの新規工業用地を早期に確保したい企業に適しています。",
+      "full_content": "I. 概要\nチャンズエ 3 工業団地は、MACLAND が 2026 - 2030 年のハイフォン産業開発サイクルで優先的に追っている拡張案件の一つです。長期的な工場計画や用地取得を準備する投資家に適しています。\n\nII. 立地と将来性\n本プロジェクトはチャンズエ産業回廊の拡張エリアに属し、既存の成熟した工業エコシステムと広域交通接続の恩恵が期待されます。\n\nIII. 想定ユーザー\n新規供給が本格吸収される前に先行ポジションを確保したい製造企業や長期投資家に適しています。"
+    },
+    "location": {
+      "address": "ハイフォンのチャンズエ工業クラスター拡張開発エリアに位置します。"
+    }
+  },
+  "cho-thue-10-000m2-nha-xuong-kcn-an-duong-hai-phong": {
+    "title": "ハイフォン アンズオン工業団地の 10,000㎡ 工場",
+    "content": {
+      "description": "ハイフォンのアンズオン工業団地にある賃貸工場で、製造および倉庫運営に適し、即時引き渡しが可能です。",
+      "full_content": "I. 物件概要\n本賃貸工場はハイフォンのアンズオン工業団地に位置し、約 6,000㎡ から 12,000㎡ の利用が可能です。生産、保管、産業支援用途に適しています。\n\nII. 主な仕様\n工場は新築で堅牢な構造を持ち、消防設備の検収が完了しています。内部道路はコンテナ車両の通行に対応し、排水設備および生活用水設備も整っています。\n\nIII. 引き渡しと法務\n即時引き渡しが可能で、法的書類も完備しています。"
+    },
+    "location": {
+      "address": "ハイフォン市アンズオン県ナムソン社。"
+    }
+  },
+  "nha-xuong-tai-kcn-deep-c-2-201": {
+    "title": "ハイフォン DEEP C II 工業団地の工場",
+    "content": {
+      "description": "ハイフォン DEEP C II 工業団地にある賃貸工場で、約 15,000㎡ の用地と建築面積を備え、産業運営に適しています。",
+      "full_content": "I. 物件概要\n本工場はハイフォン DEEP C II 工業団地に位置し、総用地面積は約 15,000㎡、総建築面積は約 8,989㎡ です。\n\nII. 主な構成\n物件には約 8,683㎡ のメイン工場棟と付帯建築設備が含まれます。\n\nIII. 想定ユーザー\nDEEP C の物流・産業エコシステム内で大規模な生産拠点を探す製造企業や産業テナントに適しています。"
+    },
+    "location": {
+      "address": "ハイフォン市 DEEP C II 工業団地。"
+    }
+  },
+  "nha-xuong-kcn-deep-c-ii-001": {
+    "title": "ハイフォン DEEP C II 工業団地の 5,000㎡ 工場",
+    "content": {
+      "description": "ハイフォン DEEP C II 工業団地にある賃貸工場で、優れた物流接続性と標準的な産業仕様を備えています。",
+      "full_content": "I. 物件概要\n本賃貸工場はハイフォン DEEP C II 工業団地に位置し、利用可能面積は約 5,000㎡ です。\n\nII. 立地と接続性\nタンヴー港まで約 5km、カットビ国際空港まで約 13km、ラックフェン港まで約 25km、ハノイ中心部まで約 125km の距離です。\n\nIII. 技術仕様\n倉庫エリアの有効天井高は約 10.5m、床荷重は 3トン/㎡、床高は 1.3m です。さらに 73 のローディングドックと 37 のドックレベラーを備え、150 lux 標準照明および適合消防システムも整っています。"
+    },
+    "location": {
+      "address": "ハイフォン市 DEEP C II 工業団地。"
+    }
+  },
+  "nha-xuong-tai-ccn-tan-lien-a": {
+    "title": "ハイフォン タンリエン A 工業クラスターの 12,000㎡ 生産工場",
+    "content": {
+      "description": "ハイフォンのタンリエン A 工業クラスターにある賃貸生産工場で、大面積とコンテナアクセスを必要とする製造企業に適しています。",
+      "full_content": "I. 物件概要\n本生産工場はハイフォンのタンリエン A 工業クラスターに位置し、総面積は約 12,000㎡ です。\n\nII. インフラ\n広い間口を備え、コンテナ車両の出入りが容易です。外周消防設備、排水設備、生活用水、24時間警備に加え、輸送、フォークリフト、荷役などの物流支援サービスも利用できます。\n\nIII. 法的状況\n法的書類は完備しており、すぐに稼働可能な生産拠点を探す産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "ハイフォン市ビンバオ県タンリエン社 タンリエン A 工業クラスター。"
+    }
+  },
+  "khu-cong-nghiep-song-than-1-binh-duong": {
+    "title": "ビンズオン省 ソンタン 1 工業団地",
+    "content": {
+      "description": "ソンタン 1 工業団地は、ビンズオン省の中でも知名度が高く、成熟したインフラと優れた物流アクセスを備えた工業団地です。",
+      "full_content": "ソンタン 1 工業団地 正門\nソンタン 1 工業団地は 1995 年 9 月 16 日付の決定 577/TTg に基づき設立され、その後ビンズオン省当局により詳細計画が調整されました。\nI. 概要\n総投資額は約 2,451 億 VND、総面積は 178.01 ヘクタールで、このうち賃貸可能な工業用地は約 139.71 ヘクタールです。ホーチミン市近接の産業ベルトに位置することから、国内外の製造企業が多数進出しています。\n主要情報\nプロジェクト名: ソンタン 1 工業団地\n所在地: ビンズオン省ジアン市ジアン坊\n面積: 178.01 ヘクタール\n運営期間: 50 年（1995 - 2045）\n入居率: 100%\n対象業種: 機械製造、輸送機器組立、建材、農林産品加工、縫製、電気電子産業。\nII. 立地と接続性\n本工業団地はビンズオン省ジアン市にあり、ホーチミン市へつながる重要な工業ゲートウェイの一つです。国道 1A、国道 13、ソンタン鉄道エリアへのアクセスに優れ、物流と輸出入に有利です。\n主な距離\nホーチミン市中心部およびビエンホア: 16km\nタンソンニャット国際空港: 16km\nサイゴン港およびタンカン: 12km\nカットライ港: 24km\nブンタウ港: 100km\nIII. インフラ\nソンタン 1 は成熟した産業インフラを備えています。\n内部道路: 幹線道路幅約 31m、各工場区画に接続する支線あり。\n電力供給: 国家 110kV 系統と 110kV - 22MVA 変電所を通じて安定供給。\n給水能力: 日量 50,000 立方メートル。\n排水処理: 日量 8,400 立方メートル規模の集中処理施設。\nIV. 運営コスト\nインフラ管理保守費: 年間 0.4 USD/平方メートル。\n電気料金: 使用時間帯に応じて約 0.03 - 0.1 USD/kWh。\n水道料金: 0.4 USD/立方メートル。\n排水処理費: 0.28 USD/立方メートル。\nV. 投資優遇\n入居企業は適用法令に基づき法人税優遇を受けられる場合があり、一般的には最初の 2 年免税、その後 4 年間 50% 減税の枠組みです。\nあわせて、デベロッパーは会社設立、支店登録、投資証明書、工場建設手続きも支援します。"
+    },
+    "location": {
+      "province": "ビンズオン省",
+      "district": "ジアン市",
+      "address": "ビンズオン省ジアン市ジアン坊。"
+    },
+    "details": {
+      "occupancy_rate": "100%"
+    },
+    "legal": {
+      "status": "法的書類完備"
+    }
+  },
+  "sap-mo-ban-khu-cong-nghiep-tien-thanh-hai-phong": {
+    "title": "ハイフォン Tien Thanh 工業団地の産業用地",
+    "content": {
+      "description": "Tien Thanh はハイフォンの今後供給予定の産業案件で、新規供給を先行確保したい投資家に適しています。",
+      "full_content": "I. 概要\nTien Thanh はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Tại xã Tiên Thanh và xã Cấp Tiến, huyện Tiên Lãng, thành phố Hải Phòng.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\n将来供給を先行検討し、中期的な拡張を準備する投資家や産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Tại xã Tiên Thanh và xã Cấp Tiến, huyện Tiên Lãng, thành phố Hải Phòng."
+    }
+  },
+  "sap-mo-ban-khu-cong-nghiep-nam-trang-cat-hai-phong": {
+    "title": "ハイフォン Nam Trang Cat 工業団地の産業用地",
+    "content": {
+      "description": "Nam Trang Cat はハイフォンの今後供給予定の産業案件で、新規供給を先行確保したい投資家に適しています。",
+      "full_content": "I. 概要\nNam Trang Cat はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Thuộc khu vực Nam Tràng Cát, thành phố Hải Phòng.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\n将来供給を先行検討し、中期的な拡張を準備する投資家や産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Thuộc khu vực Nam Tràng Cát, thành phố Hải Phòng."
+    }
+  },
+  "sap-mo-ban-khu-cong-nghiep-nomura-hai-phong-giai-doan-2": {
+    "title": "ハイフォン Nomura - Giai Đoan 2 工業団地の産業用地",
+    "content": {
+      "description": "Nomura - Giai Đoan 2 はハイフォンの今後供給予定の産業案件で、新規供給を先行確保したい投資家に適しています。",
+      "full_content": "I. 概要\nNomura - Giai Đoan 2 はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Thuộc định hướng mở rộng của KCN Nhật Bản - Hải Phòng tại An Dương, Hải Phòng.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\n将来供給を先行検討し、中期的な拡張を準備する投資家や産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Thuộc định hướng mở rộng của KCN Nhật Bản - Hải Phòng tại An Dương, Hải Phòng."
+    }
+  },
+  "sap-mo-ban-khu-cong-nghiep-vinh-quang-hai-phong": {
+    "title": "ハイフォン Vinh Quang 工業団地の産業用地",
+    "content": {
+      "description": "Vinh Quang はハイフォンの今後供給予定の産業案件で、新規供給を先行確保したい投資家に適しています。",
+      "full_content": "I. 概要\nVinh Quang はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Thuộc định hướng phát triển công nghiệp mới của thành phố Hải Phòng.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\n将来供給を先行検討し、中期的な拡張を準備する投資家や産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Thuộc định hướng phát triển công nghiệp mới của thành phố Hải Phòng."
+    }
+  },
+  "sap-mo-ban-khu-cong-nghiep-thuy-nguyen-giai-doan-1-hai-phong": {
+    "title": "ハイフォン Thuy Nguyen Giai Đoan 1 工業団地の産業用地",
+    "content": {
+      "description": "Thuy Nguyen Giai Đoan 1 はハイフォンの今後供給予定の産業案件で、新規供給を先行確保したい投資家に適しています。",
+      "full_content": "I. 概要\nThuy Nguyen Giai Đoan 1 はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Thuộc khu vực Thủy Nguyên, thành phố Hải Phòng.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\n将来供給を先行検討し、中期的な拡張を準備する投資家や産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Thuộc khu vực Thủy Nguyên, thành phố Hải Phòng."
+    }
+  },
+  "sap-mo-ban-khu-cong-nghiep-ngu-phuc-hai-phong": {
+    "title": "ハイフォン Ngu Phuc 工業団地の産業用地",
+    "content": {
+      "description": "Ngu Phuc はハイフォンの今後供給予定の産業案件で、新規供給を先行確保したい投資家に適しています。",
+      "full_content": "I. 概要\nNgu Phuc はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Thuộc định hướng phát triển khu công nghiệp mới tại Hải Phòng.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\n将来供給を先行検討し、中期的な拡張を準備する投資家や産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Thuộc định hướng phát triển khu công nghiệp mới tại Hải Phòng."
+    }
+  },
+  "sap-mo-ban-khu-cong-nghiep-tan-trao-hai-phong": {
+    "title": "ハイフォン Tan Trao 工業団地の産業用地",
+    "content": {
+      "description": "Tan Trao はハイフォンの今後供給予定の産業案件で、新規供給を先行確保したい投資家に適しています。",
+      "full_content": "I. 概要\nTan Trao はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Thuộc quy hoạch phát triển công nghiệp của thành phố Hải Phòng.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\n将来供給を先行検討し、中期的な拡張を準備する投資家や産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Thuộc quy hoạch phát triển công nghiệp của thành phố Hải Phòng."
+    }
+  },
+  "sap-mo-ban-khu-cong-nghiep-tran-duong-hoa-binh-hai-phong": {
+    "title": "ハイフォン Tran Duong - Hoa Binh 工業団地の産業用地",
+    "content": {
+      "description": "Tran Duong - Hoa Binh はハイフォンの今後供給予定の産業案件で、新規供給を先行確保したい投資家に適しています。",
+      "full_content": "I. 概要\nTran Duong - Hoa Binh はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Thuộc nhóm dự án công nghiệp theo quy hoạch của Hải Phòng đến 2030.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\n将来供給を先行検討し、中期的な拡張を準備する投資家や産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Thuộc nhóm dự án công nghiệp theo quy hoạch của Hải Phòng đến 2030."
+    }
+  },
+  "sap-mo-ban-khu-cong-nghiep-san-bay-tien-lang-khu-b-hai-phong": {
+    "title": "ハイフォン San Bay Tien Lang (Zone B) 工業団地の産業用地",
+    "content": {
+      "description": "San Bay Tien Lang (Zone B) はハイフォンの今後供給予定の産業案件で、新規供給を先行確保したい投資家に適しています。",
+      "full_content": "I. 概要\nSan Bay Tien Lang (Zone B) はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Thuộc định hướng phát triển khu công nghiệp gắn với khu vực sân bay Tiên Lãng tại Hải Phòng.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\n将来供給を先行検討し、中期的な拡張を準備する投資家や産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Thuộc định hướng phát triển khu công nghiệp gắn với khu vực sân bay Tiên Lãng tại Hải Phòng."
+    }
+  },
+  "sap-mo-ban-khu-cong-nghiep-va-khu-phi-thue-quan-xuan-cau-hai-phong": {
+    "title": "ハイフォン va Khu Phi Thue Quan Xuan Cau 工業団地の産業用地",
+    "content": {
+      "description": "va Khu Phi Thue Quan Xuan Cau はハイフォンの今後供給予定の産業案件で、新規供給を先行確保したい投資家に適しています。",
+      "full_content": "I. 概要\nva Khu Phi Thue Quan Xuan Cau はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Thuộc định hướng phát triển khu công nghiệp và khu phi thuế quan tại Hải Phòng.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\n将来供給を先行検討し、中期的な拡張を準備する投資家や産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Thuộc định hướng phát triển khu công nghiệp và khu phi thuế quan tại Hải Phòng."
+    }
+  },
+  "sap-mo-ban-khu-cong-nghiep-cang-cua-ngo-quoc-te-hai-phong": {
+    "title": "ハイフォン Cang Cua Ngo Quoc Te 工業団地の産業用地",
+    "content": {
+      "description": "Cang Cua Ngo Quoc Te はハイフォンの今後供給予定の産業案件で、新規供給を先行確保したい投資家に適しています。",
+      "full_content": "I. 概要\nCang Cua Ngo Quoc Te はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Thuộc nhóm dự án công nghiệp gắn với khu vực cảng cửa ngõ quốc tế tại Hải Phòng.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\n将来供給を先行検討し、中期的な拡張を準備する投資家や産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Thuộc nhóm dự án công nghiệp gắn với khu vực cảng cửa ngõ quốc tế tại Hải Phòng."
+    }
+  },
+  "chuyen-nhuong-cum-cong-nghiep-vinh-niem-hai-phong": {
+    "title": "ハイフォン Vinh Niem 工業クラスターの産業用地",
+    "content": {
+      "description": "Vinh Niem はハイフォンの譲渡型産業不動産案件で、産業用地、工場、土地機会を検討する投資家に適しています。",
+      "full_content": "I. 概要\nVinh Niem はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Thuộc khu vực Vĩnh Niệm, thành phố Hải Phòng.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\nハイフォンで譲渡、取得、拡張機会を検討する投資家、製造業、産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Thuộc khu vực Vĩnh Niệm, thành phố Hải Phòng."
+    }
+  },
+  "chuyen-nhuong-cum-cong-nghiep-quan-tru-hai-phong": {
+    "title": "ハイフォン Quan Tru 工業クラスターの産業用地",
+    "content": {
+      "description": "Quan Tru はハイフォンの譲渡型産業不動産案件で、産業用地、工場、土地機会を検討する投資家に適しています。",
+      "full_content": "I. 概要\nQuan Tru はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Thuộc khu vực Quán Trữ, thành phố Hải Phòng.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\nハイフォンで譲渡、取得、拡張機会を検討する投資家、製造業、産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Thuộc khu vực Quán Trữ, thành phố Hải Phòng."
+    }
+  },
+  "chuyen-nhuong-cum-cong-nghiep-thi-tran-tien-lang-hai-phong": {
+    "title": "ハイフォン Thi Tran Tien Lang 工業クラスターの産業用地",
+    "content": {
+      "description": "Thi Tran Tien Lang はハイフォンの譲渡型産業不動産案件で、産業用地、工場、土地機会を検討する投資家に適しています。",
+      "full_content": "I. 概要\nThi Tran Tien Lang はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Thuộc khu vực thị trấn Tiên Lãng, huyện Tiên Lãng, Hải Phòng.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\nハイフォンで譲渡、取得、拡張機会を検討する投資家、製造業、産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Thuộc khu vực thị trấn Tiên Lãng, huyện Tiên Lãng, Hải Phòng."
+    }
+  },
+  "chuyen-nhuong-cum-cong-nghiep-tan-lien-a-hai-phong": {
+    "title": "ハイフォン Tan Lien A 工業クラスターの産業用地",
+    "content": {
+      "description": "Tan Lien A はハイフォンの譲渡型産業不動産案件で、産業用地、工場、土地機会を検討する投資家に適しています。",
+      "full_content": "I. 概要\nTan Lien A はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Thuộc khu vực Tân Liên, Hải Phòng.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\nハイフォンで譲渡、取得、拡張機会を検討する投資家、製造業、産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Thuộc khu vực Tân Liên, Hải Phòng."
+    }
+  },
+  "chuyen-nhuong-cum-cong-nghiep-tan-lien-b-hai-phong": {
+    "title": "ハイフォン Tan Lien B 工業クラスターの産業用地",
+    "content": {
+      "description": "Tan Lien B はハイフォンの譲渡型産業不動産案件で、産業用地、工場、土地機会を検討する投資家に適しています。",
+      "full_content": "I. 概要\nTan Lien B はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Thuộc khu vực Tân Liên, Hải Phòng.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\nハイフォンで譲渡、取得、拡張機会を検討する投資家、製造業、産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Thuộc khu vực Tân Liên, Hải Phòng."
+    }
+  },
+  "chuyen-nhuong-cum-cong-nghiep-giang-bien-hai-phong": {
+    "title": "ハイフォン Giang Bien 工業クラスターの産業用地",
+    "content": {
+      "description": "Giang Bien はハイフォンの譲渡型産業不動産案件で、産業用地、工場、土地機会を検討する投資家に適しています。",
+      "full_content": "I. 概要\nGiang Bien はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Thuộc khu vực Giang Biên, Hải Phòng.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\nハイフォンで譲渡、取得、拡張機会を検討する投資家、製造業、産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Thuộc khu vực Giang Biên, Hải Phòng."
+    }
+  },
+  "chuyen-nhuong-cum-cong-nghiep-doan-tung-hai-phong": {
+    "title": "ハイフォン Đoan Tung 工業クラスターの産業用地",
+    "content": {
+      "description": "Đoan Tung はハイフォンの譲渡型産業不動産案件で、産業用地、工場、土地機会を検討する投資家に適しています。",
+      "full_content": "I. 概要\nĐoan Tung はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Thuộc khu vực Đoàn Tùng, Hải Phòng.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\nハイフォンで譲渡、取得、拡張機会を検討する投資家、製造業、産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Thuộc khu vực Đoàn Tùng, Hải Phòng."
+    }
+  },
+  "sap-mo-ban-cum-cong-nghiep-tien-cuong-ii-hai-phong": {
+    "title": "ハイフォン Tien Cuong II 工業クラスターの産業用地",
+    "content": {
+      "description": "Tien Cuong II はハイフォンの今後供給予定の産業案件で、新規供給を先行確保したい投資家に適しています。",
+      "full_content": "I. 概要\nTien Cuong II はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Thuộc khu vực Tiên Lãng, thành phố Hải Phòng.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\n将来供給を先行検討し、中期的な拡張を準備する投資家や産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Thuộc khu vực Tiên Lãng, thành phố Hải Phòng."
+    }
+  },
+  "sap-mo-ban-cum-cong-nghiep-cam-van-hai-phong": {
+    "title": "ハイフォン Cam Van 工業クラスターの産業用地",
+    "content": {
+      "description": "Cam Van はハイフォンの今後供給予定の産業案件で、新規供給を先行確保したい投資家に適しています。",
+      "full_content": "I. 概要\nCam Van はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Thuộc khu vực An Lão, Hải Phòng; gần Quốc lộ 10 và cao tốc Hà Nội - Hải Phòng.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\n将来供給を先行検討し、中期的な拡張を準備する投資家や産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Thuộc khu vực An Lão, Hải Phòng; gần Quốc lộ 10 và cao tốc Hà Nội - Hải Phòng."
+    }
+  },
+  "sap-mo-ban-cum-cong-nghiep-le-thien-dai-ban-hai-phong": {
+    "title": "ハイフォン Le Thien - Đai Ban 工業クラスターの産業用地",
+    "content": {
+      "description": "Le Thien - Đai Ban はハイフォンの今後供給予定の産業案件で、新規供給を先行確保したい投資家に適しています。",
+      "full_content": "I. 概要\nLe Thien - Đai Ban はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Thuộc định hướng phát triển cụm công nghiệp mới tại Hải Phòng.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\n将来供給を先行検討し、中期的な拡張を準備する投資家や産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Thuộc định hướng phát triển cụm công nghiệp mới tại Hải Phòng."
+    }
+  },
+  "sap-mo-ban-cum-cong-nghiep-phu-tro-trang-due-hai-phong": {
+    "title": "ハイフォン Phu Tro Trang Due 工業クラスターの産業用地",
+    "content": {
+      "description": "Phu Tro Trang Due はハイフォンの今後供給予定の産業案件で、新規供給を先行確保したい投資家に適しています。",
+      "full_content": "I. 概要\nPhu Tro Trang Due はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Thuộc định hướng phát triển cụm công nghiệp phụ trợ cho hệ sinh thái Tràng Duệ tại Hải Phòng.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\n将来供給を先行検討し、中期的な拡張を準備する投資家や産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Thuộc định hướng phát triển cụm công nghiệp phụ trợ cho hệ sinh thái Tràng Duệ tại Hải Phòng."
+    }
+  },
+  "sap-mo-ban-cum-cong-nghiep-quoc-tuan-hai-phong": {
+    "title": "ハイフォン Quoc Tuan 工業クラスターの産業用地",
+    "content": {
+      "description": "Quoc Tuan はハイフォンの今後供給予定の産業案件で、新規供給を先行確保したい投資家に適しています。",
+      "full_content": "I. 概要\nQuoc Tuan はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Thuộc định hướng phát triển cụm công nghiệp mới tại Hải Phòng.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\n将来供給を先行検討し、中期的な拡張を準備する投資家や産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Thuộc định hướng phát triển cụm công nghiệp mới tại Hải Phòng."
+    }
+  },
+  "sap-mo-ban-cum-cong-nghiep-chien-thang-2-hai-phong": {
+    "title": "ハイフォン Chien Thang 2 工業クラスターの産業用地",
+    "content": {
+      "description": "Chien Thang 2 はハイフォンの今後供給予定の産業案件で、新規供給を先行確保したい投資家に適しています。",
+      "full_content": "I. 概要\nChien Thang 2 はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Thuộc nhóm dự án cụm công nghiệp theo quy hoạch của Hải Phòng.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\n将来供給を先行検討し、中期的な拡張を準備する投資家や産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Thuộc nhóm dự án cụm công nghiệp theo quy hoạch của Hải Phòng."
+    }
+  },
+  "sap-mo-ban-cum-cong-nghiep-cap-tien-hai-phong": {
+    "title": "ハイフォン Cap Tien 工業クラスターの産業用地",
+    "content": {
+      "description": "Cap Tien はハイフォンの今後供給予定の産業案件で、新規供給を先行確保したい投資家に適しています。",
+      "full_content": "I. 概要\nCap Tien はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Thuộc khu vực Tiên Lãng, Hải Phòng.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\n将来供給を先行検討し、中期的な拡張を準備する投資家や産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Thuộc khu vực Tiên Lãng, Hải Phòng."
+    }
+  },
+  "sap-mo-ban-cum-cong-nghiep-toan-thang-hai-phong": {
+    "title": "ハイフォン Toan Thang 工業クラスターの産業用地",
+    "content": {
+      "description": "Toan Thang はハイフォンの今後供給予定の産業案件で、新規供給を先行確保したい投資家に適しています。",
+      "full_content": "I. 概要\nToan Thang はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Thuộc định hướng phát triển cụm công nghiệp mới của Hải Phòng.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\n将来供給を先行検討し、中期的な拡張を準備する投資家や産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Thuộc định hướng phát triển cụm công nghiệp mới của Hải Phòng."
+    }
+  },
+  "sap-mo-ban-cum-cong-nghiep-quyet-tien-hai-phong": {
+    "title": "ハイフォン Quyet Tien 工業クラスターの産業用地",
+    "content": {
+      "description": "Quyet Tien はハイフォンの今後供給予定の産業案件で、新規供給を先行確保したい投資家に適しています。",
+      "full_content": "I. 概要\nQuyet Tien はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Thuộc nhóm dự án cụm công nghiệp mới tại Hải Phòng.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\n将来供給を先行検討し、中期的な拡張を準備する投資家や産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Thuộc nhóm dự án cụm công nghiệp mới tại Hải Phòng."
+    }
+  },
+  "sap-mo-ban-cum-cong-nghiep-chinh-my-hai-phong": {
+    "title": "ハイフォン Chinh My 工業クラスターの産業用地",
+    "content": {
+      "description": "Chinh My はハイフォンの今後供給予定の産業案件で、新規供給を先行確保したい投資家に適しています。",
+      "full_content": "I. 概要\nChinh My はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Thuộc định hướng phát triển cụm công nghiệp mới tại Hải Phòng.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\n将来供給を先行検討し、中期的な拡張を準備する投資家や産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Thuộc định hướng phát triển cụm công nghiệp mới tại Hải Phòng."
+    }
+  },
+  "sap-mo-ban-cum-cong-nghiep-an-hoa-hai-phong": {
+    "title": "ハイフォン An Hoa 工業クラスターの産業用地",
+    "content": {
+      "description": "An Hoa はハイフォンの今後供給予定の産業案件で、新規供給を先行確保したい投資家に適しています。",
+      "full_content": "I. 概要\nAn Hoa はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Thuộc nhóm dự án cụm công nghiệp mới tại Hải Phòng.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\n将来供給を先行検討し、中期的な拡張を準備する投資家や産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Thuộc nhóm dự án cụm công nghiệp mới tại Hải Phòng."
+    }
+  },
+  "sap-mo-ban-cum-cong-nghiep-quang-phuc-hai-phong": {
+    "title": "ハイフォン Quang Phuc 工業クラスターの産業用地",
+    "content": {
+      "description": "Quang Phuc はハイフォンの今後供給予定の産業案件で、新規供給を先行確保したい投資家に適しています。",
+      "full_content": "I. 概要\nQuang Phuc はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Thuộc định hướng phát triển cụm công nghiệp mới tại Hải Phòng.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\n将来供給を先行検討し、中期的な拡張を準備する投資家や産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Thuộc định hướng phát triển cụm công nghiệp mới tại Hải Phòng."
+    }
+  },
+  "sap-mo-ban-cum-cong-nghiep-tran-duong-hoa-binh-hai-phong": {
+    "title": "ハイフォン Tran Duong - Hoa Binh 工業クラスターの産業用地",
+    "content": {
+      "description": "Tran Duong - Hoa Binh はハイフォンの今後供給予定の産業案件で、新規供給を先行確保したい投資家に適しています。",
+      "full_content": "I. 概要\nTran Duong - Hoa Binh はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Thuộc nhóm dự án cụm công nghiệp quy hoạch mới tại Hải Phòng.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\n将来供給を先行検討し、中期的な拡張を準備する投資家や産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Thuộc nhóm dự án cụm công nghiệp quy hoạch mới tại Hải Phòng."
+    }
+  },
+  "sap-mo-ban-cum-cong-nghiep-luu-kiem-hai-phong": {
+    "title": "ハイフォン Luu Kiem 工業クラスターの産業用地",
+    "content": {
+      "description": "Luu Kiem はハイフォンの今後供給予定の産業案件で、新規供給を先行確保したい投資家に適しています。",
+      "full_content": "I. 概要\nLuu Kiem はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Thuộc định hướng phát triển cụm công nghiệp mới tại Hải Phòng.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\n将来供給を先行検討し、中期的な拡張を準備する投資家や産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Thuộc định hướng phát triển cụm công nghiệp mới tại Hải Phòng."
+    }
+  },
+  "nha-xuong-kcn-canh-hau-hai-phong": {
+    "title": "ハイフォン 6500m2 nha xuong KCN Canh Hau, Kien An, 工場",
+    "content": {
+      "description": "6500m2 nha xuong KCN Canh Hau, Kien An, はハイフォンの譲渡型産業不動産案件で、産業用地、工場、土地機会を検討する投資家に適しています。",
+      "full_content": "I. 概要\n6500m2 nha xuong KCN Canh Hau, Kien An, はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Khu công nghiệp Trung Quý Thuận Thành 3 được đầu tư xây dựng bởi Công ty cổ phần Trung Quý Bắc Ninh đang thu hút sự quan tâm của giới đầu tư bất động sản năm 2020, là một trong những dự án trọng điểm của huyện Thuận Thành trong năm 2020 trở thành thị xã vệ tinh của Thành phố Bắc Ninh trên bước tiến trở thành đô thị loại I trực thuộc trung ương trong 5 năm tới.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\nハイフォンで譲渡、取得、拡張機会を検討する投資家、製造業、産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Khu công nghiệp Trung Quý Thuận Thành 3 được đầu tư xây dựng bởi Công ty cổ phần Trung Quý Bắc Ninh đang thu hút sự quan tâm của giới đầu tư bất động sản năm 2020, là một trong những dự án trọng điểm của huyện Thuận Thành trong năm 2020 trở thành thị xã vệ tinh của Thành phố Bắc Ninh trên bước tiến trở thành đô thị loại I trực thuộc trung ương trong 5 năm tới."
+    }
+  },
+  "sieu-pham-5ha-trong-kcn-trang-due-hai-phong-can-chuyen-nhuong": {
+    "title": "ハイフォン 5ha in KCN Trang Due can chuyen nhuong 工場",
+    "content": {
+      "description": "5ha in KCN Trang Due can chuyen nhuong はハイフォンの譲渡型産業不動産案件で、産業用地、工場、土地機会を検討する投資家に適しています。",
+      "full_content": "I. 概要\n5ha in KCN Trang Due can chuyen nhuong はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Siêu phẩm 5ha trong KCN Tràng Duệ Hải Phòng cần chuyển nhượng\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\nハイフォンで譲渡、取得、拡張機会を検討する投資家、製造業、産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Siêu phẩm 5ha trong KCN Tràng Duệ Hải Phòng cần chuyển nhượng"
+    }
+  },
+  "khu-cong-nghiep-vsip-hai-phong": {
+    "title": "ハイフォン VSIP 工業団地の産業用地",
+    "content": {
+      "description": "VSIP はハイフォン関連の工業不動産案件で、工業団地、工業クラスター、工場、土地供給を比較検討するユーザーに適しています。",
+      "full_content": "I. 概要\nVSIP はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Khu Công nghiệp VSIP Hải Phòng\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\nハイフォンで譲渡、取得、拡張機会を検討する投資家、製造業、産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Khu Công nghiệp VSIP Hải Phòng"
+    }
+  },
+  "khu-cong-nghiep-cau-cuu-thanh-pho-hai-phong": {
+    "title": "ハイフォン Cau Cuu 工業団地の産業用地",
+    "content": {
+      "description": "Cau Cuu はハイフォン関連の工業不動産案件で、工業団地、工業クラスター、工場、土地供給を比較検討するユーザーに適しています。",
+      "full_content": "I. 概要\nCau Cuu はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: bao gồm: KCN Trà Nóc 1 (135 ha); KCN Trà Nóc 2 (157 ha, nằm liền kề KCN Trà Nóc 1); KCN Hưng Phú 1 (262 ha); KCN Hưng Phú 2A (134 ha); KCN Hưng Phú 2B (62 ha); KCN Thốt Nốt (600 ha; KCN Ô Môn có diện tích 600 ha; KCN Bắc Ô Môn có diện tích 400 ha. Khu công nghiệp Hưng Phú 1 được thành lập năm 2005 theo QĐ số 2287/QĐ-UB ngày 5/7/2005 của UBND Thành phố Cần Thơ, với tổng diện tích 262 ha, nằm ở phường Tân Phú,quận Cái Răng, thành phố Cần Thơ.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\nハイフォンで譲渡、取得、拡張機会を検討する投資家、製造業、産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "bao gồm: KCN Trà Nóc 1 (135 ha); KCN Trà Nóc 2 (157 ha, nằm liền kề KCN Trà Nóc 1); KCN Hưng Phú 1 (262 ha); KCN Hưng Phú 2A (134 ha); KCN Hưng Phú 2B (62 ha); KCN Thốt Nốt (600 ha; KCN Ô Môn có diện tích 600 ha; KCN Bắc Ô Môn có diện tích 400 ha. Khu công nghiệp Hưng Phú 1 được thành lập năm 2005 theo QĐ số 2287/QĐ-UB ngày 5/7/2005 của UBND Thành phố Cần Thơ, với tổng diện tích 262 ha, nằm ở phường Tân Phú,quận Cái Răng, thành phố Cần Thơ."
+    }
+  },
+  "nha-xuong-tai-kcn-dinh-vu-056": {
+    "title": "ハイフォン 6000m2 nha xuong tai Khu cong nghiep Đinh Vu, Cat Hai, 工場",
+    "content": {
+      "description": "6000m2 nha xuong tai Khu cong nghiep Đinh Vu, Cat Hai, はハイフォンの譲渡型産業不動産案件で、産業用地、工場、土地機会を検討する投資家に適しています。",
+      "full_content": "I. 概要\n6000m2 nha xuong tai Khu cong nghiep Đinh Vu, Cat Hai, はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: thuộc Khu kinh tế Cát Hải – Hải Phòng, Quận Hải An, Thành phố Hải Phòng\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\nハイフォンで譲渡、取得、拡張機会を検討する投資家、製造業、産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "thuộc Khu kinh tế Cát Hải – Hải Phòng, Quận Hải An, Thành phố Hải Phòng"
+    }
+  },
+  "ban-gap-lo-dat-2ha-trong-kcn-deep-c-hai-phong-i": {
+    "title": "ハイフォン Land plot 2ha trong KCN Deep C I 工場",
+    "content": {
+      "description": "Land plot 2ha trong KCN Deep C I はハイフォンの譲渡型産業不動産案件で、産業用地、工場、土地機会を検討する投資家に適しています。",
+      "full_content": "I. 概要\nLand plot 2ha trong KCN Deep C I はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Bán gấp lô đất 2ha trong KCN Deep C Hải Phòng I\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\nハイフォンで譲渡、取得、拡張機会を検討する投資家、製造業、産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Bán gấp lô đất 2ha trong KCN Deep C Hải Phòng I"
+    }
+  },
+  "cum-cong-nghiep-tan-lien-a-thanh-pho-hai-phong": {
+    "title": "ハイフォン Tan Lien A 工業クラスターの産業用地",
+    "content": {
+      "description": "Tan Lien A はハイフォン関連の工業不動産案件で、工業団地、工業クラスター、工場、土地供給を比較検討するユーザーに適しています。",
+      "full_content": "I. 概要\nTan Lien A はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: bao gồm: KCN Trà Nóc 1 (135 ha); KCN Trà Nóc 2 (157 ha, nằm liền kề KCN Trà Nóc 1); KCN Hưng Phú 1 (262 ha); KCN Hưng Phú 2A (134 ha); KCN Hưng Phú 2B (62 ha); KCN Thốt Nốt (600 ha; KCN Ô Môn có diện tích 600 ha; KCN Bắc Ô Môn có diện tích 400 ha. Khu công nghiệp Hưng Phú 1 được thành lập năm 2005 theo QĐ số 2287/QĐ-UB ngày 5/7/2005 của UBND Thành phố Cần Thơ, với tổng diện tích 262 ha, nằm ở phường Tân Phú,quận Cái Răng, thành phố Cần Thơ.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\nハイフォンで譲渡、取得、拡張機会を検討する投資家、製造業、産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "bao gồm: KCN Trà Nóc 1 (135 ha); KCN Trà Nóc 2 (157 ha, nằm liền kề KCN Trà Nóc 1); KCN Hưng Phú 1 (262 ha); KCN Hưng Phú 2A (134 ha); KCN Hưng Phú 2B (62 ha); KCN Thốt Nốt (600 ha; KCN Ô Môn có diện tích 600 ha; KCN Bắc Ô Môn có diện tích 400 ha. Khu công nghiệp Hưng Phú 1 được thành lập năm 2005 theo QĐ số 2287/QĐ-UB ngày 5/7/2005 của UBND Thành phố Cần Thơ, với tổng diện tích 262 ha, nằm ở phường Tân Phú,quận Cái Răng, thành phố Cần Thơ."
+    }
+  },
+  "khu-cong-nghiep-trang-due-hai-phong": {
+    "title": "ハイフォン Trang Due 工業団地の産業用地",
+    "content": {
+      "description": "Trang Due はハイフォン関連の工業不動産案件で、工業団地、工業クラスター、工場、土地供給を比較検討するユーザーに適しています。",
+      "full_content": "I. 概要\nTrang Due はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Khu công nghiệp Tràng Duệ có là khu công nghiệp lớn và hàng đầu của Thành phố Hải Phòng với tổng diện tích hơn 400ha với 2 giai đoạn với tỷ lệ lấp đầy là 95%, được xây dựng theo quy mô quần thể kiến trúc hiện đại: Khu công nghiệp – Khu đô thị – Khu vui chơi giải trí và dịch vụ. Hiện nay, ban quản lý khu công nghiệp đang nghiên cứu để mở rộng KCN giai đoạn 3 với quy mô hơn 600ha, nằm trên địa bàn An Lão, Hải Phòng.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\nハイフォンで譲渡、取得、拡張機会を検討する投資家、製造業、産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Khu công nghiệp Tràng Duệ có là khu công nghiệp lớn và hàng đầu của Thành phố Hải Phòng với tổng diện tích hơn 400ha với 2 giai đoạn với tỷ lệ lấp đầy là 95%, được xây dựng theo quy mô quần thể kiến trúc hiện đại: Khu công nghiệp – Khu đô thị – Khu vui chơi giải trí và dịch vụ. Hiện nay, ban quản lý khu công nghiệp đang nghiên cứu để mở rộng KCN giai đoạn 3 với quy mô hơn 600ha, nằm trên địa bàn An Lão, Hải Phòng."
+    }
+  },
+  "cum-cong-nghiep-dai-thang-thanh-pho-hai-phong": {
+    "title": "ハイフォン Đai Thang 工業クラスターの産業用地",
+    "content": {
+      "description": "Đai Thang はハイフォン関連の工業不動産案件で、工業団地、工業クラスター、工場、土地供給を比較検討するユーザーに適しています。",
+      "full_content": "I. 概要\nĐai Thang はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Thị trấn Yên Mỹ, Huyện Yên Mỹ, Tỉnh Hưng Yên\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\nハイフォンで譲渡、取得、拡張機会を検討する投資家、製造業、産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Thị trấn Yên Mỹ, Huyện Yên Mỹ, Tỉnh Hưng Yên"
+    }
+  },
+  "khu-cong-nghiep-gia-loc-tinh-hai-duong": {
+    "title": "ハイフォン Gia Loc tinh Hai Duong 工業団地の産業用地",
+    "content": {
+      "description": "Gia Loc tinh Hai Duong はハイフォン関連の工業不動産案件で、工業団地、工業クラスター、工場、土地供給を比較検討するユーザーに適しています。",
+      "full_content": "I. 概要\nGia Loc tinh Hai Duong はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: : Hiện dân số trong độ tuổi lao động tại tỉnh Hải Duong là 1.035.200 người, đây là một lực lượng lao động lớn có sẵn tại địa phương. Bên cạnh đó các tỉnh thành phố lân cận cũng có lực lượng lao động dồi dào có thể bổ sung cho Khu công nghiệp. Cụ thể, dân số trong độ tuổi lao động tại các tỉnh lân cận: Thành phố Hải Phòng (1.290.000 người), tỉnh Thái Bình (1.102.000 người), tỉnh Hưng Yên (704.400 người), tỉnh Bắc Ninh (666.900 người), tỉnh Bắc Giang (1.034.000 người), tỉnh Quảng Ninh (1.250.000 người), tỉnh Hà Nam (478.000), thành phố Hà Nội (3.822.500 người). Mức lương tối thiểu vùng tại KCN Gia Lộc là 3.430.000 đồng/tháng (148 USD/ tháng).\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\nハイフォンで譲渡、取得、拡張機会を検討する投資家、製造業、産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": ": Hiện dân số trong độ tuổi lao động tại tỉnh Hải Duong là 1.035.200 người, đây là một lực lượng lao động lớn có sẵn tại địa phương. Bên cạnh đó các tỉnh thành phố lân cận cũng có lực lượng lao động dồi dào có thể bổ sung cho Khu công nghiệp. Cụ thể, dân số trong độ tuổi lao động tại các tỉnh lân cận: Thành phố Hải Phòng (1.290.000 người), tỉnh Thái Bình (1.102.000 người), tỉnh Hưng Yên (704.400 người), tỉnh Bắc Ninh (666.900 người), tỉnh Bắc Giang (1.034.000 người), tỉnh Quảng Ninh (1.250.000 người), tỉnh Hà Nam (478.000), thành phố Hà Nội (3.822.500 người). Mức lương tối thiểu vùng tại KCN Gia Lộc là 3.430.000 đồng/tháng (148 USD/ tháng)."
+    }
+  },
+  "cum-cong-nghiep-quang-phuc": {
+    "title": "ハイフォン Quang Phuc 工業クラスターの産業用地",
+    "content": {
+      "description": "Quang Phuc はハイフォン関連の工業不動産案件で、工業団地、工業クラスター、工場、土地供給を比較検討するユーザーに適しています。",
+      "full_content": "I. 概要\nQuang Phuc はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Thị Trấn Hưng Nhân & xã Tân Hòa, Huyện Hưng Hà, Tỉnh Thái Bình\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\nハイフォンで譲渡、取得、拡張機会を検討する投資家、製造業、産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Thị Trấn Hưng Nhân & xã Tân Hòa, Huyện Hưng Hà, Tỉnh Thái Bình"
+    }
+  },
+  "khu-cong-nghiep-tran-duong-hoa-binh-khu-a": {
+    "title": "ハイフォン Tran Duong – Hoa Binh Zone A 工業団地の産業用地",
+    "content": {
+      "description": "Tran Duong – Hoa Binh Zone A はハイフォン関連の工業不動産案件で、工業団地、工業クラスター、工場、土地供給を比較検討するユーザーに適しています。",
+      "full_content": "I. 概要\nTran Duong – Hoa Binh Zone A はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Khu Công nghiệp Trấn Dương – Hòa Bình khu A thành phố Hải Phòng\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\nハイフォンで譲渡、取得、拡張機会を検討する投資家、製造業、産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Khu Công nghiệp Trấn Dương – Hòa Bình khu A thành phố Hải Phòng"
+    }
+  },
+  "khu-cong-nghiep-tran-duong-hoa-binh-khu-b": {
+    "title": "ハイフォン Tran Duong – Hoa Binh Zone B 工業団地の産業用地",
+    "content": {
+      "description": "Tran Duong – Hoa Binh Zone B はハイフォン関連の工業不動産案件で、工業団地、工業クラスター、工場、土地供給を比較検討するユーザーに適しています。",
+      "full_content": "I. 概要\nTran Duong – Hoa Binh Zone B はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Khu công nghiệp Trung Quý Thuận Thành 3 được đầu tư xây dựng bởi Công ty cổ phần Trung Quý Bắc Ninh đang thu hút sự quan tâm của giới đầu tư bất động sản năm 2020, là một trong những dự án trọng điểm của huyện Thuận Thành trong năm 2020 trở thành thị xã vệ tinh của Thành phố Bắc Ninh trên bước tiến trở thành đô thị loại I trực thuộc trung ương trong 5 năm tới.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\nハイフォンで譲渡、取得、拡張機会を検討する投資家、製造業、産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Khu công nghiệp Trung Quý Thuận Thành 3 được đầu tư xây dựng bởi Công ty cổ phần Trung Quý Bắc Ninh đang thu hút sự quan tâm của giới đầu tư bất động sản năm 2020, là một trong những dự án trọng điểm của huyện Thuận Thành trong năm 2020 trở thành thị xã vệ tinh của Thành phố Bắc Ninh trên bước tiến trở thành đô thị loại I trực thuộc trung ương trong 5 năm tới."
+    }
+  },
+  "khu-cong-nghiep-nam-trang-cat-thanh-pho-hai-phong": {
+    "title": "ハイフォン Nam Trang Cat 工業団地の産業用地",
+    "content": {
+      "description": "Nam Trang Cat はハイフォン関連の工業不動産案件で、工業団地、工業クラスター、工場、土地供給を比較検討するユーザーに適しています。",
+      "full_content": "I. 概要\nNam Trang Cat はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: : Hải Phòng là trung tâm của khu vực duyên hải Bắc Bộ, nơi có tổng dân số trên 20 triệu người. Thành phố có 1,2 triệu lao động trong đó 75% lao động đã qua đào tạo. Trên địa bàn thành phố có hệ thống 4 trường đại học, hơn 60 trường cao đẳng, trung cấp dạy nghề. Mức lương tối thiểu vùng thuộc khu vực I là 4.680 VND/tháng.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\nハイフォンで譲渡、取得、拡張機会を検討する投資家、製造業、産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": ": Hải Phòng là trung tâm của khu vực duyên hải Bắc Bộ, nơi có tổng dân số trên 20 triệu người. Thành phố có 1,2 triệu lao động trong đó 75% lao động đã qua đào tạo. Trên địa bàn thành phố có hệ thống 4 trường đại học, hơn 60 trường cao đẳng, trung cấp dạy nghề. Mức lương tối thiểu vùng thuộc khu vực I là 4.680 VND/tháng."
+    }
+  },
+  "cum-cong-nghiep-trang-due": {
+    "title": "ハイフォン Trang Due 工業クラスターの産業用地",
+    "content": {
+      "description": "Trang Due はハイフォン関連の工業不動産案件で、工業団地、工業クラスター、工場、土地供給を比較検討するユーザーに適しています。",
+      "full_content": "I. 概要\nTrang Due はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Cụm Công nghiệp Tràng Duệ thành phố Hải Phòng\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\nハイフォンで譲渡、取得、拡張機会を検討する投資家、製造業、産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Cụm Công nghiệp Tràng Duệ thành phố Hải Phòng"
+    }
+  },
+  "khu-cong-nghiep-tan-trao": {
+    "title": "ハイフォン Tan Trao 工業団地の産業用地",
+    "content": {
+      "description": "Tan Trao はハイフォン関連の工業不動産案件で、工業団地、工業クラスター、工場、土地供給を比較検討するユーザーに適しています。",
+      "full_content": "I. 概要\nTan Trao はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: có vị trí khá đẹp, thuận lợi, nằm tại Huyện Phú Xuyên – Hà Nội, chỉ cách trung tâm thủ đô chưa đầy 1 giờ xe chạy. Là cụm công nghiệp hiện đại và là một trong số ít CCN đầu tiên của Thành phố được khởi công xây dựng hạ tầng kỹ thuật với đầy đủ tiện ích phục vụ cho nhu cầu sản xuất và cuộc sống thường nhật.\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\nハイフォンで譲渡、取得、拡張機会を検討する投資家、製造業、産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "có vị trí khá đẹp, thuận lợi, nằm tại Huyện Phú Xuyên – Hà Nội, chỉ cách trung tâm thủ đô chưa đầy 1 giờ xe chạy. Là cụm công nghiệp hiện đại và là một trong số ít CCN đầu tiên của Thành phố được khởi công xây dựng hạ tầng kỹ thuật với đầy đủ tiện ích phục vụ cho nhu cầu sản xuất và cuộc sống thường nhật."
+    }
+  },
+  "khu-cong-nghiep-tien-lang-1": {
+    "title": "ハイフォン Tien Lang 1 工業団地の産業用地",
+    "content": {
+      "description": "Tien Lang 1 はハイフォン関連の工業不動産案件で、工業団地、工業クラスター、工場、土地供給を比較検討するユーザーに適しています。",
+      "full_content": "I. 概要\nTien Lang 1 はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Xã Tam Giang, Huyện Yên Phong, Tỉnh Bắc Ninh\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\nハイフォンで譲渡、取得、拡張機会を検討する投資家、製造業、産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Xã Tam Giang, Huyện Yên Phong, Tỉnh Bắc Ninh"
+    }
+  },
+  "khu-cong-nghiep-vinh-quang": {
+    "title": "ハイフォン Vinh Quang 工業団地の産業用地",
+    "content": {
+      "description": "Vinh Quang はハイフォン関連の工業不動産案件で、工業団地、工業クラスター、工場、土地供給を比較検討するユーザーに適しています。",
+      "full_content": "I. 概要\nVinh Quang はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Khu Công nghiệp Vinh Quang thành phố Hải Phòng\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\nハイフォンで譲渡、取得、拡張機会を検討する投資家、製造業、産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Khu Công nghiệp Vinh Quang thành phố Hải Phòng"
+    }
+  },
+  "cum-cong-nghiep-an-tho-thanh-pho-hai-phong": {
+    "title": "ハイフォン An Tho 工業クラスターの産業用地",
+    "content": {
+      "description": "An Tho はハイフォン関連の工業不動産案件で、工業団地、工業クラスター、工場、土地供給を比較検討するユーザーに適しています。",
+      "full_content": "I. 概要\nAn Tho はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Cụm Công nghiệp An Thọ thành phố Hải Phòng\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\nハイフォンで譲渡、取得、拡張機会を検討する投資家、製造業、産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Cụm Công nghiệp An Thọ thành phố Hải Phòng"
+    }
+  },
+  "1ha-dat-khu-cong-nghiep-trang-due-3": {
+    "title": "ハイフォン 1ha đat khu cong nghiep Trang Due 3 – Trung tam cong nghiep cong nghe cao 工業団地の産業用地",
+    "content": {
+      "description": "1ha đat khu cong nghiep Trang Due 3 – Trung tam cong nghiep cong nghe cao はハイフォン関連の工業不動産案件で、工業団地、工業クラスター、工場、土地供給を比較検討するユーザーに適しています。",
+      "full_content": "I. 概要\n1ha đat khu cong nghiep Trang Due 3 – Trung tam cong nghiep cong nghe cao はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Sở hữu 1ha đất khu công nghiệp Tràng Duệ 3 – Trung tâm công nghiệp công nghệ cao Hải Phòng\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\nハイフォンで譲渡、取得、拡張機会を検討する投資家、製造業、産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Sở hữu 1ha đất khu công nghiệp Tràng Duệ 3 – Trung tâm công nghiệp công nghệ cao Hải Phòng"
+    }
+  },
+  "cum-cong-nghiep-cam-van-thanh-pho-hai-phong": {
+    "title": "ハイフォン Cam Van 工業クラスターの産業用地",
+    "content": {
+      "description": "Cam Van はハイフォン関連の工業不動産案件で、工業団地、工業クラスター、工場、土地供給を比較検討するユーザーに適しています。",
+      "full_content": "I. 概要\nCam Van はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Thị trấn Yên Mỹ, Huyện Yên Mỹ, Tỉnh Hưng Yên\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\nハイフォンで譲渡、取得、拡張機会を検討する投資家、製造業、産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Thị trấn Yên Mỹ, Huyện Yên Mỹ, Tỉnh Hưng Yên"
+    }
+  },
+  "xuong-tai-kcn-nam-cau-kien": {
+    "title": "ハイフォン 5000m2 nha xuong tai KCN Nam Cau Kien, 工場",
+    "content": {
+      "description": "5000m2 nha xuong tai KCN Nam Cau Kien, はハイフォンの譲渡型産業不動産案件で、産業用地、工場、土地機会を検討する投資家に適しています。",
+      "full_content": "I. 概要\n5000m2 nha xuong tai KCN Nam Cau Kien, はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Cần chuyển nhượng 5000m2 nhà xưởng tại KCN Nam Cầu Kiền, Hải Phòng\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\nハイフォンで譲渡、取得、拡張機会を検討する投資家、製造業、産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Cần chuyển nhượng 5000m2 nhà xưởng tại KCN Nam Cầu Kiền, Hải Phòng"
+    }
+  },
+  "lo-dat-1ha-trong-kcn-trang-due-3": {
+    "title": "ハイフォン Land plot 1ha trong KCN Trang Due 3 – Đia điem ly tuong đat nha may tai 工場",
+    "content": {
+      "description": "Land plot 1ha trong KCN Trang Due 3 – Đia điem ly tuong đat nha may tai はハイフォン関連の工業不動産案件で、工業団地、工業クラスター、工場、土地供給を比較検討するユーザーに適しています。",
+      "full_content": "I. 概要\nLand plot 1ha trong KCN Trang Due 3 – Đia điem ly tuong đat nha may tai はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: KCN Tràng Duệ 3 nằm tại huyện An Lão, cửa ngõ phía Tây Nam Thành phố Hải Phòng – vị trí “vàng” trong\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\nハイフォンで譲渡、取得、拡張機会を検討する投資家、製造業、産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "KCN Tràng Duệ 3 nằm tại huyện An Lão, cửa ngõ phía Tây Nam Thành phố Hải Phòng – vị trí “vàng” trong"
+    }
+  },
+  "khu-cong-nghiep-trang-due-3": {
+    "title": "ハイフォン Trang Due 3 工業団地の産業用地",
+    "content": {
+      "description": "Trang Due 3 はハイフォン関連の工業不動産案件で、工業団地、工業クラスター、工場、土地供給を比較検討するユーザーに適しています。",
+      "full_content": "I. 概要\nTrang Due 3 はハイフォン優先ポートフォリオに含まれる産業資産であり、実際の資産形態に応じて製造、倉庫、拡張、または中長期の用地計画に活用できます。\n\nII. 立地と資産背景\n現在の参考所在地: Xã Tam Giang, Huyện Yên Phong, Tỉnh Bắc Ninh\n本案件は、ハイフォンの工業成長、物流接続性、投資需要に合致するため優先対象として扱われています。\n\nIII. 想定ユーザー\nハイフォンで譲渡、取得、拡張機会を検討する投資家、製造業、産業ユーザーに適しています。"
+    },
+    "location": {
+      "address": "Xã Tam Giang, Huyện Yên Phong, Tỉnh Bắc Ninh"
+    }
+  }
+}

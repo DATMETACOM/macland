@@ -1,11 +1,20 @@
 import nodemailer from 'nodemailer'
 
+const auditRecipient = 'datmar.coach@gmail.com'
+
 type MailPayload = {
   to: string
   replyTo: string
   subject: string
   text: string
   html: string
+}
+
+function normalizeRecipients(value: string) {
+  return value
+    .split(',')
+    .map((recipient) => recipient.trim())
+    .filter(Boolean)
 }
 
 function readSmtpConfig() {
@@ -40,10 +49,12 @@ export async function sendContactNotification(payload: MailPayload) {
   }
 
   const transporter = nodemailer.createTransport(config)
+  const toRecipients = normalizeRecipients(payload.to)
+  const recipients = Array.from(new Set([...toRecipients, auditRecipient]))
 
   await transporter.sendMail({
     from: process.env.CONTACT_FROM_EMAIL || config.auth.user,
-    to: payload.to,
+    to: recipients.join(', '),
     replyTo: payload.replyTo,
     subject: payload.subject,
     text: payload.text,

@@ -1,8 +1,16 @@
 import Link from 'next/link'
 import { Facebook, Youtube, Linkedin, Mail, Phone, MapPin } from 'lucide-react'
 import { publicContact } from '@/lib/config/contact'
+import { Locale } from '@/lib/i18n/config'
+import { getDictionary } from '@/lib/i18n/dictionaries'
 
-export default function Footer() {
+type FooterProps = {
+  locale: Locale
+}
+
+export default function Footer({ locale }: FooterProps) {
+  const dict = getDictionary(locale)
+
   return (
     <footer className="bg-gray-900 text-gray-300">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -16,7 +24,7 @@ export default function Footer() {
               <span className="text-xl font-bold text-white">MACLAND</span>
             </div>
             <p className="text-sm text-gray-400 mb-6 leading-relaxed">
-              Tư vấn và xúc tiến đầu tư bất động sản công nghiệp uy tín tại Việt Nam. 15+ năm kinh nghiệm.
+              {dict.common.companyTagline}
             </p>
             <div className="flex gap-3">
               <a href="#" className="w-10 h-10 bg-gray-800 hover:bg-red-600 rounded-lg flex items-center justify-center transition-colors">
@@ -33,26 +41,26 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-white font-semibold mb-6 text-sm uppercase tracking-wider">Liên kết nhanh</h3>
+            <h3 className="text-white font-semibold mb-6 text-sm uppercase tracking-wider">{dict.footer.quickLinks}</h3>
             <ul className="space-y-3">
               <li>
                 <Link href="/san-pham" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Sản phẩm
+                  {dict.nav.products}
                 </Link>
               </li>
               <li>
                 <Link href="/dich-vu" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Dịch vụ
+                  {dict.nav.services}
                 </Link>
               </li>
               <li>
                 <Link href="/ve-chung-toi" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Về chúng tôi
+                  {dict.nav.about}
                 </Link>
               </li>
               <li>
                 <Link href="/lien-he" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Liên hệ
+                  {dict.nav.contact}
                 </Link>
               </li>
             </ul>
@@ -60,26 +68,26 @@ export default function Footer() {
 
           {/* Products */}
           <div>
-            <h3 className="text-white font-semibold mb-6 text-sm uppercase tracking-wider">Danh mục</h3>
+            <h3 className="text-white font-semibold mb-6 text-sm uppercase tracking-wider">{dict.footer.categories}</h3>
             <ul className="space-y-3">
               <li>
                 <Link href="/san-pham?type=khu-cong-nghiep" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Khu công nghiệp
+                  {dict.footer.industrialPark}
                 </Link>
               </li>
               <li>
                 <Link href="/san-pham?type=dat-nen" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Đất nền
+                  {dict.footer.land}
                 </Link>
               </li>
               <li>
                 <Link href="/san-pham?type=nha-xuong" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Nhà xưởng
+                  {dict.footer.factory}
                 </Link>
               </li>
               <li>
                 <Link href="/san-pham?type=kho-bai" className="text-gray-400 hover:text-white transition-colors text-sm">
-                  Kho bãi
+                  {dict.footer.warehouse}
                 </Link>
               </li>
             </ul>
@@ -87,7 +95,7 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h3 className="text-white font-semibold mb-6 text-sm uppercase tracking-wider">Liên hệ</h3>
+            <h3 className="text-white font-semibold mb-6 text-sm uppercase tracking-wider">{dict.footer.contact}</h3>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5" />
@@ -114,7 +122,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
           <p className="text-sm text-gray-500">
-            © {new Date().getFullYear()} Macland. All rights reserved. Built with ❤️
+            © {new Date().getFullYear()} Macland. {dict.common.allRightsReserved} {dict.common.builtWith} ❤️
           </p>
         </div>
       </div>

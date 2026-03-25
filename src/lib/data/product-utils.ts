@@ -1,4 +1,5 @@
 import { Product } from '@/types/product'
+import { Locale } from '@/lib/i18n/config'
 
 const IMAGE_SIZE_MAP: Record<'thumbnail' | 'medium' | 'large', string[]> = {
   thumbnail: ['150x150', '300x300'],
@@ -143,40 +144,60 @@ function stripTransactionPrefix(title?: string | null) {
 }
 
 function getTransactionPrefix(title?: string | null) {
-  const match = normalizeText(title).match(/^\[(CHUYỂN NHƯỢNG|SẮP MỞ BÁN)\]/iu)
+  const normalizedTitle = normalizeText(title)
+  const bracketMatch = normalizedTitle.match(/^\[(CHUYỂN NHƯỢNG|SẮP MỞ BÁN)\]/iu)
+  const directRentalMatch = normalizedTitle.match(/^cho thuê\b/iu)
+  const rawPrefix = bracketMatch?.[1] || directRentalMatch?.[0]
 
-  if (!match) return null
+  if (!rawPrefix) return null
 
-  const normalizedPrefix = normalizeComparableText(match[1])
+  const normalizedPrefix = normalizeComparableText(rawPrefix)
+  if (normalizedPrefix === 'cho thue') return 'Cho thuê'
   if (normalizedPrefix === 'chuyen nhuong') return 'Chuyển nhượng'
   if (normalizedPrefix === 'sap mo ban') return 'Sắp mở bán'
 
   return null
 }
 
-export function formatProductType(type: string): string {
+export function formatProductType(type: string, locale: Locale = 'vi'): string {
   const normalized = normalizeComparableText(type)
 
-  const typeLabels: Record<string, string> = {
-    'khu-cong-nghiep': 'Khu công nghiệp',
-    'cum-cong-nghiep': 'Cụm công nghiệp',
-    'nha-xuong': 'Nhà xưởng',
+  const typeLabels: Record<Locale, Record<string, string>> = {
+    vi: {
+      'khu-cong-nghiep': 'Khu công nghiệp',
+      'cum-cong-nghiep': 'Cụm công nghiệp',
+      'nha-xuong': 'Nhà xưởng',
+    },
+    en: {
+      'khu-cong-nghiep': 'Industrial park',
+      'cum-cong-nghiep': 'Industrial cluster',
+      'nha-xuong': 'Factory',
+    },
+    zh: {
+      'khu-cong-nghiep': '工业园区',
+      'cum-cong-nghiep': '工业集群',
+      'nha-xuong': '厂房',
+    },
+    ko: {
+      'khu-cong-nghiep': '산업단지',
+      'cum-cong-nghiep': '산업클러스터',
+      'nha-xuong': '공장',
+    },
+    ja: {
+      'khu-cong-nghiep': '工業団地',
+      'cum-cong-nghiep': '工業クラスター',
+      'nha-xuong': '工場',
+    },
   }
 
-  return typeLabels[normalized] || normalizeText(type).replace(/-/g, ' ')
+  return typeLabels[locale][normalized] || normalizeText(type).replace(/-/g, ' ')
 }
 
 export function getDisplayProductTitle(product: Product): string {
-  const baseTitle = stripTransactionPrefix(product.title)
-
-  if (/^mặt bằng nhà xưởng tại\s+/iu.test(baseTitle)) {
-    return baseTitle.replace(/^mặt bằng nhà xưởng tại\s+/iu, 'Cho thuê nhà xưởng tại ')
-  }
-
-  return baseTitle
+  return stripTransactionPrefix(product.title)
 }
 
-export function formatPrice(product: Product): string {
+export function formatPrice(product: Product, locale: Locale = 'vi'): string {
   if (product.pricing.price) {
     if (valueAlreadyContainsUnit(product.pricing.price, product.pricing.price_unit)) {
       return insertSpaceBeforeUnit(normalizeText(product.pricing.price))
@@ -188,18 +209,30 @@ export function formatPrice(product: Product): string {
   }
 
   if (product.pricing.type === 'thoa-thuan') {
-    return 'Giá thỏa thuận'
+    return locale === 'vi' ? 'Giá thỏa thuận'
+      : locale === 'zh' ? '价格面议'
+      : locale === 'ko' ? '협의 가능'
+      : locale === 'ja' ? '価格応相談'
+      : 'Negotiable'
   }
 
-  return 'Liên hệ'
+  return locale === 'vi' ? 'Liên hệ'
+    : locale === 'zh' ? '请联系'
+    : locale === 'ko' ? '문의'
+    : locale === 'ja' ? 'お問い合わせ'
+    : 'Contact us'
 }
 
-export function formatArea(product: Product): string {
+export function formatArea(product: Product, locale: Locale = 'vi'): string {
   const area = normalizeText(product.details.area)
   const unit = normalizeText(product.details.area_unit)
 
   if (!area || normalizeUnit(area) === normalizeUnit(unit)) {
-    return 'Đang cập nhật'
+    return locale === 'vi' ? 'Đang cập nhật'
+      : locale === 'zh' ? '更新中'
+      : locale === 'ko' ? '업데이트 중'
+      : locale === 'ja' ? '更新中'
+      : 'Updating'
   }
 
   if (valueAlreadyContainsUnit(area, unit)) {
@@ -209,18 +242,40 @@ export function formatArea(product: Product): string {
   return [area, unit].filter(Boolean).join(' ')
 }
 
-export function getProductTransactionStatus(product: Product): string | null {
+export function getProductTransactionStatus(product: Product, locale: Locale = 'vi'): string | null {
   const transactionStatus = getTransactionPrefix(product.title)
-  const isIndustrialSite = ['khu-cong-nghiep', 'cum-cong-nghiep'].includes(normalizeComparableText(product.type))
-
-  if (!transactionStatus || !isIndustrialSite) {
+  if (!transactionStatus) {
     return null
   }
 
-  return formatArea(product) === 'Đang cập nhật' ? transactionStatus : null
+  if (transactionStatus === 'Cho thuê') {
+    return locale === 'vi' ? 'Cho thuê'
+      : locale === 'zh' ? '出租'
+      : locale === 'ko' ? '임대'
+      : locale === 'ja' ? '賃貸'
+      : 'For Lease'
+  }
+
+  if (transactionStatus === 'Chuyển nhượng') {
+    return locale === 'vi' ? 'Chuyển nhượng'
+      : locale === 'zh' ? '转让'
+      : locale === 'ko' ? '양도'
+      : locale === 'ja' ? '譲渡'
+      : 'Transfer'
+  }
+
+  if (transactionStatus === 'Sắp mở bán') {
+    return locale === 'vi' ? 'Sắp mở bán'
+      : locale === 'zh' ? '即将推出'
+      : locale === 'ko' ? '출시 예정'
+      : locale === 'ja' ? '近日公開'
+      : 'Coming soon'
+  }
+
+  return transactionStatus
 }
 
-export function getProductLocationLabel(product: Product): string {
+export function getProductLocationLabel(product: Product, locale: Locale = 'vi'): string {
   const preferredDistrict = normalizeText(product.location.district)
   if (isUsefulLocationValue(preferredDistrict)) {
     return preferredDistrict
@@ -230,7 +285,11 @@ export function getProductLocationLabel(product: Product): string {
     inferLocationFromText(getDisplayProductTitle(product)) ||
     inferLocationFromText(product.location.address) ||
     (isUsefulLocationValue(product.location.province) ? normalizeText(product.location.province) : null) ||
-    'Đang cập nhật'
+    (locale === 'vi' ? 'Đang cập nhật'
+      : locale === 'zh' ? '更新中'
+      : locale === 'ko' ? '업데이트 중'
+      : locale === 'ja' ? '更新中'
+      : 'Updating')
   )
 }
 

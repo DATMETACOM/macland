@@ -2,15 +2,22 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import { Menu, X, Phone } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
 import Button from '@/components/ui/Button'
-import { primaryPhone } from '@/lib/config/contact'
 import { cn } from '@/lib/utils/cn'
+import { Locale } from '@/lib/i18n/config'
+import { getDictionary } from '@/lib/i18n/dictionaries'
+import LanguageSwitcher from '@/components/layout/LanguageSwitcher'
 
-export default function Header() {
+type HeaderProps = {
+  locale: Locale
+}
+
+export default function Header({ locale }: HeaderProps) {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const dict = getDictionary(locale)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -21,11 +28,11 @@ export default function Header() {
   }, [])
 
   const navigation = [
-    { name: 'Trang chủ', href: '/' },
-    { name: 'Sản phẩm', href: '/san-pham' },
-    { name: 'Dịch vụ', href: '/dich-vu' },
-    { name: 'Về chúng tôi', href: '/ve-chung-toi' },
-    { name: 'Liên hệ', href: '/lien-he' },
+    { name: dict.nav.home, href: '/' },
+    { name: dict.nav.products, href: '/san-pham' },
+    { name: dict.nav.services, href: '/dich-vu' },
+    { name: dict.nav.about, href: '/ve-chung-toi' },
+    { name: dict.nav.contact, href: '/lien-he' },
   ]
 
   return (
@@ -34,8 +41,8 @@ export default function Header() {
         className={cn(
           'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
           isScrolled
-            ? 'bg-white/98 backdrop-blur-md shadow-md border-b border-gray-100'
-            : 'bg-transparent'
+            ? 'bg-white/96 backdrop-blur-md shadow-[0_10px_30px_rgba(15,23,42,0.10)]'
+            : 'bg-white/92 backdrop-blur-sm shadow-[0_6px_24px_rgba(15,23,42,0.08)]'
         )}
       >
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -73,19 +80,16 @@ export default function Header() {
 
             {/* CTA Section */}
             <div className="hidden lg:flex items-center gap-4">
-              <a
-                href={primaryPhone.href}
-                className={cn(
-                  "flex items-center gap-2 text-sm font-medium transition-colors",
-                  isScrolled ? "text-gray-700 hover:text-red-600" : "text-gray-900 hover:text-red-600"
+              <LanguageSwitcher
+                currentLocale={locale}
+                label={dict.language.label}
+                buttonClassName={cn(
+                  isScrolled ? 'bg-white text-gray-700' : 'bg-white text-gray-700'
                 )}
-              >
-                <Phone className="w-4 h-4" />
-                <span>{primaryPhone.display}</span>
-              </a>
+              />
               <Link href="/lien-he">
                 <Button size="sm" variant="primary" className="shadow-md hover:shadow-lg">
-                  Đăng ký tư vấn
+                  {dict.nav.consultation}
                 </Button>
               </Link>
             </div>
@@ -122,6 +126,15 @@ export default function Header() {
           >
             <nav className="container mx-auto px-4 sm:px-6 py-6">
               <div className="flex flex-col space-y-1">
+                <div className="mb-3 px-4">
+                  <LanguageSwitcher
+                    currentLocale={locale}
+                    label={dict.language.label}
+                    className="w-full"
+                    buttonClassName="flex w-full items-center justify-between rounded-xl border border-gray-200 px-4 py-3"
+                    menuClassName="left-0 right-0 top-[calc(100%+0.5rem)] min-w-0"
+                  />
+                </div>
                 {navigation.map((item) => (
                   <Link
                     key={item.name}
@@ -133,16 +146,9 @@ export default function Header() {
                   </Link>
                 ))}
                 <div className="pt-6 mt-6 border-t border-gray-200 space-y-4">
-                  <a
-                    href={primaryPhone.href}
-                    className="flex items-center gap-3 px-4 py-3 bg-red-50 text-red-600 rounded-lg font-medium hover:bg-red-100 transition-colors"
-                  >
-                    <Phone className="w-5 h-5" />
-                    <span>{primaryPhone.display}</span>
-                  </a>
                   <Link href="/lien-he" onClick={() => setIsMobileMenuOpen(false)}>
                     <Button variant="primary" className="w-full shadow-md">
-                      Đăng ký tư vấn
+                      {dict.nav.consultation}
                     </Button>
                   </Link>
                 </div>

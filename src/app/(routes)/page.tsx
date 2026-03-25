@@ -1,188 +1,159 @@
 import Link from 'next/link'
-import { getAllProducts } from '@/lib/data/products'
+import { ArrowRight, Building2, CheckCircle, Shield, TrendingUp, Users } from 'lucide-react'
+
 import ProductCard from '@/components/product/ProductCard'
-import { Building2, TrendingUp, Shield, Users, CheckCircle, ArrowRight } from 'lucide-react'
 import { primaryPhone } from '@/lib/config/contact'
+import { getAllProducts } from '@/lib/data/products'
+import { getRequestDictionary } from '@/lib/i18n/server'
 
 export default async function HomePage() {
-  const products = await getAllProducts()
+  const { locale, dict } = await getRequestDictionary()
+  const products = await getAllProducts(locale)
+
   const featuredProducts = products.slice(0, 8)
 
   return (
     <>
-      {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-20 lg:py-32 overflow-hidden">
-        {/* Background Pattern */}
+      <section className="relative overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 text-white lg:py-32">
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0" style={{
-            backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
-            backgroundSize: '40px 40px'
-          }}></div>
+          <div
+            className="absolute inset-0"
+            style={{
+              backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
+              backgroundSize: '40px 40px',
+            }}
+          />
         </div>
 
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Bất Động Sản Công Nghiệp
-              <span className="text-red-500 block mt-2">Uy Tín & Hiệu Quả</span>
+        <div className="container relative z-10 mx-auto px-4">
+          <div className="mx-auto max-w-4xl text-center">
+            <h1 className="mb-6 text-4xl font-bold leading-tight md:text-5xl lg:text-6xl">
+              {dict.home.heroTitle}
+              <span className="mt-2 block text-red-500">{dict.home.heroAccent}</span>
             </h1>
-            <p className="text-lg md:text-xl lg:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
-              Tư vấn và xúc tiến đầu tư bất động sản công nghiệp chuyên nghiệp tại Việt Nam. 15+ năm kinh nghiệm.
+            <p className="mx-auto mb-8 max-w-2xl text-lg leading-relaxed text-gray-300 md:text-xl lg:text-2xl">
+              {dict.home.heroDescription}
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col justify-center gap-4 sm:flex-row">
               <Link href="/san-pham">
-                <button className="w-full sm:w-auto bg-red-600 text-white px-8 py-4 rounded-xl font-semibold hover:bg-red-700 transition-all hover:scale-105 shadow-lg">
-                  Xem sản phẩm
-                  <ArrowRight className="inline ml-2 w-5 h-5" />
+                <button className="w-full rounded-xl bg-red-600 px-8 py-4 font-semibold text-white shadow-lg transition-all hover:scale-105 hover:bg-red-700 sm:w-auto">
+                  {dict.common.viewProducts}
+                  <ArrowRight className="ml-2 inline h-5 w-5" />
                 </button>
               </Link>
               <Link href="/lien-he">
-                <button className="w-full sm:w-auto border-2 border-white text-white px-8 py-4 rounded-xl font-semibold hover:bg-white hover:text-gray-900 transition-all">
-                  Nhận tư vấn miễn phí
+                <button className="w-full rounded-xl border-2 border-white px-8 py-4 font-semibold text-white transition-all hover:bg-white hover:text-gray-900 sm:w-auto">
+                  {dict.home.freeConsultation}
                 </button>
               </Link>
             </div>
           </div>
 
-          {/* Stats */}
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 max-w-4xl mx-auto mt-16 lg:mt-20">
+          <div className="mx-auto mt-16 grid max-w-4xl grid-cols-2 gap-6 lg:mt-20 lg:grid-cols-4 lg:gap-8">
             {[
-              { icon: Building2, value: products.length.toString(), label: 'Sản phẩm' },
-              { icon: TrendingUp, value: '15+', label: 'Năm KN' },
-              { icon: Shield, value: '500+', label: 'Dự án' },
-              { icon: Users, value: '1000+', label: 'Khách hàng' }
+              { icon: Building2, value: products.length.toString(), label: dict.home.statsProducts },
+              { icon: TrendingUp, value: '15+', label: dict.home.statsExperience },
+              { icon: Shield, value: '500+', label: dict.home.statsProjects },
+              { icon: Users, value: '1000+', label: dict.home.statsClients },
             ].map((stat, index) => (
-              <div key={index} className="text-center p-4 lg:p-6 bg-white/5 backdrop-blur-sm rounded-xl">
-                <stat.icon className="w-8 h-8 lg:w-10 lg:h-10 mx-auto mb-3 text-red-500" />
-                <div className="text-3xl lg:text-4xl font-bold mb-1">{stat.value}</div>
-                <div className="text-xs lg:text-sm text-gray-400">{stat.label}</div>
+              <div key={index} className="rounded-xl bg-white/5 p-4 text-center backdrop-blur-sm lg:p-6">
+                <stat.icon className="mx-auto mb-3 h-8 w-8 text-red-500 lg:h-10 lg:w-10" />
+                <div className="mb-1 text-3xl font-bold lg:text-4xl">{stat.value}</div>
+                <div className="text-xs text-gray-400 lg:text-sm">{stat.label}</div>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Featured Products */}
-      <section className="py-16 lg:py-24 bg-gray-50">
+      <section className="bg-gray-50 py-16 lg:py-24">
         <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-8 lg:mb-12">
+          <div className="mb-8 flex flex-col md:mb-12 md:flex-row md:items-center md:justify-between lg:mb-12">
             <div className="mb-4 md:mb-0">
-              <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-2">Sản phẩm nổi bật</h2>
-              <p className="text-gray-600 text-base">Các cơ hội đầu tư bất động sản công nghiệp hấp dẫn nhất</p>
+              <h2 className="mb-2 text-3xl font-bold text-gray-900 lg:text-4xl">{dict.home.featuredTitle}</h2>
+              <p className="text-base text-gray-600">{dict.home.featuredDescription}</p>
             </div>
             <Link href="/san-pham">
-              <button className="text-red-600 font-semibold hover:text-red-700 flex items-center group transition-all">
-                Xem tất cả
-                <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              <button className="group flex items-center font-semibold text-red-600 transition-all hover:text-red-700">
+                {dict.home.viewAll}
+                <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
               </button>
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8">
             {featuredProducts.map((product, index) => (
-              <ProductCard key={product.id} product={product} index={index} />
+              <ProductCard key={product.id} product={product} index={index} locale={locale} />
             ))}
           </div>
         </div>
       </section>
 
-      {/* Why Choose Us */}
-      <section className="py-16 lg:py-24 bg-gradient-to-b from-gray-100 to-gray-50">
+      <section className="bg-gradient-to-b from-gray-100 to-gray-50 py-16 lg:py-24">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-12 lg:mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Tại sao chọn Macland?</h2>
-            <p className="text-red-600 text-lg max-w-2xl mx-auto font-medium">
-              Chúng tôi mang lại giá trị khác biệt cho nhà đầu tư
-            </p>
+          <div className="mb-12 text-center lg:mb-16">
+            <h2 className="mb-4 text-3xl font-bold text-gray-900 lg:text-4xl">{dict.home.whyTitle}</h2>
+            <p className="mx-auto max-w-2xl text-lg font-medium text-red-600">{dict.home.whyDescription}</p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
             {[
-              {
-                icon: CheckCircle,
-                title: 'Uy tín & Chuyên nghiệp',
-                description: '15+ năm kinh nghiệm, 1000+ khách hàng tin tưởng',
-                color: 'text-green-600',
-                bgColor: 'bg-green-50'
-              },
-              {
-                icon: Shield,
-                title: 'Pháp lý đảm bảo',
-                description: 'Hỗ trợ đầy đủ thủ tục, giấy tờ minh bạch',
-                color: 'text-blue-600',
-                bgColor: 'bg-blue-50'
-              },
-              {
-                icon: TrendingUp,
-                title: 'Hiệu quả cao',
-                description: '500+ dự án thành công, tỷ suất sinh lời tốt',
-                color: 'text-red-600',
-                bgColor: 'bg-red-50'
-              }
+              { icon: CheckCircle, color: 'text-green-600', bgColor: 'bg-green-50', ...dict.home.values[0] },
+              { icon: Shield, color: 'text-blue-600', bgColor: 'bg-blue-50', ...dict.home.values[1] },
+              { icon: TrendingUp, color: 'text-red-600', bgColor: 'bg-red-50', ...dict.home.values[2] },
             ].map((item, index) => (
-              <div key={index} className="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300">
-                <div className={`w-16 h-16 ${item.bgColor} rounded-2xl flex items-center justify-center mb-6`}>
-                  <item.icon className={`w-8 h-8 ${item.color}`} />
+              <div key={index} className="rounded-2xl bg-white p-8 shadow-md transition-all duration-300 hover:shadow-xl">
+                <div className={`mb-6 flex h-16 w-16 items-center justify-center rounded-2xl ${item.bgColor}`}>
+                  <item.icon className={`h-8 w-8 ${item.color}`} />
                 </div>
-                <h3 className="text-xl font-bold mb-3">{item.title}</h3>
-                <p className="text-gray-600 leading-relaxed">{item.description}</p>
+                <h3 className="mb-3 text-xl font-bold">{item.title}</h3>
+                <p className="leading-relaxed text-gray-600">{item.description}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Services Preview */}
-      <section className="py-16 lg:py-24 bg-gray-50">
+      <section className="bg-gray-50 py-16 lg:py-24">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-12 lg:mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Dịch vụ của chúng tôi</h2>
-            <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-              Giải pháp toàn diện cho nhu cầu bất động sản công nghiệp
-            </p>
+          <div className="mb-12 text-center lg:mb-16">
+            <h2 className="mb-4 text-3xl font-bold text-gray-900 lg:text-4xl">{dict.home.serviceTitle}</h2>
+            <p className="mx-auto max-w-2xl text-lg text-gray-600">{dict.home.serviceDescription}</p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {[
-              { title: 'Tư vấn đầu tư', desc: 'Chiến lược tối ưu' },
-              { title: 'Thủ tục pháp lý', desc: 'Hỗ trợ trọn gói' },
-              { title: 'Quản lý BĐS', desc: 'Vận hành chuyên nghiệp' },
-              { title: 'Môi giới', desc: 'Kết nối buyer-seller' }
-            ].map((service, index) => (
-              <div key={index} className="bg-white p-6 lg:p-8 rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 group cursor-pointer">
-                <div className="w-12 h-12 bg-red-100 rounded-xl flex items-center justify-center mb-4 group-hover:bg-red-600 transition-colors">
-                  <div className="w-6 h-6 bg-red-600 rounded-full group-hover:bg-white transition-colors" />
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            {dict.home.services.map((service, index) => (
+              <div key={index} className="group cursor-pointer rounded-2xl bg-white p-6 shadow-md transition-all duration-300 hover:shadow-lg lg:p-8">
+                <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-red-100 transition-colors group-hover:bg-red-600">
+                  <div className="h-6 w-6 rounded-full bg-red-600 transition-colors group-hover:bg-white" />
                 </div>
-                <h3 className="font-bold text-lg mb-2">{service.title}</h3>
-                <p className="text-sm text-gray-600">{service.desc}</p>
+                <h3 className="mb-2 text-lg font-bold">{service.title}</h3>
+                <p className="text-sm text-gray-600">{service.description}</p>
               </div>
             ))}
           </div>
 
-          <div className="text-center mt-12">
+          <div className="mt-12 text-center">
             <Link href="/dich-vu">
-              <button className="border-2 border-red-600 text-red-600 px-8 py-3 rounded-xl font-semibold hover:bg-red-50 transition-all">
-                Xem tất cả dịch vụ
+              <button className="rounded-xl border-2 border-red-600 px-8 py-3 font-semibold text-red-600 transition-all hover:bg-red-50">
+                {dict.home.serviceMore}
               </button>
             </Link>
           </div>
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-16 lg:py-24 bg-gradient-to-r from-red-600 to-red-700 text-white">
+      <section className="bg-gradient-to-r from-red-600 to-red-700 py-16 text-white lg:py-24">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl lg:text-4xl font-bold mb-6">Sẵn sàng đầu tư?</h2>
-          <p className="text-xl text-red-100 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Liên hệ với chúng tôi để được tư vấn miễn phí về các cơ hội đầu tư bất động sản công nghiệp
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-2xl mx-auto">
-            <a href={primaryPhone.href} className="inline-flex items-center justify-center bg-white text-red-600 px-8 py-4 rounded-xl font-bold hover:bg-gray-100 transition-all shadow-lg">
-              📞 Gọi ngay: {primaryPhone.display}
+          <h2 className="mb-6 text-3xl font-bold lg:text-4xl">{dict.home.ctaTitle}</h2>
+          <p className="mx-auto mb-8 max-w-3xl text-xl leading-relaxed text-red-100">{dict.home.ctaDescription}</p>
+          <div className="mx-auto flex max-w-2xl flex-col justify-center gap-4 sm:flex-row">
+            <a href={primaryPhone.href} className="inline-flex items-center justify-center rounded-xl bg-white px-8 py-4 font-bold text-red-600 shadow-lg transition-all hover:bg-gray-100">
+              📞 {dict.common.contactNow}: {primaryPhone.display}
             </a>
             <Link href="/san-pham">
-              <button className="border-2 border-white text-white px-8 py-4 rounded-xl font-bold hover:bg-white hover:text-red-600 transition-all">
-                Xem sản phẩm
+              <button className="rounded-xl border-2 border-white px-8 py-4 font-bold text-white transition-all hover:bg-white hover:text-red-600">
+                {dict.common.viewProducts}
               </button>
             </Link>
           </div>

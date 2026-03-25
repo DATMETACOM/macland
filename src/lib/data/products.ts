@@ -1,5 +1,6 @@
 import 'server-only'
 
+import { Locale } from '@/lib/i18n/config'
 import { Product, ProductData } from '@/types/product'
 import {
   getDisplayProductTitle,
@@ -12,6 +13,7 @@ import {
   getProductLocationLabel,
   getProductTransactionStatus,
 } from '@/lib/data/product-utils'
+import { getLocalizedProduct } from '@/lib/data/product-translations'
 
 let cachedData: ProductData | null = null
 
@@ -24,6 +26,47 @@ function normalizeComparableText(value?: string | null) {
     .normalize('NFD')
     .replace(/\p{Diacritic}/gu, '')
     .toLowerCase()
+}
+
+function isHaiPhongPriorityProduct(product: Product) {
+  const titleSlugSearch = [
+    product.slug,
+    product.title,
+    product.location?.province,
+    product.location?.district,
+  ].join(' ')
+
+  if (/hai phong|hải phòng/i.test(titleSlugSearch)) {
+    return true
+  }
+
+  const address = normalizeText(product.location?.address)
+  if (!address || address.length > 140) {
+    return false
+  }
+
+  if (/cách cảng hải phòng|hai phong ~|hải phòng ~/i.test(address)) {
+    return false
+  }
+
+  return /tp\.?\s*hải phòng|thành phố hải phòng|hai phong city|hải phòng\.?$/i.test(address)
+}
+
+function prioritizeHaiPhongProducts(products: Product[]) {
+  return products
+    .map((product, index) => ({
+      product,
+      index,
+      priority: isHaiPhongPriorityProduct(product) ? 0 : 1,
+    }))
+    .sort((left, right) => {
+      if (left.priority !== right.priority) {
+        return left.priority - right.priority
+      }
+
+      return left.index - right.index
+    })
+    .map(({ product }) => product)
 }
 
 async function loadProductDataFromFile(): Promise<ProductData> {
@@ -152,13 +195,15 @@ function sanitizeProduct(product: Product): Product {
   }
 }
 
-export async function getAllProducts(): Promise<Product[]> {
+export async function getAllProducts(locale: Locale = 'vi'): Promise<Product[]> {
   if (process.env.NODE_ENV === 'development') {
     cachedData = null
   }
 
   if (cachedData) {
-    return cachedData.products
+    return prioritizeHaiPhongProducts(
+      cachedData.products.map((product) => getLocalizedProduct(product, locale))
+    )
   }
 
   try {
@@ -167,34 +212,37 @@ export async function getAllProducts(): Promise<Product[]> {
       ...data,
       products: data.products.map(sanitizeProduct),
     }
-    return cachedData.products
+    return prioritizeHaiPhongProducts(
+      cachedData.products.map((product) => getLocalizedProduct(product, locale))
+    )
   } catch (error) {
     console.error('Error loading products:', error)
     return []
   }
 }
 
-export async function getProductBySlug(slug: string): Promise<Product | null> {
-  const products = await getAllProducts()
+export async function getProductBySlug(slug: string, locale: Locale = 'vi'): Promise<Product | null> {
+  const products = await getAllProducts(locale)
   return products.find((product) => product.slug === slug) || null
 }
 
-export async function getProductsByType(type: string): Promise<Product[]> {
-  const products = await getAllProducts()
+export async function getProductsByType(type: string, locale: Locale = 'vi'): Promise<Product[]> {
+  const products = await getAllProducts(locale)
   return products.filter((product) => product.type === type)
 }
 
 export async function getProductsPaginated(
   page = 1,
   limit = 20,
-  type?: string
+  type?: string,
+  locale: Locale = 'vi'
 ): Promise<{
   products: Product[]
   total: number
   page: number
   totalPages: number
 }> {
-  const products = type ? await getProductsByType(type) : await getAllProducts()
+  const products = type ? await getProductsByType(type, locale) : await getAllProducts(locale)
   const start = (page - 1) * limit
   const end = start + limit
   const paginatedProducts = products.slice(start, end)

@@ -10,10 +10,21 @@ export type ContactSubmission = {
   createdAt: string
 }
 
-const submissionsDir = path.join(process.cwd(), 'data')
-const submissionsPath = path.join(submissionsDir, 'contact-submissions.json')
+const localSubmissionsDir = path.join(/* turbopackIgnore: true */ process.cwd(), 'data')
+const fallbackSubmissionsDir = path.join('/tmp', 'macland')
+const submissionsFileName = 'contact-submissions.json'
 
-async function ensureStorage() {
+function getPreferredSubmissionsDir() {
+  if (process.env.VERCEL === '1') {
+    return fallbackSubmissionsDir
+  }
+
+  return localSubmissionsDir
+}
+
+async function ensureStorage(submissionsDir: string) {
+  const submissionsPath = path.join(submissionsDir, submissionsFileName)
+
   await fs.mkdir(submissionsDir, { recursive: true })
 
   try {
@@ -21,10 +32,19 @@ async function ensureStorage() {
   } catch {
     await fs.writeFile(submissionsPath, '[]\n', 'utf8')
   }
+
+  return submissionsPath
 }
 
 export async function saveContactSubmission(submission: ContactSubmission) {
-  await ensureStorage()
+  let submissionsPath: string
+
+  try {
+    submissionsPath = await ensureStorage(getPreferredSubmissionsDir())
+  } catch (error) {
+    console.warn('Falling back to tmp contact submission storage:', error)
+    submissionsPath = await ensureStorage(fallbackSubmissionsDir)
+  }
 
   const existing = await fs.readFile(submissionsPath, 'utf8')
   const parsed = JSON.parse(existing) as ContactSubmission[]
@@ -33,4 +53,4 @@ export async function saveContactSubmission(submission: ContactSubmission) {
   await fs.writeFile(submissionsPath, `${JSON.stringify(parsed, null, 2)}\n`, 'utf8')
 }
 
-export { submissionsPath }
+export const submissionsPath = path.join(getPreferredSubmissionsDir(), submissionsFileName)

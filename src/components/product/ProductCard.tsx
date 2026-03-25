@@ -14,19 +14,22 @@ import {
   getProductTransactionStatus,
 } from '@/lib/data/product-utils'
 import ProductImage from './ProductImage'
+import { Locale } from '@/lib/i18n/config'
+import { getDictionary } from '@/lib/i18n/dictionaries'
 
 interface ProductCardProps {
   product: Product
   index?: number
+  locale: Locale
 }
 
-export default function ProductCard({ product, index = 0 }: ProductCardProps) {
+export default function ProductCard({ product, index = 0, locale }: ProductCardProps) {
+  const dict = getDictionary(locale)
   const imageUrl = getImageUrl(product, 'medium')
-  const locationLabel = getProductLocationLabel(product)
+  const locationLabel = getProductLocationLabel(product, locale)
   const displayTitle = getDisplayProductTitle(product)
-  const transactionStatus = getProductTransactionStatus(product)
-  const areaLabel = formatArea(product)
-  const areaMetaLabel = transactionStatus || areaLabel
+  const transactionStatus = getProductTransactionStatus(product, locale)
+  const areaLabel = formatArea(product, locale)
 
   return (
     <motion.div
@@ -49,7 +52,7 @@ export default function ProductCard({ product, index = 0 }: ProductCardProps) {
             {/* Type Badge */}
             <div className="absolute top-3 left-3">
               <span className="inline-block bg-red-600/95 backdrop-blur-sm text-white px-3 py-1.5 rounded-lg text-xs font-semibold shadow-md">
-                {formatProductType(product.type)}
+                {formatProductType(product.type, locale)}
               </span>
             </div>
           </div>
@@ -61,6 +64,14 @@ export default function ProductCard({ product, index = 0 }: ProductCardProps) {
               {displayTitle}
             </h3>
 
+            {transactionStatus && (
+              <div className="mb-3">
+                <span className="inline-flex items-center rounded-full border border-red-200 bg-red-50 px-2.5 py-1 text-[11px] font-semibold text-red-700">
+                  {transactionStatus}
+                </span>
+              </div>
+            )}
+
             {/* Location */}
             <div className="flex items-center text-gray-600 text-sm mb-3">
               <MapPin className="w-3.5 h-3.5 mr-1.5 flex-shrink-0 text-red-500" />
@@ -71,11 +82,11 @@ export default function ProductCard({ product, index = 0 }: ProductCardProps) {
             <div className="flex items-center gap-4 text-xs text-gray-700 mb-4">
               <div className="flex items-center gap-1.5 bg-gray-50 px-2.5 py-1.5 rounded-lg">
                 <Ruler className="w-3.5 h-3.5 text-red-600" />
-                <span className="font-medium">{areaMetaLabel}</span>
+                <span className="font-medium">{areaLabel}</span>
               </div>
               <div className="flex items-center gap-1.5 bg-gray-50 px-2.5 py-1.5 rounded-lg">
                 <DollarSign className="w-3.5 h-3.5 text-red-600" />
-                <span className="font-medium">{formatPrice(product)}</span>
+                <span className="font-medium">{formatPrice(product, locale)}</span>
               </div>
             </div>
 
@@ -86,7 +97,7 @@ export default function ProductCard({ product, index = 0 }: ProductCardProps) {
                   {product.details.occupancy_rate && `${product.details.occupancy_rate}`}
                 </span>
                 <span className="text-red-600 font-semibold group-hover:translate-x-1 transition-transform inline-flex items-center">
-                  Chi tiết
+                  {dict.products.detail}
                   <span className="ml-1">→</span>
                 </span>
               </div>
