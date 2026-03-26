@@ -94,22 +94,31 @@ export default function Header({ locale }: HeaderProps) {
               </Link>
             </div>
 
-            {/* Mobile menu button */}
-            <button
-              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className={cn(
-                "lg:hidden p-2.5 rounded-lg transition-all duration-200",
-                isScrolled
-                  ? "hover:bg-gray-100 text-gray-900"
-                  : "hover:bg-gray-100 text-gray-900"
-              )}
-            >
-              {isMobileMenuOpen ? (
-                <X className="w-6 h-6" />
-              ) : (
-                <Menu className="w-6 h-6" />
-              )}
-            </button>
+            <div className="flex items-center gap-2 lg:hidden">
+              <LanguageSwitcher
+                currentLocale={locale}
+                label={dict.language.label}
+                buttonClassName="min-w-[72px] justify-center gap-1.5 rounded-lg px-2.5 py-2 text-xs font-semibold"
+                menuClassName="right-0 min-w-[200px]"
+              />
+              <button
+                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                className={cn(
+                  "p-2.5 rounded-lg transition-all duration-200",
+                  isScrolled
+                    ? "hover:bg-gray-100 text-gray-900"
+                    : "hover:bg-gray-100 text-gray-900"
+                )}
+                aria-label={dict.nav.menu}
+                aria-expanded={isMobileMenuOpen}
+              >
+                {isMobileMenuOpen ? (
+                  <X className="w-6 h-6" />
+                ) : (
+                  <Menu className="w-6 h-6" />
+                )}
+              </button>
+            </div>
           </div>
         </div>
       </header>
@@ -126,15 +135,6 @@ export default function Header({ locale }: HeaderProps) {
           >
             <nav className="container mx-auto px-4 sm:px-6 py-6">
               <div className="flex flex-col space-y-1">
-                <div className="mb-3 px-4">
-                  <LanguageSwitcher
-                    currentLocale={locale}
-                    label={dict.language.label}
-                    className="w-full"
-                    buttonClassName="flex w-full items-center justify-between rounded-xl border border-gray-200 px-4 py-3"
-                    menuClassName="left-0 right-0 top-[calc(100%+0.5rem)] min-w-0"
-                  />
-                </div>
                 {navigation.map((item) => (
                   <Link
                     key={item.name}
