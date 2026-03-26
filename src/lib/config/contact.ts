@@ -18,7 +18,7 @@ export const publicContact = {
   ],
   email: 'info@macland.vn',
   emailHref: 'mailto:info@macland.vn',
-  address: 'LTA-505 Đường Tương Lai, Vinhomes Royal Vũ Yên, Hải Phòng',
+  address: 'TLA-505 Đường Tương Lai, Vinhomes Royal Vũ Yên, Hải Phòng',
 } as const
 
 export const primaryPhone = publicContact.phones[0]

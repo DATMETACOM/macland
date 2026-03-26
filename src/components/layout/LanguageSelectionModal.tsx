@@ -57,8 +57,8 @@ export default function LanguageSelectionModal({
 
   return (
     <div className="fixed inset-0 z-[95] bg-gray-950/55 backdrop-blur-sm">
-      <div className="flex min-h-full items-center justify-center p-4">
-        <div className="relative w-full max-w-2xl overflow-hidden rounded-[28px] bg-white shadow-2xl">
+      <div className="flex min-h-full items-center justify-center p-3 sm:p-4">
+        <div className="relative flex max-h-[calc(100dvh-1.5rem)] w-full max-w-lg flex-col overflow-hidden rounded-[24px] bg-white shadow-2xl sm:max-h-[calc(100dvh-2rem)] sm:rounded-[28px]">
           <button
             type="button"
             onClick={() => setIsOpen(false)}
@@ -68,17 +68,17 @@ export default function LanguageSelectionModal({
             <X className="h-5 w-5" />
           </button>
 
-          <div className="bg-gradient-to-r from-gray-900 via-gray-800 to-red-700 px-6 py-8 text-white sm:px-8">
-            <div className="mb-3 inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.16em] text-red-50">
+          <div className="shrink-0 bg-gradient-to-r from-gray-900 via-gray-800 to-red-700 px-5 py-5 text-white sm:px-8 sm:py-7">
+            <div className="mb-3 inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-red-50 sm:text-xs">
               <MapPin className="h-3.5 w-3.5" />
               {recommendedLabel}: {recommendedLocale.nativeLabel}
             </div>
-            <h2 className="max-w-xl text-2xl font-bold sm:text-3xl">{title}</h2>
-            <p className="mt-3 max-w-xl text-sm leading-6 text-gray-200 sm:text-base">{description}</p>
+            <h2 className="max-w-xl text-xl font-bold sm:text-3xl">{title}</h2>
+            <p className="mt-2 max-w-xl text-sm leading-6 text-gray-200 sm:mt-3 sm:text-base">{description}</p>
           </div>
 
-          <div className="px-6 py-6 sm:px-8 sm:py-8">
-            <div className="grid gap-3 sm:grid-cols-2">
+          <div className="flex-1 overflow-y-auto px-5 py-5 sm:px-8 sm:py-7">
+            <div className="grid gap-2.5 sm:grid-cols-2 sm:gap-3">
               {languageOptions.map((option) => {
                 const isSelected = option.code === selectedLocale
                 const isRecommended = option.code === initialLocale
@@ -89,7 +89,7 @@ export default function LanguageSelectionModal({
                     type="button"
                     onClick={() => setSelectedLocale(option.code)}
                     className={cn(
-                      'rounded-2xl border px-4 py-4 text-left transition',
+                      'rounded-2xl border px-4 py-3.5 text-left transition sm:py-4',
                       isSelected
                         ? 'border-red-500 bg-red-50 shadow-sm'
                         : 'border-gray-200 bg-white hover:border-gray-300 hover:bg-gray-50'
@@ -105,7 +105,7 @@ export default function LanguageSelectionModal({
                             </span>
                           )}
                         </div>
-                        <p className="mt-1 text-sm text-gray-500">{option.label}</p>
+                        <p className="mt-1 text-xs text-gray-500 sm:text-sm">{option.label}</p>
                       </div>
                       {isSelected && (
                         <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-red-600 text-white">
@@ -117,13 +117,15 @@ export default function LanguageSelectionModal({
                 )
               })}
             </div>
+          </div>
 
-            <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+          <div className="shrink-0 border-t border-gray-100 bg-white px-5 py-4 sm:px-8">
+            <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
               <p className="text-sm text-gray-500">{helper}</p>
               <button
                 type="button"
                 onClick={() => persistLocale(selectedLocale)}
-                className="inline-flex items-center justify-center rounded-xl bg-red-600 px-5 py-3 font-semibold text-white transition hover:bg-red-700"
+                className="inline-flex w-full items-center justify-center rounded-xl bg-red-600 px-5 py-3 font-semibold text-white transition hover:bg-red-700 sm:w-auto"
               >
                 {confirmLabel}
               </button>

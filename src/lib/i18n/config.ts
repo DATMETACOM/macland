@@ -14,11 +14,11 @@ export type LanguageOption = {
 export const defaultLocale: Locale = 'vi'
 
 export const languageOptions: LanguageOption[] = [
-  { code: 'vi', label: 'Vietnamese', nativeLabel: 'Tiếng Việt', shortLabel: 'VI' },
+  { code: 'vi', label: 'Vietnamese', nativeLabel: 'Vietnamese', shortLabel: 'VI' },
   { code: 'en', label: 'English', nativeLabel: 'English', shortLabel: 'EN' },
-  { code: 'zh', label: 'Chinese', nativeLabel: '中文', shortLabel: 'ZH' },
-  { code: 'ko', label: 'Korean', nativeLabel: '한국어', shortLabel: 'KO' },
-  { code: 'ja', label: 'Japanese', nativeLabel: '日本語', shortLabel: 'JA' },
+  { code: 'zh', label: 'Chinese', nativeLabel: 'Chinese', shortLabel: 'ZH' },
+  { code: 'ko', label: 'Korean', nativeLabel: 'Korean', shortLabel: 'KO' },
+  { code: 'ja', label: 'Japanese', nativeLabel: 'Japanese', shortLabel: 'JA' },
 ]
 
 export function isLocale(value: string | null | undefined): value is Locale {
