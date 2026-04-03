@@ -736,5 +736,95 @@
     "location": {
       "address": "Xã Tam Giang, Huyện Yên Phong, Tỉnh Bắc Ninh"
     }
+  },
+  "chuyen-nhuong-1-8ha-gan-kcn-nomura-hai-phong": {
+    "title": "Factory asset of 1.8 hectares near Nomura Industrial Park, Hai Phong",
+    "content": {
+      "description": "A 1.8-hectare transfer asset near Nomura Industrial Park in Hai Phong, outside the industrial park, with 3,000 sq.m of ready-to-operate factory space, 250 sq.m of office space, an existing power substation and clear legal status.",
+      "full_content": "I. Overview\nCode: CN01.\nThis transfer asset has a total scale of 1.8 hectares near Nomura Industrial Park in Hai Phong, outside the industrial park boundary. It suits companies that need both land bank and a factory that can start operating immediately.\n\nII. Asset scale\nTotal site area: 1.8 hectares.\nExisting factory: 3,000 sq.m, ready for immediate operation.\nOffice building: 250 sq.m.\nAn existing power substation is already in place.\n\nIII. Key advantages\nThe property benefits from good transport connectivity for cargo movement.\nIts legal status is clear, which supports a fast transaction process.\nIt is suitable for manufacturers, warehouse operators and investors seeking ready infrastructure.\n\nIV. Asking price\nAsking price: USD 2.3 million."
+    },
+    "location": {
+      "province": "Hai Phong",
+      "district": "Near Nomura Industrial Park",
+      "address": "Near Nomura Industrial Park in Hai Phong, outside the industrial park; the asset includes an existing factory, office building and power substation."
+    },
+    "details": {
+      "occupancy_rate": "Ready for immediate operation"
+    },
+    "legal": {
+      "status": "Clear legal status"
+    }
+  },
+  "chuyen-nhuong-du-an-2-1ha-an-lao-hai-phong": {
+    "title": "Factory project of 2.1 hectares in An Lao, Hai Phong",
+    "content": {
+      "description": "A 2.1-hectare transfer project in An Lao, Hai Phong, currently operating 11,000 sq.m of factory space and generating around VND 700 million per month, suitable for investors acquiring an income-producing industrial asset.",
+      "full_content": "I. Overview\nCode: CN02.\nThis transfer project in An Lao has a scale of 2.1 hectares and suits investors or operators seeking an industrial asset that is already running and generating cash flow.\n\nII. Asset scale\nLand area: 2.1 hectares.\nExisting operating factory area: 11,000 sq.m.\nCurrent revenue: around VND 700 million per month.\nThe site includes office facilities and an existing power substation.\n\nIII. Key advantages\nThe location supports labor recruitment in the Hai Phong market.\nTransport connectivity is convenient for cargo movement.\nLegal documentation is complete and the project includes an automatic fire protection system.\n\nIV. Asking price\nAsking price: VND 140 billion."
+    },
+    "location": {
+      "province": "Hai Phong",
+      "district": "An Lao",
+      "address": "Located in An Lao, Hai Phong; the site has convenient labor access, good transport connectivity and an existing operating income stream."
+    },
+    "details": {
+      "occupancy_rate": "11,000 sq.m currently in operation"
+    },
+    "legal": {
+      "status": "Complete legal documents, automatic fire protection system"
+    }
+  },
+  "chuyen-nhuong-5-1ha-kcn-deep-c3-hai-phong": {
+    "title": "Industrial land plot of 5.1 hectares at DEEP C3 Industrial Park, Hai Phong",
+    "content": {
+      "description": "A 5.1-hectare industrial land plot at DEEP C3 Industrial Park with site clearance completed, ready for handover, located in the commercial-service zone and about 2 km from Lach Huyen deep-water port.",
+      "full_content": "I. Overview\nCode: CN03.\nThis 5.1-hectare industrial land plot at DEEP C3 Industrial Park suits companies that need a large site inside an industrial park, with a fast implementation timeline and strong seaport connectivity.\n\nII. Current asset status\nTransfer area: 5.1 hectares.\nThe site is already cleared and can be handed over immediately.\nIt is suitable for manufacturing, logistics or large-scale warehouse development.\n\nIII. Location and connectivity\nThe plot is located in the commercial-service zone of DEEP C3 Industrial Park.\nIt is about 2 km from Lach Huyen deep-water port.\nThis location is appropriate for businesses that prioritize port-based logistics advantages.\n\nIV. Asking price\nAsking price: USD 140 per sq.m."
+    },
+    "location": {
+      "province": "Hai Phong",
+      "district": "DEEP C3 Industrial Park",
+      "address": "Located at DEEP C3 Industrial Park in Hai Phong, within the commercial-service zone and about 2 km from Lach Huyen deep-water port."
+    },
+    "details": {
+      "occupancy_rate": "Ready for handover"
+    },
+    "legal": {
+      "status": "Ready for handover"
+    }
+  },
+  "cho-thue-5000m2-nha-xuong-kcn-dinh-vu-hai-phong": {
+    "title": "5,000 sq.m factory for lease at Dinh Vu Industrial Park, Hai Phong",
+    "content": {
+      "description": "A 5,000 sq.m factory for lease at Dinh Vu Industrial Park, ready for production or warehouse use immediately, with an additional 4,000 sq.m yard for raw material staging.",
+      "full_content": "I. Overview\nCode: CT01.\nThis factory for lease at Dinh Vu Industrial Park suits companies that need operating space immediately, either for manufacturing or for warehouse use in Hai Phong's port-linked area.\n\nII. Leasing scale\nFactory area: 5,000 sq.m.\nThe property can be used for production immediately.\nIt is also suitable for warehouse operations.\nAn additional open yard area of about 4,000 sq.m is available for raw material staging.\n\nIII. Infrastructure and legal status\nThe site includes supporting works required for operation.\nIts legal status is clear.\nIt is suitable for businesses that need both factory and storage functions in one location.\n\nIV. Asking rent\nQuoted rent: USD 5 per sq.m."
+    },
+    "location": {
+      "province": "Hai Phong",
+      "district": "Dinh Vu",
+      "address": "Located at Dinh Vu Industrial Park in Hai Phong; suitable for production or warehouse use and includes additional yard space."
+    },
+    "details": {
+      "occupancy_rate": "Ready for immediate operation"
+    },
+    "legal": {
+      "status": "Clear legal status"
+    }
+  },
+  "cho-thue-5000m2-nha-xuong-an-lao-hai-phong": {
+    "title": "5,000 sq.m factory for lease in An Lao, Hai Phong",
+    "content": {
+      "description": "A new 5,000 sq.m factory in An Lao, Hai Phong, scheduled for handover in June 2026, built to modern standards with full fire protection and legal documentation.",
+      "full_content": "I. Overview\nCode: CT02.\nThis factory for lease in An Lao is suitable for companies planning capacity expansion in 2026 and looking for a new facility with complete operating standards.\n\nII. Asset specifications\nFactory area: 5,000 sq.m.\nThe building is developed to modern factory standards.\nThe site includes a full fire protection system and complete legal documentation.\nExpected handover timeline: June 2026.\n\nIII. Key advantages\nIt suits businesses that want to prepare expansion plans before handover.\nThe An Lao location supports transport connectivity and labor recruitment within Hai Phong.\nThe property can be used for production or storage depending on the business model.\n\nIV. Asking rent\nQuoted rent: USD 4.8 per sq.m."
+    },
+    "location": {
+      "province": "Hai Phong",
+      "district": "An Lao",
+      "address": "Located in An Lao, Hai Phong; a modern standard factory scheduled for handover in June 2026."
+    },
+    "details": {
+      "occupancy_rate": "Handover in June 2026"
+    },
+    "legal": {
+      "status": "Complete fire protection and legal documentation"
+    }
   }
 }

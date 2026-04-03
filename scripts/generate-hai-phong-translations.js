@@ -22,6 +22,11 @@ const preserveManualSlugs = new Set([
   'nha-xuong-tai-kcn-deep-c-2-201',
   'nha-xuong-kcn-deep-c-ii-001',
   'nha-xuong-tai-ccn-tan-lien-a',
+  'chuyen-nhuong-1-8ha-gan-kcn-nomura-hai-phong',
+  'chuyen-nhuong-du-an-2-1ha-an-lao-hai-phong',
+  'chuyen-nhuong-5-1ha-kcn-deep-c3-hai-phong',
+  'cho-thue-5000m2-nha-xuong-kcn-dinh-vu-hai-phong',
+  'cho-thue-5000m2-nha-xuong-an-lao-hai-phong',
 ])
 const localePaths = Object.fromEntries(
   locales.map((locale) => [locale, path.join(root, 'data', 'product-translations', `${locale}.json`)])
