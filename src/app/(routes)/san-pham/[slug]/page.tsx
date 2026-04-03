@@ -59,6 +59,17 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
   const areaLabel = formatArea(product, locale)
   const visibleImages = images.slice(0, 4)
   const galleryItemWidth = `${100 / Math.max(visibleImages.length, 1)}%`
+  const assetStatusLabel = product.type === 'nha-xuong'
+    ? locale === 'vi' ? 'Hiện trạng'
+      : locale === 'zh' ? '现状'
+      : locale === 'ko' ? '현황'
+      : locale === 'ja' ? '現況'
+      : 'Asset status'
+    : locale === 'vi' ? 'Tỷ lệ lấp đầy'
+      : locale === 'zh' ? '入驻率'
+      : locale === 'ko' ? '점유율'
+      : locale === 'ja' ? '入居率'
+      : 'Occupancy'
   const contactHref = {
     pathname: '/lien-he',
     query: {
@@ -196,9 +207,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
 
                   {product.details.occupancy_rate && (
                     <div className="flex items-center justify-between border-b py-3">
-                      <span className="text-gray-600">
-                        {locale === 'vi' ? 'Tỷ lệ lấp đầy' : locale === 'zh' ? '入驻率' : locale === 'ko' ? '점유율' : locale === 'ja' ? '入居率' : 'Occupancy'}
-                      </span>
+                      <span className="text-gray-600">{assetStatusLabel}</span>
                       <span className="font-semibold text-gray-900">{product.details.occupancy_rate}</span>
                     </div>
                   )}

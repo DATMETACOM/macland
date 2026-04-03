@@ -2,7 +2,7 @@
   "metadata": {
     "source_url": "https://www.redsunland.vn",
     "extracted_at": "2026-03-19T20:57:28.871447",
-    "total_products": 359,
+    "total_products": 408,
     "date_filter": {
       "from": "2025-01-01",
       "to": "2026-12-31"
@@ -10,6 +10,2345 @@
     "completed_at": "2026-03-20T03:08:24.857751"
   },
   "products": [
+    {
+      "id": "363cba2a2f52",
+      "slug": "chuyen-nhuong-1-8ha-gan-kcn-nomura-hai-phong",
+      "url": "https://macland.vn/san-pham/chuyen-nhuong-1-8ha-gan-kcn-nomura-hai-phong",
+      "title": "[CHUYỂN NHƯỢNG] Nhà xưởng 1,8 ha gần KCN Nomura Hải Phòng",
+      "type": "nha-xuong",
+      "date": "2026-04-03",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Gần KCN Nomura",
+        "address": "Gần KCN Nomura Hải Phòng, ngoài khu công nghiệp; tài sản có sẵn nhà xưởng, văn phòng và trạm điện.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "1,8 ha",
+        "area_unit": "ha",
+        "occupancy_rate": "Sẵn sàng vận hành",
+        "operating_period": "Có thể vào hoạt động ngay",
+        "investment_sectors": [
+          "Sản xuất công nghiệp",
+          "Kho vận",
+          "Gia công cơ khí",
+          "Kho nguyên vật liệu",
+          "Doanh nghiệp cần nhà xưởng hoạt động ngay"
+        ]
+      },
+      "pricing": {
+        "type": "co-dinh",
+        "price": "2,3 triệu USD",
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Pháp lý rõ ràng",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Tài sản 1,8 ha gần KCN Nomura Hải Phòng, ngoài khu công nghiệp, đã có sẵn 3.000m2 nhà xưởng vận hành ngay, 250m2 văn phòng, trạm điện và pháp lý rõ ràng.",
+        "full_content": "I. Tổng quan\nMã sản phẩm: CN01.\nTài sản chuyển nhượng quy mô 1,8 ha nằm gần KCN Nomura Hải Phòng, ngoài khu công nghiệp, phù hợp doanh nghiệp cần vừa quỹ đất vừa nhà xưởng sẵn vận hành.\n\nII. Quy mô tài sản\n- Tổng diện tích khuôn viên: 1,8 ha.\n- Nhà xưởng hiện hữu: 3.000m2, có thể vào hoạt động ngay.\n- Nhà văn phòng: 250m2.\n- Đầy đủ trạm điện phục vụ vận hành.\n\nIII. Lợi thế khai thác\n- Hạ tầng kết nối giao thông tốt, thuận tiện vận chuyển hàng hóa.\n- Pháp lý rõ ràng, phù hợp triển khai giao dịch nhanh.\n- Phù hợp doanh nghiệp sản xuất, kho vận hoặc nhà đầu tư cần tài sản có sẵn hạ tầng.\n\nIV. Giá chuyển nhượng\n- Giá chào: 2,3 triệu USD.",
+        "highlights": [
+          "3.000m2 nhà xưởng hoạt động ngay",
+          "250m2 nhà văn phòng và trạm điện sẵn có",
+          "Giá chuyển nhượng 2,3 triệu USD"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "0b86147290ed",
+      "slug": "chuyen-nhuong-du-an-2-1ha-an-lao-hai-phong",
+      "url": "https://macland.vn/san-pham/chuyen-nhuong-du-an-2-1ha-an-lao-hai-phong",
+      "title": "[CHUYỂN NHƯỢNG] Dự án nhà xưởng 2,1 ha tại An Lão, Hải Phòng",
+      "type": "nha-xuong",
+      "date": "2026-04-03",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "An Lão",
+        "address": "Tại An Lão, Hải Phòng; vị trí thuận lợi tuyển dụng lao động, kết nối giao thông tốt và đang có dòng tiền khai thác.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "2,1 ha",
+        "area_unit": "ha",
+        "occupancy_rate": "Đang khai thác 11.000m2",
+        "operating_period": "Doanh thu khoảng 700 triệu/tháng",
+        "investment_sectors": [
+          "Nhà đầu tư mua tài sản đang vận hành",
+          "Sản xuất công nghiệp",
+          "Kho xưởng",
+          "Doanh nghiệp cần dòng tiền sẵn có",
+          "Gia công xuất khẩu"
+        ]
+      },
+      "pricing": {
+        "type": "co-dinh",
+        "price": "140 tỷ",
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Pháp lý đầy đủ, PCCC tự động",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Dự án chuyển nhượng 2,1 ha tại An Lão, Hải Phòng đang khai thác 11.000m2 nhà xưởng với doanh thu khoảng 700 triệu/tháng, phù hợp nhà đầu tư mua tài sản đang vận hành.",
+        "full_content": "I. Tổng quan\nMã sản phẩm: CN02.\nDự án chuyển nhượng tại An Lão có quy mô 2,1 ha, phù hợp nhà đầu tư hoặc doanh nghiệp muốn tiếp nhận tài sản đang vận hành và có dòng tiền sẵn có.\n\nII. Quy mô tài sản\n- Diện tích khu đất: 2,1 ha.\n- Diện tích nhà xưởng đang khai thác: 11.000m2.\n- Doanh thu hiện tại khoảng 700 triệu/tháng.\n- Có đầy đủ nhà văn phòng và trạm điện phục vụ vận hành.\n\nIII. Lợi thế khai thác\n- Vị trí thuận lợi cho tuyển dụng lao động.\n- Kết nối giao thông thuận tiện cho vận chuyển hàng hóa.\n- Pháp lý đầy đủ, hệ thống PCCC tự động.\n\nIV. Giá chuyển nhượng\n- Giá chào: 140 tỷ.",
+        "highlights": [
+          "11.000m2 nhà xưởng đang khai thác",
+          "Doanh thu khoảng 700 triệu/tháng",
+          "Giá chuyển nhượng 140 tỷ"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "2a3c587c9e7c",
+      "slug": "chuyen-nhuong-5-1ha-kcn-deep-c3-hai-phong",
+      "url": "https://macland.vn/san-pham/chuyen-nhuong-5-1ha-kcn-deep-c3-hai-phong",
+      "title": "[CHUYỂN NHƯỢNG] Lô đất công nghiệp 5,1 ha tại KCN DEEP C3 Hải Phòng",
+      "type": "nha-xuong",
+      "date": "2026-04-03",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "KCN DEEP C3",
+        "address": "Tại KCN DEEP C3, Hải Phòng; nằm trong khu TMTD và cách cảng nước sâu Lạch Huyện khoảng 2 km.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "5,1 ha",
+        "area_unit": "ha",
+        "occupancy_rate": "Bàn giao ngay",
+        "operating_period": "Mặt bằng đã sẵn sàng",
+        "investment_sectors": [
+          "Công nghiệp gắn logistics cảng biển",
+          "Kho vận",
+          "Sản xuất xuất nhập khẩu",
+          "Dự án cần quỹ đất lớn",
+          "Doanh nghiệp FDI"
+        ]
+      },
+      "pricing": {
+        "type": "tu-usd-m2",
+        "price": "140 USD/m2",
+        "price_min": null,
+        "price_unit": "USD/m²"
+      },
+      "legal": {
+        "status": "Sẵn sàng bàn giao",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Lô đất công nghiệp 5,1 ha tại KCN DEEP C3 đã có sẵn mặt bằng sạch, bàn giao ngay, nằm trong khu TMTD và cách cảng nước sâu Lạch Huyện khoảng 2 km.",
+        "full_content": "I. Tổng quan\nMã sản phẩm: CN03.\nLô đất công nghiệp 5,1 ha tại KCN DEEP C3 phù hợp doanh nghiệp cần quỹ đất lớn trong khu công nghiệp, ưu tiên triển khai nhanh và bám sát hệ sinh thái cảng biển Hải Phòng.\n\nII. Hiện trạng tài sản\n- Diện tích chuyển nhượng: 5,1 ha.\n- Đã có sẵn mặt bằng, có thể bàn giao ngay.\n- Phù hợp lập dự án sản xuất, logistics hoặc kho bãi quy mô lớn.\n\nIII. Vị trí và kết nối\n- Nằm trong khu TMTD của KCN DEEP C3.\n- Cách cảng nước sâu Lạch Huyện khoảng 2 km.\n- Vị trí phù hợp cho doanh nghiệp cần lợi thế logistics cảng biển.\n\nIV. Giá chuyển nhượng\n- Giá chào: 140 USD/m2.",
+        "highlights": [
+          "Quỹ đất 5,1 ha đã có sẵn mặt bằng",
+          "Cách cảng nước sâu Lạch Huyện khoảng 2 km",
+          "Giá chuyển nhượng 140 USD/m2"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "4c170b171e41",
+      "slug": "cho-thue-5000m2-nha-xuong-kcn-dinh-vu-hai-phong",
+      "url": "https://macland.vn/san-pham/cho-thue-5000m2-nha-xuong-kcn-dinh-vu-hai-phong",
+      "title": "Cho thuê 5.000m2 nhà xưởng tại KCN Đình Vũ, Hải Phòng",
+      "type": "nha-xuong",
+      "date": "2026-04-03",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Đình Vũ",
+        "address": "Tại KCN Đình Vũ, Hải Phòng; phù hợp sản xuất hoặc làm kho chứa hàng hóa, có thêm sân bãi trống đi kèm.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "5.000 m2",
+        "area_unit": "m2",
+        "occupancy_rate": "Vào sản xuất ngay",
+        "operating_period": "Có thể làm kho hoặc nhà xưởng",
+        "investment_sectors": [
+          "Sản xuất công nghiệp",
+          "Kho chứa hàng hóa",
+          "Logistics",
+          "Tập kết nguyên vật liệu",
+          "Kho phụ trợ cảng biển"
+        ]
+      },
+      "pricing": {
+        "type": "tu-usd-m2",
+        "price": "5 USD/m2",
+        "price_min": null,
+        "price_unit": "USD/m²"
+      },
+      "legal": {
+        "status": "Pháp lý rõ ràng",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Nhà xưởng cho thuê 5.000m2 tại KCN Đình Vũ có thể vào sản xuất hoặc làm kho ngay, kèm thêm 4.000m2 sân bãi trống để tập kết nguyên vật liệu.",
+        "full_content": "I. Tổng quan\nMã sản phẩm: CT01.\nNhà xưởng cho thuê tại KCN Đình Vũ phù hợp doanh nghiệp cần diện tích vận hành ngay hoặc khai thác làm kho chứa hàng hóa tại khu vực cảng biển Hải Phòng.\n\nII. Quy mô khai thác\n- Diện tích nhà xưởng: 5.000m2.\n- Có thể vào sản xuất ngay.\n- Có thể sử dụng làm kho chứa hàng hóa.\n- Có thêm khoảng 4.000m2 diện tích đất trống để tập kết nguyên vật liệu.\n\nIII. Hạ tầng và pháp lý\n- Đầy đủ công trình phụ trợ phục vụ vận hành.\n- Pháp lý rõ ràng.\n- Phù hợp mô hình vừa sản xuất vừa lưu kho.\n\nIV. Giá thuê\n- Đơn giá thuê chào: 5 USD/m2.",
+        "highlights": [
+          "5.000m2 nhà xưởng sử dụng ngay",
+          "Có thêm 4.000m2 sân bãi trống",
+          "Giá thuê 5 USD/m2"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "c9fc6d2a0d4f",
+      "slug": "cho-thue-5000m2-nha-xuong-an-lao-hai-phong",
+      "url": "https://macland.vn/san-pham/cho-thue-5000m2-nha-xuong-an-lao-hai-phong",
+      "title": "Cho thuê 5.000m2 nhà xưởng tại An Lão, Hải Phòng",
+      "type": "nha-xuong",
+      "date": "2026-04-03",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "An Lão",
+        "address": "Tại An Lão, Hải Phòng; nhà xưởng tiêu chuẩn mới, dự kiến bàn giao vào tháng 6/2026.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "5.000 m2",
+        "area_unit": "m2",
+        "occupancy_rate": "Bàn giao 06/2026",
+        "operating_period": "Xưởng tiêu chuẩn mới",
+        "investment_sectors": [
+          "Sản xuất công nghiệp",
+          "Kho xưởng tiêu chuẩn mới",
+          "Công nghiệp phụ trợ",
+          "Doanh nghiệp cần bàn giao năm 2026",
+          "Gia công xuất khẩu"
+        ]
+      },
+      "pricing": {
+        "type": "tu-usd-m2",
+        "price": "4,8 USD/m2",
+        "price_min": null,
+        "price_unit": "USD/m²"
+      },
+      "legal": {
+        "status": "PCCC và pháp lý đầy đủ",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Nhà xưởng mới 5.000m2 tại An Lão sẽ bàn giao vào tháng 6/2026, đạt tiêu chuẩn mới, đầy đủ PCCC và pháp lý.",
+        "full_content": "I. Tổng quan\nMã sản phẩm: CT02.\nNhà xưởng cho thuê tại An Lão phù hợp doanh nghiệp đang lên kế hoạch mở rộng công suất trong năm 2026 và cần một xưởng mới, đầy đủ tiêu chuẩn vận hành.\n\nII. Thông số tài sản\n- Diện tích nhà xưởng: 5.000m2.\n- Xưởng được xây dựng theo tiêu chuẩn mới.\n- Đầy đủ hệ thống PCCC và pháp lý.\n- Thời gian bàn giao dự kiến: tháng 6/2026.\n\nIII. Lợi thế khai thác\n- Phù hợp doanh nghiệp cần chuẩn bị kế hoạch mở rộng trước thời điểm bàn giao.\n- Vị trí An Lão thuận tiện kết nối giao thông và tuyển dụng lao động khu vực Hải Phòng.\n- Có thể khai thác cho sản xuất hoặc lưu trữ tùy ngành nghề phù hợp.\n\nIV. Giá thuê\n- Đơn giá thuê chào: 4,8 USD/m2.",
+        "highlights": [
+          "5.000m2 nhà xưởng tiêu chuẩn mới",
+          "Dự kiến bàn giao tháng 6/2026",
+          "Giá thuê 4,8 USD/m2"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "40ff98c3ec95",
+      "slug": "chuyen-nhuong-khu-cong-nghiep-trang-due-hai-phong",
+      "url": "https://macland.vn/san-pham/chuyen-nhuong-khu-cong-nghiep-trang-due-hai-phong",
+      "title": "[CHUYỂN NHƯỢNG] Mặt bằng nhà xưởng tại khu công nghiệp Tràng Duệ Hải Phòng",
+      "type": "khu-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "An Lão",
+        "address": "Thuộc các xã An Tiến, Trường Thành, Trường Thọ, Bát Trang, huyện An Lão, thành phố Hải Phòng; nằm trong Khu kinh tế Đình Vũ - Cát Hải.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "401 ha",
+        "area_unit": "ha",
+        "occupancy_rate": "GĐ1 100%, GĐ2 86%",
+        "operating_period": "Từ năm 2007",
+        "investment_sectors": [
+          "Công nghệ cao",
+          "Điện tử",
+          "Công nghiệp hỗ trợ",
+          "Cơ khí chính xác",
+          "Kho xưởng phụ trợ"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Đang vận hành",
+        "land_use_period": "Theo thời hạn từng giai đoạn dự án"
+      },
+      "content": {
+        "description": "Khu Công nghiệp Tràng Duệ là một trong những điểm đến công nghiệp công nghệ cao nổi bật nhất tại Hải Phòng, sở hữu hệ sinh thái doanh nghiệp điện tử và công nghiệp hỗ trợ quy mô lớn.",
+        "full_content": "Khu Công nghiệp Tràng Duệ là một trong những điểm đến công nghiệp công nghệ cao nổi bật nhất tại Hải Phòng, sở hữu hệ sinh thái doanh nghiệp điện tử và công nghiệp hỗ trợ quy mô lớn.\n\nI. Tổng quan\nKhu Công Nghiệp Tràng Duệ Hải Phòng là khu công nghiệp đang vận hành và là một trong những lựa chọn đáng chú ý tại Hải Phòng cho doanh nghiệp cần quỹ đất công nghiệp, nhà xưởng, kho xưởng hoặc mặt bằng sản xuất. Đây là nhóm sản phẩm MACLAND định hướng khai thác theo hướng vừa làm content tổng quan, vừa mở rộng sang các bài con về chuyển nhượng đất, cho thuê nhà xưởng và mặt bằng công nghiệp.\n\nII. Vị trí và kết nối\nThuộc các xã An Tiến, Trường Thành, Trường Thọ, Bát Trang, huyện An Lão, thành phố Hải Phòng; nằm trong Khu kinh tế Đình Vũ - Cát Hải.\nKết nối thuận lợi tới Quốc lộ 10, cao tốc Hà Nội - Hải Phòng, cảng Đình Vũ, cảng Lạch Huyện và sân bay Cát Bi.\n\nIII. Lợi thế khai thác\nĐiểm mạnh lớn nhất của Tràng Duệ là hệ sinh thái sản xuất điện tử và chuỗi doanh nghiệp phụ trợ rất rõ nét, đặc biệt phù hợp với doanh nghiệp FDI và vendor muốn bám theo các nhà máy lớn.\nĐối với doanh nghiệp đang cần mở rộng sản xuất tại Hải Phòng, đây là dự án phù hợp để khảo sát theo cả hai hướng: khai thác nguồn hàng thực tế đang hiện hữu và tìm vị trí chiến lược cho nhu cầu vận hành trung hạn.\n\nIV. Nhóm doanh nghiệp phù hợp\nCông nghệ cao; Điện tử; Công nghiệp hỗ trợ; Cơ khí chính xác; Kho xưởng phụ trợ.\n\nV. Giải pháp từ MACLAND\nMACLAND hỗ trợ doanh nghiệp tìm kiếm quỹ đất công nghiệp, nhà xưởng, kho xưởng và mặt bằng sản xuất phù hợp tại KCN Tràng Duệ theo diện tích, ngành nghề, tiến độ triển khai và phương án khai thác thực tế.",
+        "highlights": [
+          "Hệ sinh thái LG và doanh nghiệp phụ trợ",
+          "Vị trí kết nối logistics thuận tiện",
+          "Phù hợp công nghệ cao và điện tử"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "5bd7ff4fd5ed",
+      "slug": "chuyen-nhuong-khu-cong-nghiep-nam-dinh-vu-khu-1-hai-phong",
+      "url": "https://macland.vn/san-pham/chuyen-nhuong-khu-cong-nghiep-nam-dinh-vu-khu-1-hai-phong",
+      "title": "[CHUYỂN NHƯỢNG] Mặt bằng nhà xưởng tại khu công nghiệp Nam Đình Vũ Khu 1 Hải Phòng",
+      "type": "khu-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Khu kinh tế Đình Vũ - Cát Hải",
+        "address": "Nằm trong Khu kinh tế Đình Vũ - Cát Hải, thành phố Hải Phòng, gắn chặt với hệ sinh thái cảng biển và logistics khu vực Đình Vũ.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "Đang cập nhật",
+        "area_unit": "",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "Đang vận hành",
+        "investment_sectors": [
+          "Logistics",
+          "Kho bãi",
+          "Sản xuất gắn xuất nhập khẩu",
+          "Công nghiệp phụ trợ",
+          "Dịch vụ hậu cần công nghiệp"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Đang vận hành",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Khu Công nghiệp Nam Đình Vũ Khu 1 là lựa chọn nổi bật cho doanh nghiệp cần quỹ đất công nghiệp, kho bãi, mặt bằng logistics và hệ sinh thái sản xuất gắn với cảng biển tại Hải Phòng.",
+        "full_content": "Khu Công nghiệp Nam Đình Vũ Khu 1 là lựa chọn nổi bật cho doanh nghiệp cần quỹ đất công nghiệp, kho bãi, mặt bằng logistics và hệ sinh thái sản xuất gắn với cảng biển tại Hải Phòng.\n\nI. Tổng quan\nKhu Công Nghiệp Nam Đình Vũ Khu 1 Hải Phòng là khu công nghiệp đang vận hành và là một trong những lựa chọn đáng chú ý tại Hải Phòng cho doanh nghiệp cần quỹ đất công nghiệp, nhà xưởng, kho xưởng hoặc mặt bằng sản xuất. Đây là nhóm sản phẩm MACLAND định hướng khai thác theo hướng vừa làm content tổng quan, vừa mở rộng sang các bài con về chuyển nhượng đất, cho thuê nhà xưởng và mặt bằng công nghiệp.\n\nII. Vị trí và kết nối\nNằm trong Khu kinh tế Đình Vũ - Cát Hải, thành phố Hải Phòng, gắn chặt với hệ sinh thái cảng biển và logistics khu vực Đình Vũ.\nCó lợi thế lớn về kết nối cảng biển, bãi container và chuỗi dịch vụ hậu cần phục vụ nhập nguyên liệu, lưu kho và xuất hàng.\n\nIII. Lợi thế khai thác\nNam Đình Vũ Khu 1 phù hợp với doanh nghiệp ưu tiên hiệu quả logistics tổng thể, cần bố trí nhà máy, kho nguyên liệu, kho thành phẩm hoặc mặt bằng trung chuyển hàng hóa trong cùng một hệ sinh thái.\nĐối với doanh nghiệp đang cần mở rộng sản xuất tại Hải Phòng, đây là dự án phù hợp để khảo sát theo cả hai hướng: khai thác nguồn hàng thực tế đang hiện hữu và tìm vị trí chiến lược cho nhu cầu vận hành trung hạn.\n\nIV. Nhóm doanh nghiệp phù hợp\nLogistics; Kho bãi; Sản xuất gắn xuất nhập khẩu; Công nghiệp phụ trợ; Dịch vụ hậu cần công nghiệp.\n\nV. Giải pháp từ MACLAND\nMACLAND hỗ trợ doanh nghiệp tìm kiếm quỹ đất công nghiệp, nhà xưởng, kho xưởng và mặt bằng sản xuất phù hợp tại KCN Nam Đình Vũ Khu 1 theo diện tích, ngành nghề, tiến độ triển khai và phương án khai thác thực tế.",
+        "highlights": [
+          "Gần cảng và hệ sinh thái logistics",
+          "Phù hợp doanh nghiệp xuất nhập khẩu",
+          "Có thể khai thác đất, kho bãi và mặt bằng logistics"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "6dfdb88decd0",
+      "slug": "chuyen-nhuong-khu-cong-nghiep-nam-dinh-vu-khu-2-hai-phong",
+      "url": "https://macland.vn/san-pham/chuyen-nhuong-khu-cong-nghiep-nam-dinh-vu-khu-2-hai-phong",
+      "title": "[CHUYỂN NHƯỢNG] Mặt bằng nhà xưởng tại khu công nghiệp Nam Đình Vũ Khu 2 Hải Phòng",
+      "type": "khu-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Khu kinh tế Đình Vũ - Cát Hải",
+        "address": "Thuộc Khu kinh tế Đình Vũ - Cát Hải, thành phố Hải Phòng; là một phần quan trọng trong tổ hợp Nam Đình Vũ.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "513.4 ha",
+        "area_unit": "ha",
+        "occupancy_rate": "40%",
+        "operating_period": "Đang vận hành và tiếp tục thu hút đầu tư",
+        "investment_sectors": [
+          "Logistics",
+          "Kho bãi",
+          "Công nghiệp gắn cảng biển",
+          "Công nghiệp phụ trợ",
+          "Dự án cần quỹ đất lớn"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Đang vận hành",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Khu Công nghiệp Nam Đình Vũ Khu 2 là lựa chọn phù hợp cho doanh nghiệp cần quỹ đất công nghiệp quy mô lớn, hạ tầng kết nối cảng biển và khả năng khai thác logistics đồng bộ.",
+        "full_content": "Khu Công nghiệp Nam Đình Vũ Khu 2 là lựa chọn phù hợp cho doanh nghiệp cần quỹ đất công nghiệp quy mô lớn, hạ tầng kết nối cảng biển và khả năng khai thác logistics đồng bộ.\n\nI. Tổng quan\nKhu Công Nghiệp Nam Đình Vũ Khu 2 Hải Phòng là khu công nghiệp đang vận hành và là một trong những lựa chọn đáng chú ý tại Hải Phòng cho doanh nghiệp cần quỹ đất công nghiệp, nhà xưởng, kho xưởng hoặc mặt bằng sản xuất. Đây là nhóm sản phẩm MACLAND định hướng khai thác theo hướng vừa làm content tổng quan, vừa mở rộng sang các bài con về chuyển nhượng đất, cho thuê nhà xưởng và mặt bằng công nghiệp.\n\nII. Vị trí và kết nối\nThuộc Khu kinh tế Đình Vũ - Cát Hải, thành phố Hải Phòng; là một phần quan trọng trong tổ hợp Nam Đình Vũ.\nKết nối trực tiếp với khu vực cảng, chuỗi vận tải công nghiệp và hạ tầng hậu cần của Đình Vũ - Cát Hải.\n\nIII. Lợi thế khai thác\nNam Đình Vũ Khu 2 phù hợp với doanh nghiệp cần dư địa phát triển quỹ đất lớn hơn, triển khai mô hình kho - xưởng kết hợp hoặc tính toán chiến lược vận hành dài hạn tại Hải Phòng.\nĐối với doanh nghiệp đang cần mở rộng sản xuất tại Hải Phòng, đây là dự án phù hợp để khảo sát theo cả hai hướng: khai thác nguồn hàng thực tế đang hiện hữu và tìm vị trí chiến lược cho nhu cầu vận hành trung hạn.\n\nIV. Nhóm doanh nghiệp phù hợp\nLogistics; Kho bãi; Công nghiệp gắn cảng biển; Công nghiệp phụ trợ; Dự án cần quỹ đất lớn.\n\nV. Giải pháp từ MACLAND\nMACLAND hỗ trợ doanh nghiệp tìm kiếm quỹ đất công nghiệp, nhà xưởng, kho xưởng và mặt bằng sản xuất phù hợp tại KCN Nam Đình Vũ Khu 2 theo diện tích, ngành nghề, tiến độ triển khai và phương án khai thác thực tế.",
+        "highlights": [
+          "Quy mô lớn 513,4 ha",
+          "Phù hợp mô hình kho - xưởng kết hợp",
+          "Lợi thế cảng biển và logistics"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "7e9f2a2f62bc",
+      "slug": "chuyen-nhuong-khu-cong-nghiep-vsip-hai-phong",
+      "url": "https://macland.vn/san-pham/chuyen-nhuong-khu-cong-nghiep-vsip-hai-phong",
+      "title": "[CHUYỂN NHƯỢNG] Mặt bằng nhà xưởng tại khu công nghiệp VSIP Hải Phòng",
+      "type": "khu-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Thủy Nguyên",
+        "address": "Thuộc Khu kinh tế Đình Vũ - Cát Hải, trải trên địa bàn các xã thuộc huyện Thủy Nguyên, thành phố Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "1566.33 ha",
+        "area_unit": "ha",
+        "occupancy_rate": "71.38%",
+        "operating_period": "Đến 11/12/2058",
+        "investment_sectors": [
+          "Công nghiệp sạch",
+          "Điện tử",
+          "Công nghệ cao",
+          "Công nghiệp hỗ trợ",
+          "Nhà máy tiêu chuẩn FDI"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Đang vận hành",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "VSIP Hải Phòng là khu công nghiệp sạch, đồng bộ và có thương hiệu quốc tế cao, phù hợp với doanh nghiệp FDI ưu tiên môi trường vận hành chuyên nghiệp và hạ tầng hiện đại.",
+        "full_content": "VSIP Hải Phòng là khu công nghiệp sạch, đồng bộ và có thương hiệu quốc tế cao, phù hợp với doanh nghiệp FDI ưu tiên môi trường vận hành chuyên nghiệp và hạ tầng hiện đại.\n\nI. Tổng quan\nKhu Công Nghiệp VSIP Hải Phòng là khu công nghiệp đang vận hành và là một trong những lựa chọn đáng chú ý tại Hải Phòng cho doanh nghiệp cần quỹ đất công nghiệp, nhà xưởng, kho xưởng hoặc mặt bằng sản xuất. Đây là nhóm sản phẩm MACLAND định hướng khai thác theo hướng vừa làm content tổng quan, vừa mở rộng sang các bài con về chuyển nhượng đất, cho thuê nhà xưởng và mặt bằng công nghiệp.\n\nII. Vị trí và kết nối\nThuộc Khu kinh tế Đình Vũ - Cát Hải, trải trên địa bàn các xã thuộc huyện Thủy Nguyên, thành phố Hải Phòng.\nKết nối thuận lợi với trung tâm Hải Phòng, Quốc lộ 10, hệ thống cảng biển và sân bay Cát Bi.\n\nIII. Lợi thế khai thác\nVSIP Hải Phòng nổi bật bởi thương hiệu quốc tế, hạ tầng đồng bộ và mô hình công nghiệp - đô thị - dịch vụ tích hợp, phù hợp với doanh nghiệp FDI cần môi trường đầu tư chuẩn hóa.\nĐối với doanh nghiệp đang cần mở rộng sản xuất tại Hải Phòng, đây là dự án phù hợp để khảo sát theo cả hai hướng: khai thác nguồn hàng thực tế đang hiện hữu và tìm vị trí chiến lược cho nhu cầu vận hành trung hạn.\n\nIV. Nhóm doanh nghiệp phù hợp\nCông nghiệp sạch; Điện tử; Công nghệ cao; Công nghiệp hỗ trợ; Nhà máy tiêu chuẩn FDI.\n\nV. Giải pháp từ MACLAND\nMACLAND hỗ trợ doanh nghiệp tìm kiếm quỹ đất công nghiệp, nhà xưởng, kho xưởng và mặt bằng sản xuất phù hợp tại KCN VSIP Hải Phòng theo diện tích, ngành nghề, tiến độ triển khai và phương án khai thác thực tế.",
+        "highlights": [
+          "Thương hiệu VSIP quốc tế",
+          "Mô hình công nghiệp - đô thị - dịch vụ",
+          "Phù hợp FDI và công nghiệp sạch"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "358d56292f0f",
+      "slug": "chuyen-nhuong-khu-cong-nghiep-nam-cau-kien-hai-phong",
+      "url": "https://macland.vn/san-pham/chuyen-nhuong-khu-cong-nghiep-nam-cau-kien-hai-phong",
+      "title": "[CHUYỂN NHƯỢNG] Mặt bằng nhà xưởng tại khu công nghiệp Nam Cầu Kiền Hải Phòng",
+      "type": "khu-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Thủy Nguyên",
+        "address": "Thuộc địa bàn huyện Thủy Nguyên, thành phố Hải Phòng; thuận lợi kết nối cảng biển và các trục giao thông công nghiệp của khu vực.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "263.47 ha",
+        "area_unit": "ha",
+        "occupancy_rate": "GĐ1 100%, GĐ2 khoảng 60%",
+        "operating_period": "Đang vận hành",
+        "investment_sectors": [
+          "Công nghiệp sạch",
+          "Điện tử",
+          "Cơ khí nhẹ",
+          "Công nghiệp hỗ trợ",
+          "Doanh nghiệp ưu tiên ESG"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Đang vận hành",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Khu Công nghiệp Nam Cầu Kiền là khu công nghiệp sinh thái nổi bật tại Hải Phòng, phù hợp với doanh nghiệp ưu tiên sản xuất xanh, ESG và môi trường vận hành bền vững.",
+        "full_content": "Khu Công nghiệp Nam Cầu Kiền là khu công nghiệp sinh thái nổi bật tại Hải Phòng, phù hợp với doanh nghiệp ưu tiên sản xuất xanh, ESG và môi trường vận hành bền vững.\n\nI. Tổng quan\nKhu Công Nghiệp Nam Cầu Kiền Hải Phòng là khu công nghiệp đang vận hành và là một trong những lựa chọn đáng chú ý tại Hải Phòng cho doanh nghiệp cần quỹ đất công nghiệp, nhà xưởng, kho xưởng hoặc mặt bằng sản xuất. Đây là nhóm sản phẩm MACLAND định hướng khai thác theo hướng vừa làm content tổng quan, vừa mở rộng sang các bài con về chuyển nhượng đất, cho thuê nhà xưởng và mặt bằng công nghiệp.\n\nII. Vị trí và kết nối\nThuộc địa bàn huyện Thủy Nguyên, thành phố Hải Phòng; thuận lợi kết nối cảng biển và các trục giao thông công nghiệp của khu vực.\nCó vị trí phù hợp cho doanh nghiệp vừa đảm bảo lưu thông hàng hóa, vừa quan tâm mô hình công nghiệp bền vững.\n\nIII. Lợi thế khai thác\nNam Cầu Kiền được thị trường chú ý nhờ định vị khu công nghiệp sinh thái, phù hợp để khai thác nội dung theo hướng sản xuất xanh, ESG và vận hành bền vững.\nĐối với doanh nghiệp đang cần mở rộng sản xuất tại Hải Phòng, đây là dự án phù hợp để khảo sát theo cả hai hướng: khai thác nguồn hàng thực tế đang hiện hữu và tìm vị trí chiến lược cho nhu cầu vận hành trung hạn.\n\nIV. Nhóm doanh nghiệp phù hợp\nCông nghiệp sạch; Điện tử; Cơ khí nhẹ; Công nghiệp hỗ trợ; Doanh nghiệp ưu tiên ESG.\n\nV. Giải pháp từ MACLAND\nMACLAND hỗ trợ doanh nghiệp tìm kiếm quỹ đất công nghiệp, nhà xưởng, kho xưởng và mặt bằng sản xuất phù hợp tại KCN Nam Cầu Kiền theo diện tích, ngành nghề, tiến độ triển khai và phương án khai thác thực tế.",
+        "highlights": [
+          "KCN sinh thái nổi bật",
+          "Phù hợp doanh nghiệp ưu tiên ESG",
+          "Có nhà xưởng cho thuê 2.000 - 10.000 m2"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "4f758aa07e84",
+      "slug": "chuyen-nhuong-khu-cong-nghiep-nhat-ban-hai-phong",
+      "url": "https://macland.vn/san-pham/chuyen-nhuong-khu-cong-nghiep-nhat-ban-hai-phong",
+      "title": "[CHUYỂN NHƯỢNG] Mặt bằng nhà xưởng tại khu công nghiệp Nhật Bản - Hải Phòng",
+      "type": "khu-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "An Dương",
+        "address": "Tại xã Tân Tiến, huyện An Dương, thành phố Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "153 ha",
+        "area_unit": "ha",
+        "occupancy_rate": "100%",
+        "operating_period": "1994 - nay",
+        "investment_sectors": [
+          "Doanh nghiệp Nhật Bản",
+          "Công nghiệp hỗ trợ",
+          "Cơ khí chính xác",
+          "Điện tử",
+          "Nhà xưởng tiêu chuẩn cao"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Đang vận hành",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Khu Công nghiệp Nhật Bản - Hải Phòng là một trong những khu công nghiệp lâu đời và uy tín nhất tại Hải Phòng, phù hợp với doanh nghiệp Nhật Bản và các nhà đầu tư ưu tiên môi trường vận hành ổn định.",
+        "full_content": "Khu Công nghiệp Nhật Bản - Hải Phòng là một trong những khu công nghiệp lâu đời và uy tín nhất tại Hải Phòng, phù hợp với doanh nghiệp Nhật Bản và các nhà đầu tư ưu tiên môi trường vận hành ổn định.\n\nI. Tổng quan\nKhu Công Nghiệp Nhật Bản - Hải Phòng là khu công nghiệp đang vận hành và là một trong những lựa chọn đáng chú ý tại Hải Phòng cho doanh nghiệp cần quỹ đất công nghiệp, nhà xưởng, kho xưởng hoặc mặt bằng sản xuất. Đây là nhóm sản phẩm MACLAND định hướng khai thác theo hướng vừa làm content tổng quan, vừa mở rộng sang các bài con về chuyển nhượng đất, cho thuê nhà xưởng và mặt bằng công nghiệp.\n\nII. Vị trí và kết nối\nTại xã Tân Tiến, huyện An Dương, thành phố Hải Phòng.\nKết nối thuận lợi đến trung tâm thành phố, cảng biển, sân bay và các đầu mối công nghiệp lớn của Hải Phòng.\n\nIII. Lợi thế khai thác\nĐây là khu công nghiệp có bề dày vận hành và mức độ nhận diện cao, phù hợp với doanh nghiệp ưu tiên tính ổn định, môi trường tiêu chuẩn và hệ sinh thái doanh nghiệp Nhật.\nĐối với doanh nghiệp đang cần mở rộng sản xuất tại Hải Phòng, đây là dự án phù hợp để khảo sát theo cả hai hướng: khai thác nguồn hàng thực tế đang hiện hữu và tìm vị trí chiến lược cho nhu cầu vận hành trung hạn.\n\nIV. Nhóm doanh nghiệp phù hợp\nDoanh nghiệp Nhật Bản; Công nghiệp hỗ trợ; Cơ khí chính xác; Điện tử; Nhà xưởng tiêu chuẩn cao.\n\nV. Giải pháp từ MACLAND\nMACLAND hỗ trợ doanh nghiệp tìm kiếm quỹ đất công nghiệp, nhà xưởng, kho xưởng và mặt bằng sản xuất phù hợp tại KCN Nhật Bản - Hải Phòng theo diện tích, ngành nghề, tiến độ triển khai và phương án khai thác thực tế.",
+        "highlights": [
+          "Thành lập từ năm 1994",
+          "Uy tín cao với doanh nghiệp Nhật",
+          "Phù hợp vendor và công nghiệp hỗ trợ"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "c11484b222bd",
+      "slug": "chuyen-nhuong-khu-cong-nghiep-an-duong-hai-phong",
+      "url": "https://macland.vn/san-pham/chuyen-nhuong-khu-cong-nghiep-an-duong-hai-phong",
+      "title": "[CHUYỂN NHƯỢNG] Mặt bằng nhà xưởng tại khu công nghiệp An Dương Hải Phòng",
+      "type": "khu-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "An Dương",
+        "address": "Thuộc huyện An Dương, thành phố Hải Phòng; phù hợp với doanh nghiệp cần mặt bằng sản xuất tại khu vực phía Tây Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "196.1 ha",
+        "area_unit": "ha",
+        "occupancy_rate": "92%",
+        "operating_period": "Đang vận hành",
+        "investment_sectors": [
+          "Điện tử",
+          "Điện gia dụng",
+          "Máy móc thiết bị",
+          "Công nghiệp hỗ trợ",
+          "Nhà máy quy mô vừa"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Đang vận hành",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Khu Công nghiệp An Dương là lựa chọn đáng chú ý cho doanh nghiệp cần quỹ đất công nghiệp, nhà xưởng cho thuê và mặt bằng sản xuất tại Hải Phòng.",
+        "full_content": "Khu Công nghiệp An Dương là lựa chọn đáng chú ý cho doanh nghiệp cần quỹ đất công nghiệp, nhà xưởng cho thuê và mặt bằng sản xuất tại Hải Phòng.\n\nI. Tổng quan\nKhu Công Nghiệp An Dương Hải Phòng là khu công nghiệp đang vận hành và là một trong những lựa chọn đáng chú ý tại Hải Phòng cho doanh nghiệp cần quỹ đất công nghiệp, nhà xưởng, kho xưởng hoặc mặt bằng sản xuất. Đây là nhóm sản phẩm MACLAND định hướng khai thác theo hướng vừa làm content tổng quan, vừa mở rộng sang các bài con về chuyển nhượng đất, cho thuê nhà xưởng và mặt bằng công nghiệp.\n\nII. Vị trí và kết nối\nThuộc huyện An Dương, thành phố Hải Phòng; phù hợp với doanh nghiệp cần mặt bằng sản xuất tại khu vực phía Tây Hải Phòng.\nKết nối thuận lợi tới trung tâm Hải Phòng và các đầu mối giao thông - logistics trong khu vực.\n\nIII. Lợi thế khai thác\nKCN An Dương có ưu điểm về khả năng tiếp cận đất công nghiệp và nhà xưởng cho thuê rõ ràng hơn nhiều khu đã lấp đầy, phù hợp khai thác nội dung theo hướng nguồn hàng thực tế.\nĐối với doanh nghiệp đang cần mở rộng sản xuất tại Hải Phòng, đây là dự án phù hợp để khảo sát theo cả hai hướng: khai thác nguồn hàng thực tế đang hiện hữu và tìm vị trí chiến lược cho nhu cầu vận hành trung hạn.\n\nIV. Nhóm doanh nghiệp phù hợp\nĐiện tử; Điện gia dụng; Máy móc thiết bị; Công nghiệp hỗ trợ; Nhà máy quy mô vừa.\n\nV. Giải pháp từ MACLAND\nMACLAND hỗ trợ doanh nghiệp tìm kiếm quỹ đất công nghiệp, nhà xưởng, kho xưởng và mặt bằng sản xuất phù hợp tại KCN An Dương theo diện tích, ngành nghề, tiến độ triển khai và phương án khai thác thực tế.",
+        "highlights": [
+          "Có đất công nghiệp và nhà xưởng cho thuê",
+          "Phù hợp doanh nghiệp quy mô vừa",
+          "Dễ triển khai nội dung theo nguồn hàng thực tế"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "0955e274738b",
+      "slug": "chuyen-nhuong-khu-cong-nghiep-do-son-hai-phong",
+      "url": "https://macland.vn/san-pham/chuyen-nhuong-khu-cong-nghiep-do-son-hai-phong",
+      "title": "[CHUYỂN NHƯỢNG] Mặt bằng nhà xưởng tại khu công nghiệp Đồ Sơn Hải Phòng",
+      "type": "khu-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Đồ Sơn",
+        "address": "Thuộc khu vực Đồ Sơn, thành phố Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "Đang cập nhật",
+        "area_unit": "",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "Sản xuất đa ngành",
+          "Công nghiệp nhẹ",
+          "Mặt bằng công nghiệp"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Đang vận hành",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Khu Công nghiệp Đồ Sơn là lựa chọn bổ sung đáng chú ý cho doanh nghiệp cần mặt bằng công nghiệp tại Hải Phòng.",
+        "full_content": "Khu Công nghiệp Đồ Sơn là lựa chọn bổ sung đáng chú ý cho doanh nghiệp cần mặt bằng công nghiệp tại Hải Phòng.\n\nI. Tổng quan\nKhu Công Nghiệp Đồ Sơn Hải Phòng là khu công nghiệp đang vận hành và là một trong những lựa chọn đáng chú ý tại Hải Phòng cho doanh nghiệp cần quỹ đất công nghiệp, nhà xưởng, kho xưởng hoặc mặt bằng sản xuất. Đây là nhóm sản phẩm MACLAND định hướng khai thác theo hướng vừa làm content tổng quan, vừa mở rộng sang các bài con về chuyển nhượng đất, cho thuê nhà xưởng và mặt bằng công nghiệp.\n\nII. Vị trí và kết nối\nThuộc khu vực Đồ Sơn, thành phố Hải Phòng.\nThuận lợi cho doanh nghiệp cần bổ sung lựa chọn mặt bằng công nghiệp tại Hải Phòng.\n\nIII. Lợi thế khai thác\nKCN Đồ Sơn phù hợp để bổ sung danh mục sản phẩm công nghiệp theo hướng đất công nghiệp và mặt bằng sản xuất đa ngành.\nĐối với doanh nghiệp đang cần mở rộng sản xuất tại Hải Phòng, đây là dự án phù hợp để khảo sát theo cả hai hướng: khai thác nguồn hàng thực tế đang hiện hữu và tìm vị trí chiến lược cho nhu cầu vận hành trung hạn.\n\nIV. Nhóm doanh nghiệp phù hợp\nSản xuất đa ngành; Công nghiệp nhẹ; Mặt bằng công nghiệp.\n\nV. Giải pháp từ MACLAND\nMACLAND hỗ trợ doanh nghiệp tìm kiếm quỹ đất công nghiệp, nhà xưởng, kho xưởng và mặt bằng sản xuất phù hợp tại KCN Đồ Sơn theo diện tích, ngành nghề, tiến độ triển khai và phương án khai thác thực tế.",
+        "highlights": [
+          "Bổ sung danh mục KCN Hải Phòng",
+          "Phù hợp sản xuất đa ngành",
+          "Có thể phát triển bài chuyển nhượng đất và mặt bằng"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "9b824d4d39ad",
+      "slug": "chuyen-nhuong-deep-c-hai-phong-i-khu-cong-nghiep-dinh-vu",
+      "url": "https://macland.vn/san-pham/chuyen-nhuong-deep-c-hai-phong-i-khu-cong-nghiep-dinh-vu",
+      "title": "[CHUYỂN NHƯỢNG] DEEP C Hải Phòng I - Khu Công Nghiệp Đình Vũ",
+      "type": "khu-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Đình Vũ",
+        "address": "Phát triển từ nền tảng KCN Đình Vũ tại khu vực Đình Vũ, thành phố Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "541 ha",
+        "area_unit": "ha",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "Logistics",
+          "Điện tử",
+          "Hóa chất - hóa dầu",
+          "Công nghiệp hướng cảng"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Đang vận hành",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "DEEP C Hải Phòng I là khu công nghiệp quốc tế nổi bật tại Hải Phòng, phù hợp với doanh nghiệp logistics, điện tử, hóa chất và các ngành gắn với cảng biển.",
+        "full_content": "DEEP C Hải Phòng I là khu công nghiệp quốc tế nổi bật tại Hải Phòng, phù hợp với doanh nghiệp logistics, điện tử, hóa chất và các ngành gắn với cảng biển.\n\nI. Tổng quan\nDEEP C Hải Phòng I - Khu Công Nghiệp Đình Vũ là khu công nghiệp đang vận hành và là một trong những lựa chọn đáng chú ý tại Hải Phòng cho doanh nghiệp cần quỹ đất công nghiệp, nhà xưởng, kho xưởng hoặc mặt bằng sản xuất. Đây là nhóm sản phẩm MACLAND định hướng khai thác theo hướng vừa làm content tổng quan, vừa mở rộng sang các bài con về chuyển nhượng đất, cho thuê nhà xưởng và mặt bằng công nghiệp.\n\nII. Vị trí và kết nối\nPhát triển từ nền tảng KCN Đình Vũ tại khu vực Đình Vũ, thành phố Hải Phòng.\nNằm trong khu vực công nghiệp - cảng biển trọng điểm của Hải Phòng, thuận lợi cho doanh nghiệp logistics và sản xuất xuất khẩu.\n\nIII. Lợi thế khai thác\nDEEP C Hải Phòng I phù hợp với nhóm doanh nghiệp cần hạ tầng quốc tế, lợi thế cảng và khả năng tổ chức vận hành logistics - công nghiệp đồng bộ.\nĐối với doanh nghiệp đang cần mở rộng sản xuất tại Hải Phòng, đây là dự án phù hợp để khảo sát theo cả hai hướng: khai thác nguồn hàng thực tế đang hiện hữu và tìm vị trí chiến lược cho nhu cầu vận hành trung hạn.\n\nIV. Nhóm doanh nghiệp phù hợp\nLogistics; Điện tử; Hóa chất - hóa dầu; Công nghiệp hướng cảng.\n\nV. Giải pháp từ MACLAND\nMACLAND hỗ trợ doanh nghiệp tìm kiếm quỹ đất công nghiệp, nhà xưởng, kho xưởng và mặt bằng sản xuất phù hợp tại DEEP C Hải Phòng I theo diện tích, ngành nghề, tiến độ triển khai và phương án khai thác thực tế.",
+        "highlights": [
+          "Thương hiệu DEEP C quốc tế",
+          "Lợi thế logistics và cảng biển",
+          "Phù hợp ngành điện tử, logistics, hóa chất"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "2ab922470775",
+      "slug": "chuyen-nhuong-khu-cong-nghiep-mp-dinh-vu-hai-phong",
+      "url": "https://macland.vn/san-pham/chuyen-nhuong-khu-cong-nghiep-mp-dinh-vu-hai-phong",
+      "title": "[CHUYỂN NHƯỢNG] Mặt bằng nhà xưởng tại khu công nghiệp MP Đình Vũ Hải Phòng",
+      "type": "khu-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Đình Vũ",
+        "address": "Thuộc khu vực Đình Vũ, Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "Đang cập nhật",
+        "area_unit": "",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "Công nghiệp gắn cảng",
+          "Kho bãi",
+          "Logistics",
+          "Công nghiệp phụ trợ"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Đang vận hành",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Khu Công nghiệp MP Đình Vũ là lựa chọn phù hợp cho doanh nghiệp cần mặt bằng công nghiệp, kho bãi và lợi thế vận hành gần cảng tại Hải Phòng.",
+        "full_content": "Khu Công nghiệp MP Đình Vũ là lựa chọn phù hợp cho doanh nghiệp cần mặt bằng công nghiệp, kho bãi và lợi thế vận hành gần cảng tại Hải Phòng.\n\nI. Tổng quan\nKhu Công Nghiệp MP Đình Vũ Hải Phòng là khu công nghiệp đang vận hành và là một trong những lựa chọn đáng chú ý tại Hải Phòng cho doanh nghiệp cần quỹ đất công nghiệp, nhà xưởng, kho xưởng hoặc mặt bằng sản xuất. Đây là nhóm sản phẩm MACLAND định hướng khai thác theo hướng vừa làm content tổng quan, vừa mở rộng sang các bài con về chuyển nhượng đất, cho thuê nhà xưởng và mặt bằng công nghiệp.\n\nII. Vị trí và kết nối\nThuộc khu vực Đình Vũ, Hải Phòng.\nKhai thác tốt lợi thế khu vực Đình Vũ và hệ thống cảng biển của Hải Phòng.\n\nIII. Lợi thế khai thác\nDự án phù hợp với doanh nghiệp cần mặt bằng công nghiệp và kho bãi gắn với xuất nhập khẩu, trung chuyển hàng hóa và vận hành gần cảng.\nĐối với doanh nghiệp đang cần mở rộng sản xuất tại Hải Phòng, đây là dự án phù hợp để khảo sát theo cả hai hướng: khai thác nguồn hàng thực tế đang hiện hữu và tìm vị trí chiến lược cho nhu cầu vận hành trung hạn.\n\nIV. Nhóm doanh nghiệp phù hợp\nCông nghiệp gắn cảng; Kho bãi; Logistics; Công nghiệp phụ trợ.\n\nV. Giải pháp từ MACLAND\nMACLAND hỗ trợ doanh nghiệp tìm kiếm quỹ đất công nghiệp, nhà xưởng, kho xưởng và mặt bằng sản xuất phù hợp tại KCN MP Đình Vũ theo diện tích, ngành nghề, tiến độ triển khai và phương án khai thác thực tế.",
+        "highlights": [
+          "Gắn với khu vực Đình Vũ",
+          "Phù hợp logistics và kho bãi",
+          "Bài toán gần cảng rõ nét"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "cb253f68d68a",
+      "slug": "chuyen-nhuong-khu-cong-nghiep-va-dich-vu-hang-hai-hai-phong",
+      "url": "https://macland.vn/san-pham/chuyen-nhuong-khu-cong-nghiep-va-dich-vu-hang-hai-hai-phong",
+      "title": "[CHUYỂN NHƯỢNG] Mặt bằng nhà xưởng tại khu công nghiệp và Dịch Vụ Hàng Hải Hải Phòng",
+      "type": "khu-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Khu vực cảng biển",
+        "address": "Thuộc khu vực phát triển công nghiệp và dịch vụ hàng hải của Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "Đang cập nhật",
+        "area_unit": "",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "Dịch vụ hàng hải",
+          "Công nghiệp phụ trợ cảng",
+          "Kho bãi",
+          "Mặt bằng logistics"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Đang vận hành",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Khu Công nghiệp và Dịch vụ Hàng hải Hải Phòng phù hợp với doanh nghiệp cần mặt bằng công nghiệp gắn với cảng biển, logistics và dịch vụ hàng hải.",
+        "full_content": "Khu Công nghiệp và Dịch vụ Hàng hải Hải Phòng phù hợp với doanh nghiệp cần mặt bằng công nghiệp gắn với cảng biển, logistics và dịch vụ hàng hải.\n\nI. Tổng quan\nKhu Công Nghiệp và Dịch Vụ Hàng Hải Hải Phòng là khu công nghiệp đang vận hành và là một trong những lựa chọn đáng chú ý tại Hải Phòng cho doanh nghiệp cần quỹ đất công nghiệp, nhà xưởng, kho xưởng hoặc mặt bằng sản xuất. Đây là nhóm sản phẩm MACLAND định hướng khai thác theo hướng vừa làm content tổng quan, vừa mở rộng sang các bài con về chuyển nhượng đất, cho thuê nhà xưởng và mặt bằng công nghiệp.\n\nII. Vị trí và kết nối\nThuộc khu vực phát triển công nghiệp và dịch vụ hàng hải của Hải Phòng.\nPhù hợp doanh nghiệp cần gắn vận hành công nghiệp với hệ sinh thái hàng hải và cảng biển.\n\nIII. Lợi thế khai thác\nNội dung cho dự án này nên tập trung vào lợi thế gần cảng, nhu cầu kho bãi và nhóm ngành phục vụ logistics - hàng hải.\nĐối với doanh nghiệp đang cần mở rộng sản xuất tại Hải Phòng, đây là dự án phù hợp để khảo sát theo cả hai hướng: khai thác nguồn hàng thực tế đang hiện hữu và tìm vị trí chiến lược cho nhu cầu vận hành trung hạn.\n\nIV. Nhóm doanh nghiệp phù hợp\nDịch vụ hàng hải; Công nghiệp phụ trợ cảng; Kho bãi; Mặt bằng logistics.\n\nV. Giải pháp từ MACLAND\nMACLAND hỗ trợ doanh nghiệp tìm kiếm quỹ đất công nghiệp, nhà xưởng, kho xưởng và mặt bằng sản xuất phù hợp tại KCN và Dịch vụ Hàng hải Hải Phòng theo diện tích, ngành nghề, tiến độ triển khai và phương án khai thác thực tế.",
+        "highlights": [
+          "Hướng cảng biển và dịch vụ hàng hải",
+          "Phù hợp logistics và kho bãi",
+          "Tạo độ phong phú cho danh mục Hải Phòng"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "ff9edd41fb56",
+      "slug": "sap-mo-ban-khu-cong-nghiep-trang-due-3-hai-phong",
+      "url": "https://macland.vn/san-pham/sap-mo-ban-khu-cong-nghiep-trang-due-3-hai-phong",
+      "title": "[SẮP MỞ BÁN] Mặt bằng nhà xưởng tại khu công nghiệp Tràng Duệ 3 Hải Phòng",
+      "type": "khu-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "An Lão",
+        "address": "Thuộc vùng phát triển mở rộng của tổ hợp Tràng Duệ tại Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "652.73 ha",
+        "area_unit": "ha",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "Công nghệ cao",
+          "Điện tử",
+          "Công nghiệp hỗ trợ",
+          "Doanh nghiệp FDI",
+          "Nhà đầu tư quy mô lớn"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Đang triển khai",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Khu Công nghiệp Tràng Duệ 3 là dự án mở rộng rất đáng chú ý của khu vực Tràng Duệ, phù hợp với doanh nghiệp muốn đón đầu quỹ đất công nghiệp mới.",
+        "full_content": "Khu Công nghiệp Tràng Duệ 3 là dự án mở rộng rất đáng chú ý của khu vực Tràng Duệ, phù hợp với doanh nghiệp muốn đón đầu quỹ đất công nghiệp mới.\n\nI. Tổng quan\nKhu Công Nghiệp Tràng Duệ 3 Hải Phòng là khu công nghiệp đang được MACLAND ưu tiên cập nhật theo định hướng phát triển công nghiệp tại Hải Phòng giai đoạn 2026 - 2030. Dự án phù hợp với doanh nghiệp muốn đón đầu quỹ đất, chuẩn bị kế hoạch mở rộng nhà máy hoặc khảo sát mặt bằng theo lộ trình đầu tư trung và dài hạn.\n\nII. Vị trí và tiềm năng kết nối\nThuộc vùng phát triển mở rộng của tổ hợp Tràng Duệ tại Hải Phòng.\nKế thừa lợi thế kết nối của khu vực Tràng Duệ với cao tốc, Quốc lộ 10, cảng biển và sân bay.\n\nIII. Định hướng khai thác\nTràng Duệ 3 phù hợp với doanh nghiệp muốn đón đầu quỹ đất mới trong một hệ sinh thái công nghiệp đã có sức hút cao tại Hải Phòng.\nTrạng thái hiện tại của dự án phù hợp với cách tiếp cận theo hướng đăng ký nhu cầu sớm, theo dõi tiến độ pháp lý - hạ tầng và chuẩn bị tiêu chí tìm mặt bằng trước khi nguồn cung đi vào thị trường.\n\nIV. Nhóm doanh nghiệp phù hợp\nCông nghệ cao; Điện tử; Công nghiệp hỗ trợ; Doanh nghiệp FDI; Nhà đầu tư quy mô lớn.\n\nV. Giải pháp từ MACLAND\nMACLAND tiếp nhận nhu cầu khảo sát quỹ đất, mặt bằng công nghiệp, nhà xưởng build-to-suit và phương án mở rộng phù hợp với lộ trình đầu tư của doanh nghiệp tại KCN Tràng Duệ 3.",
+        "highlights": [
+          "Chấp thuận chủ trương đầu tư ngày 14/01/2025",
+          "Động thổ ngày 11/05/2025",
+          "Đón đầu quỹ đất mới theo hệ sinh thái Tràng Duệ"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "a9aceae617f7",
+      "slug": "sap-mo-ban-khu-cong-nghiep-tien-thanh-hai-phong",
+      "url": "https://macland.vn/san-pham/sap-mo-ban-khu-cong-nghiep-tien-thanh-hai-phong",
+      "title": "[SẮP MỞ BÁN] Mặt bằng nhà xưởng tại khu công nghiệp Tiên Thanh Hải Phòng",
+      "type": "khu-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Tiên Lãng",
+        "address": "Tại xã Tiên Thanh và xã Cấp Tiến, huyện Tiên Lãng, thành phố Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "410.46 ha",
+        "area_unit": "ha",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "Sản xuất quy mô lớn",
+          "Build-to-suit",
+          "Doanh nghiệp mở rộng trung hạn",
+          "Nhà đầu tư cần quỹ đất mới"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Đang triển khai",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Khu Công nghiệp Tiên Thanh là một trong những khu công nghiệp mới quy mô lớn tại Hải Phòng, phù hợp với doanh nghiệp đang tìm quỹ đất mới để lập kế hoạch đầu tư.",
+        "full_content": "Khu Công nghiệp Tiên Thanh là một trong những khu công nghiệp mới quy mô lớn tại Hải Phòng, phù hợp với doanh nghiệp đang tìm quỹ đất mới để lập kế hoạch đầu tư.\n\nI. Tổng quan\nKhu Công Nghiệp Tiên Thanh Hải Phòng là khu công nghiệp đang được MACLAND ưu tiên cập nhật theo định hướng phát triển công nghiệp tại Hải Phòng giai đoạn 2026 - 2030. Dự án phù hợp với doanh nghiệp muốn đón đầu quỹ đất, chuẩn bị kế hoạch mở rộng nhà máy hoặc khảo sát mặt bằng theo lộ trình đầu tư trung và dài hạn.\n\nII. Vị trí và tiềm năng kết nối\nTại xã Tiên Thanh và xã Cấp Tiến, huyện Tiên Lãng, thành phố Hải Phòng.\nKết nối với khu vực Tiên Lãng, trung tâm Hải Phòng, sân bay Cát Bi và cảng Lạch Huyện.\n\nIII. Định hướng khai thác\nKCN Tiên Thanh phù hợp với doanh nghiệp có tầm nhìn 3 - 5 năm, muốn chuẩn bị vị trí tốt trong làn sóng phát triển công nghiệp tiếp theo của Hải Phòng.\nTrạng thái hiện tại của dự án phù hợp với cách tiếp cận theo hướng đăng ký nhu cầu sớm, theo dõi tiến độ pháp lý - hạ tầng và chuẩn bị tiêu chí tìm mặt bằng trước khi nguồn cung đi vào thị trường.\n\nIV. Nhóm doanh nghiệp phù hợp\nSản xuất quy mô lớn; Build-to-suit; Doanh nghiệp mở rộng trung hạn; Nhà đầu tư cần quỹ đất mới.\n\nV. Giải pháp từ MACLAND\nMACLAND tiếp nhận nhu cầu khảo sát quỹ đất, mặt bằng công nghiệp, nhà xưởng build-to-suit và phương án mở rộng phù hợp với lộ trình đầu tư của doanh nghiệp tại KCN Tiên Thanh.",
+        "highlights": [
+          "Quy mô 410,46 ha",
+          "Định hướng đón đầu quỹ đất mới",
+          "Phù hợp doanh nghiệp tầm nhìn trung dài hạn"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "2b2e1d365819",
+      "slug": "sap-mo-ban-khu-cong-nghiep-nam-trang-cat-hai-phong",
+      "url": "https://macland.vn/san-pham/sap-mo-ban-khu-cong-nghiep-nam-trang-cat-hai-phong",
+      "title": "[SẮP MỞ BÁN] Mặt bằng nhà xưởng tại khu công nghiệp Nam Tràng Cát Hải Phòng",
+      "type": "khu-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Tràng Cát",
+        "address": "Thuộc khu vực Nam Tràng Cát, thành phố Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "Đang cập nhật",
+        "area_unit": "",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "Quỹ đất công nghiệp lớn",
+          "Nhà đầu tư đón đầu",
+          "Công nghiệp hướng biển"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Theo quy hoạch",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Khu Công nghiệp Nam Tràng Cát là dự án quy hoạch đáng chú ý tại Hải Phòng, phù hợp với doanh nghiệp muốn đón đầu quỹ đất công nghiệp mới.",
+        "full_content": "Khu Công nghiệp Nam Tràng Cát là dự án quy hoạch đáng chú ý tại Hải Phòng, phù hợp với doanh nghiệp muốn đón đầu quỹ đất công nghiệp mới.\n\nI. Tổng quan\nKhu Công Nghiệp Nam Tràng Cát Hải Phòng là khu công nghiệp đang được MACLAND ưu tiên cập nhật theo định hướng phát triển công nghiệp tại Hải Phòng giai đoạn 2026 - 2030. Dự án phù hợp với doanh nghiệp muốn đón đầu quỹ đất, chuẩn bị kế hoạch mở rộng nhà máy hoặc khảo sát mặt bằng theo lộ trình đầu tư trung và dài hạn.\n\nII. Vị trí và tiềm năng kết nối\nThuộc khu vực Nam Tràng Cát, thành phố Hải Phòng.\nCó tiềm năng gắn với không gian phát triển hướng biển và logistics của Hải Phòng.\n\nIII. Định hướng khai thác\nĐây là dự án phù hợp để khai thác theo góc nhìn quy hoạch dài hạn, quỹ đất lớn và cơ hội đón sóng đầu tư mới.\nTrạng thái hiện tại của dự án phù hợp với cách tiếp cận theo hướng đăng ký nhu cầu sớm, theo dõi tiến độ pháp lý - hạ tầng và chuẩn bị tiêu chí tìm mặt bằng trước khi nguồn cung đi vào thị trường.\n\nIV. Nhóm doanh nghiệp phù hợp\nQuỹ đất công nghiệp lớn; Nhà đầu tư đón đầu; Công nghiệp hướng biển.\n\nV. Giải pháp từ MACLAND\nMACLAND tiếp nhận nhu cầu khảo sát quỹ đất, mặt bằng công nghiệp, nhà xưởng build-to-suit và phương án mở rộng phù hợp với lộ trình đầu tư của doanh nghiệp tại KCN Nam Tràng Cát.",
+        "highlights": [
+          "Dự án theo quy hoạch đến 2030",
+          "Phù hợp nhà đầu tư đi trước",
+          "Góc nội dung đón đầu quỹ đất"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "d74d6e6b68ed",
+      "slug": "sap-mo-ban-khu-cong-nghiep-nomura-hai-phong-giai-doan-2",
+      "url": "https://macland.vn/san-pham/sap-mo-ban-khu-cong-nghiep-nomura-hai-phong-giai-doan-2",
+      "title": "[SẮP MỞ BÁN] Mặt bằng nhà xưởng tại khu công nghiệp Nomura - Hải Phòng Giai Đoạn 2",
+      "type": "khu-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "An Dương",
+        "address": "Thuộc định hướng mở rộng của KCN Nhật Bản - Hải Phòng tại An Dương, Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "Đang cập nhật",
+        "area_unit": "",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "Doanh nghiệp Nhật Bản",
+          "Công nghiệp hỗ trợ",
+          "Cơ khí chính xác",
+          "Điện tử"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Đang triển khai giai đoạn mới",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Khu Công nghiệp Nomura - Hải Phòng giai đoạn 2 phù hợp với nhà đầu tư muốn đón đầu quỹ đất mở rộng trong hệ sinh thái doanh nghiệp Nhật tại Hải Phòng.",
+        "full_content": "Khu Công nghiệp Nomura - Hải Phòng giai đoạn 2 phù hợp với nhà đầu tư muốn đón đầu quỹ đất mở rộng trong hệ sinh thái doanh nghiệp Nhật tại Hải Phòng.\n\nI. Tổng quan\nKhu Công Nghiệp Nomura - Hải Phòng Giai Đoạn 2 là khu công nghiệp đang được MACLAND ưu tiên cập nhật theo định hướng phát triển công nghiệp tại Hải Phòng giai đoạn 2026 - 2030. Dự án phù hợp với doanh nghiệp muốn đón đầu quỹ đất, chuẩn bị kế hoạch mở rộng nhà máy hoặc khảo sát mặt bằng theo lộ trình đầu tư trung và dài hạn.\n\nII. Vị trí và tiềm năng kết nối\nThuộc định hướng mở rộng của KCN Nhật Bản - Hải Phòng tại An Dương, Hải Phòng.\nThừa hưởng lợi thế thương hiệu, vị trí và hệ sinh thái doanh nghiệp Nhật của Nomura Hải Phòng.\n\nIII. Định hướng khai thác\nDự án phù hợp để kể theo hướng mở rộng hệ sinh thái doanh nghiệp Nhật và cơ hội cho vendor muốn bám theo chuỗi đầu tư tiêu chuẩn cao.\nTrạng thái hiện tại của dự án phù hợp với cách tiếp cận theo hướng đăng ký nhu cầu sớm, theo dõi tiến độ pháp lý - hạ tầng và chuẩn bị tiêu chí tìm mặt bằng trước khi nguồn cung đi vào thị trường.\n\nIV. Nhóm doanh nghiệp phù hợp\nDoanh nghiệp Nhật Bản; Công nghiệp hỗ trợ; Cơ khí chính xác; Điện tử.\n\nV. Giải pháp từ MACLAND\nMACLAND tiếp nhận nhu cầu khảo sát quỹ đất, mặt bằng công nghiệp, nhà xưởng build-to-suit và phương án mở rộng phù hợp với lộ trình đầu tư của doanh nghiệp tại KCN Nomura Hải Phòng Giai đoạn 2.",
+        "highlights": [
+          "Mở rộng hệ sinh thái Nomura",
+          "Phù hợp doanh nghiệp Nhật và vendor",
+          "Định vị tiêu chuẩn cao"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "79138e1c2ccf",
+      "slug": "sap-mo-ban-khu-cong-nghiep-vinh-quang-hai-phong",
+      "url": "https://macland.vn/san-pham/sap-mo-ban-khu-cong-nghiep-vinh-quang-hai-phong",
+      "title": "[SẮP MỞ BÁN] Mặt bằng nhà xưởng tại khu công nghiệp Vinh Quang Hải Phòng",
+      "type": "khu-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Hải Phòng",
+        "address": "Thuộc định hướng phát triển công nghiệp mới của thành phố Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "Đang cập nhật",
+        "area_unit": "",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "Quỹ đất mới",
+          "Nhà đầu tư dài hạn",
+          "Doanh nghiệp mở rộng"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Theo quy hoạch",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Khu Công nghiệp Vinh Quang là dự án phù hợp cho doanh nghiệp muốn đón đầu quỹ đất công nghiệp mới tại Hải Phòng.",
+        "full_content": "Khu Công nghiệp Vinh Quang là dự án phù hợp cho doanh nghiệp muốn đón đầu quỹ đất công nghiệp mới tại Hải Phòng.\n\nI. Tổng quan\nKhu Công Nghiệp Vinh Quang Hải Phòng là khu công nghiệp đang được MACLAND ưu tiên cập nhật theo định hướng phát triển công nghiệp tại Hải Phòng giai đoạn 2026 - 2030. Dự án phù hợp với doanh nghiệp muốn đón đầu quỹ đất, chuẩn bị kế hoạch mở rộng nhà máy hoặc khảo sát mặt bằng theo lộ trình đầu tư trung và dài hạn.\n\nII. Vị trí và tiềm năng kết nối\nThuộc định hướng phát triển công nghiệp mới của thành phố Hải Phòng.\nPhù hợp khai thác theo góc nhìn đón đầu quỹ đất và chuẩn bị mặt bằng trung - dài hạn.\n\nIII. Định hướng khai thác\nKCN Vinh Quang phù hợp với doanh nghiệp muốn lập kế hoạch sớm và lựa chọn mặt bằng theo làn sóng phát triển công nghiệp mới tại Hải Phòng.\nTrạng thái hiện tại của dự án phù hợp với cách tiếp cận theo hướng đăng ký nhu cầu sớm, theo dõi tiến độ pháp lý - hạ tầng và chuẩn bị tiêu chí tìm mặt bằng trước khi nguồn cung đi vào thị trường.\n\nIV. Nhóm doanh nghiệp phù hợp\nQuỹ đất mới; Nhà đầu tư dài hạn; Doanh nghiệp mở rộng.\n\nV. Giải pháp từ MACLAND\nMACLAND tiếp nhận nhu cầu khảo sát quỹ đất, mặt bằng công nghiệp, nhà xưởng build-to-suit và phương án mở rộng phù hợp với lộ trình đầu tư của doanh nghiệp tại KCN Vinh Quang.",
+        "highlights": [
+          "Dự án theo quy hoạch",
+          "Định vị đón đầu quỹ đất",
+          "Phù hợp chiến lược trung dài hạn"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "e1850d33a1fd",
+      "slug": "sap-mo-ban-khu-cong-nghiep-thuy-nguyen-giai-doan-1-hai-phong",
+      "url": "https://macland.vn/san-pham/sap-mo-ban-khu-cong-nghiep-thuy-nguyen-giai-doan-1-hai-phong",
+      "title": "[SẮP MỞ BÁN] Mặt bằng nhà xưởng tại khu công nghiệp Thủy Nguyên Giai Đoạn 1",
+      "type": "khu-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Thủy Nguyên",
+        "address": "Thuộc khu vực Thủy Nguyên, thành phố Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "Đang cập nhật",
+        "area_unit": "",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "Công nghiệp - đô thị",
+          "Nhà đầu tư mở rộng",
+          "Quỹ đất mới"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Theo quy hoạch",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Khu Công nghiệp Thủy Nguyên giai đoạn 1 là dự án phù hợp cho doanh nghiệp muốn chuẩn bị mặt bằng tại khu vực phát triển mới của Hải Phòng.",
+        "full_content": "Khu Công nghiệp Thủy Nguyên giai đoạn 1 là dự án phù hợp cho doanh nghiệp muốn chuẩn bị mặt bằng tại khu vực phát triển mới của Hải Phòng.\n\nI. Tổng quan\nKhu Công Nghiệp Thủy Nguyên Giai Đoạn 1 là khu công nghiệp đang được MACLAND ưu tiên cập nhật theo định hướng phát triển công nghiệp tại Hải Phòng giai đoạn 2026 - 2030. Dự án phù hợp với doanh nghiệp muốn đón đầu quỹ đất, chuẩn bị kế hoạch mở rộng nhà máy hoặc khảo sát mặt bằng theo lộ trình đầu tư trung và dài hạn.\n\nII. Vị trí và tiềm năng kết nối\nThuộc khu vực Thủy Nguyên, thành phố Hải Phòng.\nGắn với không gian phát triển mới của khu vực Thủy Nguyên và trung tâm đô thị mới của Hải Phòng.\n\nIII. Định hướng khai thác\nDự án phù hợp với doanh nghiệp quan tâm mối liên hệ giữa phát triển công nghiệp và hạ tầng đô thị mới tại Hải Phòng.\nTrạng thái hiện tại của dự án phù hợp với cách tiếp cận theo hướng đăng ký nhu cầu sớm, theo dõi tiến độ pháp lý - hạ tầng và chuẩn bị tiêu chí tìm mặt bằng trước khi nguồn cung đi vào thị trường.\n\nIV. Nhóm doanh nghiệp phù hợp\nCông nghiệp - đô thị; Nhà đầu tư mở rộng; Quỹ đất mới.\n\nV. Giải pháp từ MACLAND\nMACLAND tiếp nhận nhu cầu khảo sát quỹ đất, mặt bằng công nghiệp, nhà xưởng build-to-suit và phương án mở rộng phù hợp với lộ trình đầu tư của doanh nghiệp tại KCN Thủy Nguyên Giai đoạn 1.",
+        "highlights": [
+          "Gắn với Thủy Nguyên - trung tâm phát triển mới",
+          "Phù hợp đầu tư trung dài hạn",
+          "Có thể khai thác theo góc nhìn công nghiệp - đô thị"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "c2267ea58b98",
+      "slug": "sap-mo-ban-khu-cong-nghiep-ngu-phuc-hai-phong",
+      "url": "https://macland.vn/san-pham/sap-mo-ban-khu-cong-nghiep-ngu-phuc-hai-phong",
+      "title": "[SẮP MỞ BÁN] Mặt bằng nhà xưởng tại khu công nghiệp Ngũ Phúc Hải Phòng",
+      "type": "khu-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Hải Phòng",
+        "address": "Thuộc định hướng phát triển khu công nghiệp mới tại Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "Đang cập nhật",
+        "area_unit": "",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "Quỹ đất công nghiệp mới",
+          "Nhà đầu tư đi trước",
+          "Sản xuất và kho bãi"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Theo quy hoạch",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Khu Công nghiệp Ngũ Phúc là lựa chọn phù hợp cho doanh nghiệp muốn đón đầu quỹ đất công nghiệp mới tại Hải Phòng.",
+        "full_content": "Khu Công nghiệp Ngũ Phúc là lựa chọn phù hợp cho doanh nghiệp muốn đón đầu quỹ đất công nghiệp mới tại Hải Phòng.\n\nI. Tổng quan\nKhu Công Nghiệp Ngũ Phúc Hải Phòng là khu công nghiệp đang được MACLAND ưu tiên cập nhật theo định hướng phát triển công nghiệp tại Hải Phòng giai đoạn 2026 - 2030. Dự án phù hợp với doanh nghiệp muốn đón đầu quỹ đất, chuẩn bị kế hoạch mở rộng nhà máy hoặc khảo sát mặt bằng theo lộ trình đầu tư trung và dài hạn.\n\nII. Vị trí và tiềm năng kết nối\nThuộc định hướng phát triển khu công nghiệp mới tại Hải Phòng.\nPhù hợp doanh nghiệp cần theo dõi nguồn cung đất công nghiệp mới trong giai đoạn 2026 - 2030.\n\nIII. Định hướng khai thác\nĐây là nhóm nội dung phù hợp cho chiến lược đón đầu nguồn hàng và tiếp nhận đăng ký tìm quỹ đất sớm.\nTrạng thái hiện tại của dự án phù hợp với cách tiếp cận theo hướng đăng ký nhu cầu sớm, theo dõi tiến độ pháp lý - hạ tầng và chuẩn bị tiêu chí tìm mặt bằng trước khi nguồn cung đi vào thị trường.\n\nIV. Nhóm doanh nghiệp phù hợp\nQuỹ đất công nghiệp mới; Nhà đầu tư đi trước; Sản xuất và kho bãi.\n\nV. Giải pháp từ MACLAND\nMACLAND tiếp nhận nhu cầu khảo sát quỹ đất, mặt bằng công nghiệp, nhà xưởng build-to-suit và phương án mở rộng phù hợp với lộ trình đầu tư của doanh nghiệp tại KCN Ngũ Phúc.",
+        "highlights": [
+          "Dự án theo quy hoạch",
+          "Phù hợp đón đầu quỹ đất mới",
+          "Nội dung thiên về đăng ký sớm"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "608639b87f2f",
+      "slug": "sap-mo-ban-khu-cong-nghiep-tan-trao-hai-phong",
+      "url": "https://macland.vn/san-pham/sap-mo-ban-khu-cong-nghiep-tan-trao-hai-phong",
+      "title": "[SẮP MỞ BÁN] Mặt bằng nhà xưởng tại khu công nghiệp Tân Trào Hải Phòng",
+      "type": "khu-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Hải Phòng",
+        "address": "Thuộc quy hoạch phát triển công nghiệp của thành phố Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "Đang cập nhật",
+        "area_unit": "",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "Mặt bằng công nghiệp mới",
+          "Doanh nghiệp mở rộng",
+          "Nhà đầu tư dài hạn"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Theo quy hoạch",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Khu Công nghiệp Tân Trào là dự án phù hợp với doanh nghiệp muốn chuẩn bị mặt bằng công nghiệp mới tại Hải Phòng.",
+        "full_content": "Khu Công nghiệp Tân Trào là dự án phù hợp với doanh nghiệp muốn chuẩn bị mặt bằng công nghiệp mới tại Hải Phòng.\n\nI. Tổng quan\nKhu Công Nghiệp Tân Trào Hải Phòng là khu công nghiệp đang được MACLAND ưu tiên cập nhật theo định hướng phát triển công nghiệp tại Hải Phòng giai đoạn 2026 - 2030. Dự án phù hợp với doanh nghiệp muốn đón đầu quỹ đất, chuẩn bị kế hoạch mở rộng nhà máy hoặc khảo sát mặt bằng theo lộ trình đầu tư trung và dài hạn.\n\nII. Vị trí và tiềm năng kết nối\nThuộc quy hoạch phát triển công nghiệp của thành phố Hải Phòng.\nPhù hợp để theo dõi như một lựa chọn quỹ đất chiến lược trong quy hoạch 2030 của Hải Phòng.\n\nIII. Định hướng khai thác\nKCN Tân Trào nên được khai thác như một lựa chọn mặt bằng mới cho doanh nghiệp muốn đi sớm và chủ động kế hoạch đầu tư.\nTrạng thái hiện tại của dự án phù hợp với cách tiếp cận theo hướng đăng ký nhu cầu sớm, theo dõi tiến độ pháp lý - hạ tầng và chuẩn bị tiêu chí tìm mặt bằng trước khi nguồn cung đi vào thị trường.\n\nIV. Nhóm doanh nghiệp phù hợp\nMặt bằng công nghiệp mới; Doanh nghiệp mở rộng; Nhà đầu tư dài hạn.\n\nV. Giải pháp từ MACLAND\nMACLAND tiếp nhận nhu cầu khảo sát quỹ đất, mặt bằng công nghiệp, nhà xưởng build-to-suit và phương án mở rộng phù hợp với lộ trình đầu tư của doanh nghiệp tại KCN Tân Trào.",
+        "highlights": [
+          "Thuộc nhóm dự án theo quy hoạch",
+          "Phù hợp chiến lược mở rộng",
+          "Tạo chiều sâu danh mục Hải Phòng"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "8121b9a3b6d2",
+      "slug": "sap-mo-ban-khu-cong-nghiep-tran-duong-hoa-binh-hai-phong",
+      "url": "https://macland.vn/san-pham/sap-mo-ban-khu-cong-nghiep-tran-duong-hoa-binh-hai-phong",
+      "title": "[SẮP MỞ BÁN] Mặt bằng nhà xưởng tại khu công nghiệp Trấn Dương - Hòa Bình Hải Phòng",
+      "type": "khu-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Hải Phòng",
+        "address": "Thuộc nhóm dự án công nghiệp theo quy hoạch của Hải Phòng đến 2030.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "Đang cập nhật",
+        "area_unit": "",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "Quỹ đất mới",
+          "Nhà đầu tư dài hạn",
+          "Mặt bằng công nghiệp chiến lược"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Theo quy hoạch",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Khu Công nghiệp Trấn Dương - Hòa Bình là dự án theo quy hoạch phù hợp với doanh nghiệp muốn đón đầu mặt bằng công nghiệp mới tại Hải Phòng.",
+        "full_content": "Khu Công nghiệp Trấn Dương - Hòa Bình là dự án theo quy hoạch phù hợp với doanh nghiệp muốn đón đầu mặt bằng công nghiệp mới tại Hải Phòng.\n\nI. Tổng quan\nKhu Công Nghiệp Trấn Dương - Hòa Bình Hải Phòng là khu công nghiệp đang được MACLAND ưu tiên cập nhật theo định hướng phát triển công nghiệp tại Hải Phòng giai đoạn 2026 - 2030. Dự án phù hợp với doanh nghiệp muốn đón đầu quỹ đất, chuẩn bị kế hoạch mở rộng nhà máy hoặc khảo sát mặt bằng theo lộ trình đầu tư trung và dài hạn.\n\nII. Vị trí và tiềm năng kết nối\nThuộc nhóm dự án công nghiệp theo quy hoạch của Hải Phòng đến 2030.\nPhù hợp tiếp cận theo hướng quy hoạch và lộ trình triển khai dài hạn.\n\nIII. Định hướng khai thác\nDự án nên được kể bằng góc nhìn đón đầu quỹ đất mới, thay vì ngôn ngữ của một khu công nghiệp đã sẵn nguồn hàng.\nTrạng thái hiện tại của dự án phù hợp với cách tiếp cận theo hướng đăng ký nhu cầu sớm, theo dõi tiến độ pháp lý - hạ tầng và chuẩn bị tiêu chí tìm mặt bằng trước khi nguồn cung đi vào thị trường.\n\nIV. Nhóm doanh nghiệp phù hợp\nQuỹ đất mới; Nhà đầu tư dài hạn; Mặt bằng công nghiệp chiến lược.\n\nV. Giải pháp từ MACLAND\nMACLAND tiếp nhận nhu cầu khảo sát quỹ đất, mặt bằng công nghiệp, nhà xưởng build-to-suit và phương án mở rộng phù hợp với lộ trình đầu tư của doanh nghiệp tại KCN Trấn Dương - Hòa Bình.",
+        "highlights": [
+          "Theo quy hoạch 2030",
+          "Phù hợp đi trước đón đầu",
+          "Nội dung thiên về lộ trình đầu tư"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "a655552471cb",
+      "slug": "sap-mo-ban-khu-cong-nghiep-san-bay-tien-lang-khu-b-hai-phong",
+      "url": "https://macland.vn/san-pham/sap-mo-ban-khu-cong-nghiep-san-bay-tien-lang-khu-b-hai-phong",
+      "title": "[SẮP MỞ BÁN] Mặt bằng nhà xưởng tại khu công nghiệp Sân Bay Tiên Lãng (Khu B)",
+      "type": "khu-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Tiên Lãng",
+        "address": "Thuộc định hướng phát triển khu công nghiệp gắn với khu vực sân bay Tiên Lãng tại Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "Đang cập nhật",
+        "area_unit": "",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "Logistics hàng không",
+          "Quỹ đất mới",
+          "Doanh nghiệp cần vị trí chiến lược"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Theo quy hoạch",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Khu Công nghiệp Sân bay Tiên Lãng (Khu B) phù hợp với doanh nghiệp muốn đón đầu quỹ đất công nghiệp gắn với định hướng logistics hàng không tại Hải Phòng.",
+        "full_content": "Khu Công nghiệp Sân bay Tiên Lãng (Khu B) phù hợp với doanh nghiệp muốn đón đầu quỹ đất công nghiệp gắn với định hướng logistics hàng không tại Hải Phòng.\n\nI. Tổng quan\nKhu Công Nghiệp Sân Bay Tiên Lãng (Khu B) là khu công nghiệp đang được MACLAND ưu tiên cập nhật theo định hướng phát triển công nghiệp tại Hải Phòng giai đoạn 2026 - 2030. Dự án phù hợp với doanh nghiệp muốn đón đầu quỹ đất, chuẩn bị kế hoạch mở rộng nhà máy hoặc khảo sát mặt bằng theo lộ trình đầu tư trung và dài hạn.\n\nII. Vị trí và tiềm năng kết nối\nThuộc định hướng phát triển khu công nghiệp gắn với khu vực sân bay Tiên Lãng tại Hải Phòng.\nĐây là dự án phù hợp với nhóm doanh nghiệp quan tâm hạ tầng hàng không và chuỗi logistics tương lai.\n\nIII. Định hướng khai thác\nKCN Sân bay Tiên Lãng nên được khai thác theo góc nhìn logistics hàng không và quỹ đất đón đầu hạ tầng mới.\nTrạng thái hiện tại của dự án phù hợp với cách tiếp cận theo hướng đăng ký nhu cầu sớm, theo dõi tiến độ pháp lý - hạ tầng và chuẩn bị tiêu chí tìm mặt bằng trước khi nguồn cung đi vào thị trường.\n\nIV. Nhóm doanh nghiệp phù hợp\nLogistics hàng không; Quỹ đất mới; Doanh nghiệp cần vị trí chiến lược.\n\nV. Giải pháp từ MACLAND\nMACLAND tiếp nhận nhu cầu khảo sát quỹ đất, mặt bằng công nghiệp, nhà xưởng build-to-suit và phương án mở rộng phù hợp với lộ trình đầu tư của doanh nghiệp tại KCN Sân bay Tiên Lãng (Khu B).",
+        "highlights": [
+          "Gắn với định hướng sân bay Tiên Lãng",
+          "Phù hợp logistics hàng không",
+          "Dự án đón đầu hạ tầng mới"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "fce5d93be2ce",
+      "slug": "sap-mo-ban-khu-cong-nghiep-va-khu-phi-thue-quan-xuan-cau-hai-phong",
+      "url": "https://macland.vn/san-pham/sap-mo-ban-khu-cong-nghiep-va-khu-phi-thue-quan-xuan-cau-hai-phong",
+      "title": "[SẮP MỞ BÁN] Mặt bằng nhà xưởng tại khu công nghiệp và Khu Phi Thuế Quan Xuân Cầu",
+      "type": "khu-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Hải Phòng",
+        "address": "Thuộc định hướng phát triển khu công nghiệp và khu phi thuế quan tại Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "Đang cập nhật",
+        "area_unit": "",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "Phi thuế quan",
+          "Logistics",
+          "Kho bãi",
+          "Công nghiệp gắn cảng biển"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Theo quy hoạch",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Khu Công nghiệp và Khu Phi thuế quan Xuân Cầu là dự án phù hợp với doanh nghiệp quan tâm logistics, kho bãi và mô hình phi thuế quan tại Hải Phòng.",
+        "full_content": "Khu Công nghiệp và Khu Phi thuế quan Xuân Cầu là dự án phù hợp với doanh nghiệp quan tâm logistics, kho bãi và mô hình phi thuế quan tại Hải Phòng.\n\nI. Tổng quan\nKhu Công Nghiệp và Khu Phi Thuế Quan Xuân Cầu là khu công nghiệp đang được MACLAND ưu tiên cập nhật theo định hướng phát triển công nghiệp tại Hải Phòng giai đoạn 2026 - 2030. Dự án phù hợp với doanh nghiệp muốn đón đầu quỹ đất, chuẩn bị kế hoạch mở rộng nhà máy hoặc khảo sát mặt bằng theo lộ trình đầu tư trung và dài hạn.\n\nII. Vị trí và tiềm năng kết nối\nThuộc định hướng phát triển khu công nghiệp và khu phi thuế quan tại Hải Phòng.\nPhù hợp với các doanh nghiệp quan tâm mô hình khu phi thuế quan, kho bãi và thương mại quốc tế.\n\nIII. Định hướng khai thác\nĐây là nhóm nội dung có thể khai thác rất tốt theo hướng logistics, cảng biển và mô hình thương mại tự do.\nTrạng thái hiện tại của dự án phù hợp với cách tiếp cận theo hướng đăng ký nhu cầu sớm, theo dõi tiến độ pháp lý - hạ tầng và chuẩn bị tiêu chí tìm mặt bằng trước khi nguồn cung đi vào thị trường.\n\nIV. Nhóm doanh nghiệp phù hợp\nPhi thuế quan; Logistics; Kho bãi; Công nghiệp gắn cảng biển.\n\nV. Giải pháp từ MACLAND\nMACLAND tiếp nhận nhu cầu khảo sát quỹ đất, mặt bằng công nghiệp, nhà xưởng build-to-suit và phương án mở rộng phù hợp với lộ trình đầu tư của doanh nghiệp tại KCN và Khu phi thuế quan Xuân Cầu.",
+        "highlights": [
+          "Mô hình khu phi thuế quan",
+          "Phù hợp logistics và thương mại quốc tế",
+          "Tạo khác biệt nội dung cho danh mục Hải Phòng"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "9b4c9986a4dc",
+      "slug": "sap-mo-ban-khu-cong-nghiep-cang-cua-ngo-quoc-te-hai-phong",
+      "url": "https://macland.vn/san-pham/sap-mo-ban-khu-cong-nghiep-cang-cua-ngo-quoc-te-hai-phong",
+      "title": "[SẮP MỞ BÁN] Mặt bằng nhà xưởng tại khu công nghiệp Cảng Cửa Ngõ Quốc Tế Hải Phòng",
+      "type": "khu-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Hải Phòng",
+        "address": "Thuộc nhóm dự án công nghiệp gắn với khu vực cảng cửa ngõ quốc tế tại Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "Đang cập nhật",
+        "area_unit": "",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "Cảng nước sâu",
+          "Logistics",
+          "Công nghiệp xuất khẩu",
+          "Kho bãi"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Theo quy hoạch",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Khu Công nghiệp Cảng Cửa ngõ Quốc tế Hải Phòng là dự án phù hợp với doanh nghiệp muốn đón đầu quỹ đất chiến lược gần hệ thống cảng quốc tế.",
+        "full_content": "Khu Công nghiệp Cảng Cửa ngõ Quốc tế Hải Phòng là dự án phù hợp với doanh nghiệp muốn đón đầu quỹ đất chiến lược gần hệ thống cảng quốc tế.\n\nI. Tổng quan\nKhu Công Nghiệp Cảng Cửa Ngõ Quốc Tế Hải Phòng là khu công nghiệp đang được MACLAND ưu tiên cập nhật theo định hướng phát triển công nghiệp tại Hải Phòng giai đoạn 2026 - 2030. Dự án phù hợp với doanh nghiệp muốn đón đầu quỹ đất, chuẩn bị kế hoạch mở rộng nhà máy hoặc khảo sát mặt bằng theo lộ trình đầu tư trung và dài hạn.\n\nII. Vị trí và tiềm năng kết nối\nThuộc nhóm dự án công nghiệp gắn với khu vực cảng cửa ngõ quốc tế tại Hải Phòng.\nPhù hợp với doanh nghiệp quan tâm lợi thế cảng nước sâu và chuỗi logistics quy mô lớn.\n\nIII. Định hướng khai thác\nDự án này nên được phát triển content theo hướng cảng nước sâu, logistics quốc tế và quỹ đất chiến lược cho xuất nhập khẩu.\nTrạng thái hiện tại của dự án phù hợp với cách tiếp cận theo hướng đăng ký nhu cầu sớm, theo dõi tiến độ pháp lý - hạ tầng và chuẩn bị tiêu chí tìm mặt bằng trước khi nguồn cung đi vào thị trường.\n\nIV. Nhóm doanh nghiệp phù hợp\nCảng nước sâu; Logistics; Công nghiệp xuất khẩu; Kho bãi.\n\nV. Giải pháp từ MACLAND\nMACLAND tiếp nhận nhu cầu khảo sát quỹ đất, mặt bằng công nghiệp, nhà xưởng build-to-suit và phương án mở rộng phù hợp với lộ trình đầu tư của doanh nghiệp tại KCN Cảng Cửa ngõ Quốc tế Hải Phòng.",
+        "highlights": [
+          "Gắn với cảng cửa ngõ quốc tế",
+          "Phù hợp logistics và xuất khẩu",
+          "Quỹ đất chiến lược theo quy hoạch"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "d2115a780c0d",
+      "slug": "chuyen-nhuong-cum-cong-nghiep-vinh-niem-hai-phong",
+      "url": "https://macland.vn/san-pham/chuyen-nhuong-cum-cong-nghiep-vinh-niem-hai-phong",
+      "title": "[CHUYỂN NHƯỢNG] Mặt bằng nhà xưởng tại cụm công nghiệp Vĩnh Niệm Hải Phòng",
+      "type": "cum-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Hải Phòng",
+        "address": "Thuộc khu vực Vĩnh Niệm, thành phố Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "Đang cập nhật",
+        "area_unit": "",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "Mặt bằng sản xuất quy mô vừa",
+          "SME",
+          "Kho xưởng"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Đã hình thành",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Cụm Công nghiệp Vĩnh Niệm là lựa chọn phù hợp cho doanh nghiệp cần mặt bằng sản xuất quy mô vừa tại Hải Phòng.",
+        "full_content": "Cụm Công nghiệp Vĩnh Niệm là lựa chọn phù hợp cho doanh nghiệp cần mặt bằng sản xuất quy mô vừa tại Hải Phòng.\n\nI. Tổng quan\nCụm Công Nghiệp Vĩnh Niệm Hải Phòng là cụm công nghiệp đang vận hành và là một trong những lựa chọn đáng chú ý tại Hải Phòng cho doanh nghiệp cần quỹ đất công nghiệp, nhà xưởng, kho xưởng hoặc mặt bằng sản xuất. Đây là nhóm sản phẩm MACLAND định hướng khai thác theo hướng vừa làm content tổng quan, vừa mở rộng sang các bài con về chuyển nhượng đất, cho thuê nhà xưởng và mặt bằng công nghiệp.\n\nII. Vị trí và kết nối\nThuộc khu vực Vĩnh Niệm, thành phố Hải Phòng.\nPhù hợp doanh nghiệp cần mặt bằng công nghiệp cận trung tâm hoặc khu vực ven nội thành Hải Phòng.\n\nIII. Lợi thế khai thác\nCCN Vĩnh Niệm phù hợp bổ sung vào danh mục theo hướng mặt bằng công nghiệp quy mô vừa và nhu cầu khai thác linh hoạt.\nĐối với doanh nghiệp đang cần mở rộng sản xuất tại Hải Phòng, đây là dự án phù hợp để khảo sát theo cả hai hướng: khai thác nguồn hàng thực tế đang hiện hữu và tìm vị trí chiến lược cho nhu cầu vận hành trung hạn.\n\nIV. Nhóm doanh nghiệp phù hợp\nMặt bằng sản xuất quy mô vừa; SME; Kho xưởng.\n\nV. Giải pháp từ MACLAND\nMACLAND hỗ trợ doanh nghiệp tìm kiếm quỹ đất công nghiệp, nhà xưởng, kho xưởng và mặt bằng sản xuất phù hợp tại CCN Vĩnh Niệm theo diện tích, ngành nghề, tiến độ triển khai và phương án khai thác thực tế.",
+        "highlights": [
+          "Phù hợp SME",
+          "Mặt bằng quy mô vừa",
+          "Bổ sung danh mục CCN đang hình thành"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "1e9176d472a1",
+      "slug": "chuyen-nhuong-cum-cong-nghiep-quan-tru-hai-phong",
+      "url": "https://macland.vn/san-pham/chuyen-nhuong-cum-cong-nghiep-quan-tru-hai-phong",
+      "title": "[CHUYỂN NHƯỢNG] Mặt bằng nhà xưởng tại cụm công nghiệp Quán Trữ Hải Phòng",
+      "type": "cum-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Hải Phòng",
+        "address": "Thuộc khu vực Quán Trữ, thành phố Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "Đang cập nhật",
+        "area_unit": "",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "Mặt bằng sản xuất quy mô vừa",
+          "SME",
+          "Công nghiệp nhẹ"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Đã hình thành",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Cụm Công nghiệp Quán Trữ là lựa chọn phù hợp cho doanh nghiệp vừa và nhỏ cần mặt bằng sản xuất tại Hải Phòng.",
+        "full_content": "Cụm Công nghiệp Quán Trữ là lựa chọn phù hợp cho doanh nghiệp vừa và nhỏ cần mặt bằng sản xuất tại Hải Phòng.\n\nI. Tổng quan\nCụm Công Nghiệp Quán Trữ Hải Phòng là cụm công nghiệp đang vận hành và là một trong những lựa chọn đáng chú ý tại Hải Phòng cho doanh nghiệp cần quỹ đất công nghiệp, nhà xưởng, kho xưởng hoặc mặt bằng sản xuất. Đây là nhóm sản phẩm MACLAND định hướng khai thác theo hướng vừa làm content tổng quan, vừa mở rộng sang các bài con về chuyển nhượng đất, cho thuê nhà xưởng và mặt bằng công nghiệp.\n\nII. Vị trí và kết nối\nThuộc khu vực Quán Trữ, thành phố Hải Phòng.\nPhù hợp doanh nghiệp cần mặt bằng linh hoạt và thuận tiện tiếp cận khu vực nội thành Hải Phòng.\n\nIII. Lợi thế khai thác\nCCN Quán Trữ phù hợp khai thác theo hướng mặt bằng sản xuất vừa và nhỏ, dễ tiếp cận với doanh nghiệp địa phương.\nĐối với doanh nghiệp đang cần mở rộng sản xuất tại Hải Phòng, đây là dự án phù hợp để khảo sát theo cả hai hướng: khai thác nguồn hàng thực tế đang hiện hữu và tìm vị trí chiến lược cho nhu cầu vận hành trung hạn.\n\nIV. Nhóm doanh nghiệp phù hợp\nMặt bằng sản xuất quy mô vừa; SME; Công nghiệp nhẹ.\n\nV. Giải pháp từ MACLAND\nMACLAND hỗ trợ doanh nghiệp tìm kiếm quỹ đất công nghiệp, nhà xưởng, kho xưởng và mặt bằng sản xuất phù hợp tại CCN Quán Trữ theo diện tích, ngành nghề, tiến độ triển khai và phương án khai thác thực tế.",
+        "highlights": [
+          "Phù hợp doanh nghiệp vừa và nhỏ",
+          "Mặt bằng sản xuất linh hoạt",
+          "Tạo độ phủ CCN Hải Phòng"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "4906fde6ad59",
+      "slug": "chuyen-nhuong-cum-cong-nghiep-thi-tran-tien-lang-hai-phong",
+      "url": "https://macland.vn/san-pham/chuyen-nhuong-cum-cong-nghiep-thi-tran-tien-lang-hai-phong",
+      "title": "[CHUYỂN NHƯỢNG] Mặt bằng nhà xưởng tại cụm công nghiệp Thị Trấn Tiên Lãng Hải Phòng",
+      "type": "cum-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Tiên Lãng",
+        "address": "Thuộc khu vực thị trấn Tiên Lãng, huyện Tiên Lãng, Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "Đang cập nhật",
+        "area_unit": "",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "SME",
+          "Sản xuất địa phương",
+          "Kho xưởng vừa"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Đã hình thành",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Cụm Công nghiệp Thị trấn Tiên Lãng phù hợp với doanh nghiệp vừa và nhỏ cần mặt bằng sản xuất tại khu vực Tiên Lãng, Hải Phòng.",
+        "full_content": "Cụm Công nghiệp Thị trấn Tiên Lãng phù hợp với doanh nghiệp vừa và nhỏ cần mặt bằng sản xuất tại khu vực Tiên Lãng, Hải Phòng.\n\nI. Tổng quan\nCụm Công Nghiệp Thị Trấn Tiên Lãng Hải Phòng là cụm công nghiệp đang vận hành và là một trong những lựa chọn đáng chú ý tại Hải Phòng cho doanh nghiệp cần quỹ đất công nghiệp, nhà xưởng, kho xưởng hoặc mặt bằng sản xuất. Đây là nhóm sản phẩm MACLAND định hướng khai thác theo hướng vừa làm content tổng quan, vừa mở rộng sang các bài con về chuyển nhượng đất, cho thuê nhà xưởng và mặt bằng công nghiệp.\n\nII. Vị trí và kết nối\nThuộc khu vực thị trấn Tiên Lãng, huyện Tiên Lãng, Hải Phòng.\nPhù hợp doanh nghiệp cần mặt bằng tại Tiên Lãng và muốn tiếp cận chi phí linh hoạt hơn nhóm KCN lớn.\n\nIII. Lợi thế khai thác\nCCN Thị trấn Tiên Lãng phù hợp với nhóm nội dung phục vụ SME, doanh nghiệp địa phương và nhu cầu mở xưởng quy mô vừa.\nĐối với doanh nghiệp đang cần mở rộng sản xuất tại Hải Phòng, đây là dự án phù hợp để khảo sát theo cả hai hướng: khai thác nguồn hàng thực tế đang hiện hữu và tìm vị trí chiến lược cho nhu cầu vận hành trung hạn.\n\nIV. Nhóm doanh nghiệp phù hợp\nSME; Sản xuất địa phương; Kho xưởng vừa.\n\nV. Giải pháp từ MACLAND\nMACLAND hỗ trợ doanh nghiệp tìm kiếm quỹ đất công nghiệp, nhà xưởng, kho xưởng và mặt bằng sản xuất phù hợp tại CCN Thị trấn Tiên Lãng theo diện tích, ngành nghề, tiến độ triển khai và phương án khai thác thực tế.",
+        "highlights": [
+          "Phù hợp SME tại Tiên Lãng",
+          "Chiến lược địa phương hóa danh mục",
+          "Có thể phát triển bài nhà xưởng quy mô vừa"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "7adf069a72f2",
+      "slug": "chuyen-nhuong-cum-cong-nghiep-tan-lien-a-hai-phong",
+      "url": "https://macland.vn/san-pham/chuyen-nhuong-cum-cong-nghiep-tan-lien-a-hai-phong",
+      "title": "[CHUYỂN NHƯỢNG] Mặt bằng nhà xưởng tại cụm công nghiệp Tân Liên A Hải Phòng",
+      "type": "cum-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Hải Phòng",
+        "address": "Thuộc khu vực Tân Liên, Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "Đang cập nhật",
+        "area_unit": "",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "Công nghiệp hỗ trợ",
+          "Mặt bằng linh hoạt",
+          "SME"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Đã hình thành",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Cụm Công nghiệp Tân Liên A phù hợp với doanh nghiệp cần mặt bằng công nghiệp linh hoạt và hoạt động phụ trợ tại Hải Phòng.",
+        "full_content": "Cụm Công nghiệp Tân Liên A phù hợp với doanh nghiệp cần mặt bằng công nghiệp linh hoạt và hoạt động phụ trợ tại Hải Phòng.\n\nI. Tổng quan\nCụm Công Nghiệp Tân Liên A Hải Phòng là cụm công nghiệp đang vận hành và là một trong những lựa chọn đáng chú ý tại Hải Phòng cho doanh nghiệp cần quỹ đất công nghiệp, nhà xưởng, kho xưởng hoặc mặt bằng sản xuất. Đây là nhóm sản phẩm MACLAND định hướng khai thác theo hướng vừa làm content tổng quan, vừa mở rộng sang các bài con về chuyển nhượng đất, cho thuê nhà xưởng và mặt bằng công nghiệp.\n\nII. Vị trí và kết nối\nThuộc khu vực Tân Liên, Hải Phòng.\nPhù hợp doanh nghiệp phụ trợ và sản xuất quy mô vừa cần mặt bằng linh hoạt.\n\nIII. Lợi thế khai thác\nTân Liên A phù hợp để khai thác theo hướng cụm công nghiệp hỗ trợ và lựa chọn mặt bằng cho doanh nghiệp quy mô vừa.\nĐối với doanh nghiệp đang cần mở rộng sản xuất tại Hải Phòng, đây là dự án phù hợp để khảo sát theo cả hai hướng: khai thác nguồn hàng thực tế đang hiện hữu và tìm vị trí chiến lược cho nhu cầu vận hành trung hạn.\n\nIV. Nhóm doanh nghiệp phù hợp\nCông nghiệp hỗ trợ; Mặt bằng linh hoạt; SME.\n\nV. Giải pháp từ MACLAND\nMACLAND hỗ trợ doanh nghiệp tìm kiếm quỹ đất công nghiệp, nhà xưởng, kho xưởng và mặt bằng sản xuất phù hợp tại CCN Tân Liên A theo diện tích, ngành nghề, tiến độ triển khai và phương án khai thác thực tế.",
+        "highlights": [
+          "Mặt bằng linh hoạt",
+          "Phù hợp công nghiệp hỗ trợ",
+          "Tốt cho doanh nghiệp quy mô vừa"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "87d03c6b0b57",
+      "slug": "chuyen-nhuong-cum-cong-nghiep-tan-lien-b-hai-phong",
+      "url": "https://macland.vn/san-pham/chuyen-nhuong-cum-cong-nghiep-tan-lien-b-hai-phong",
+      "title": "[CHUYỂN NHƯỢNG] Mặt bằng nhà xưởng tại cụm công nghiệp Tân Liên B Hải Phòng",
+      "type": "cum-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Hải Phòng",
+        "address": "Thuộc khu vực Tân Liên, Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "Đang cập nhật",
+        "area_unit": "",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "Công nghiệp hỗ trợ",
+          "SME",
+          "Mặt bằng sản xuất quy mô vừa"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Đã hình thành",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Cụm Công nghiệp Tân Liên B là lựa chọn phù hợp cho doanh nghiệp vừa và nhỏ cần mặt bằng sản xuất tại Hải Phòng.",
+        "full_content": "Cụm Công nghiệp Tân Liên B là lựa chọn phù hợp cho doanh nghiệp vừa và nhỏ cần mặt bằng sản xuất tại Hải Phòng.\n\nI. Tổng quan\nCụm Công Nghiệp Tân Liên B Hải Phòng là cụm công nghiệp đang vận hành và là một trong những lựa chọn đáng chú ý tại Hải Phòng cho doanh nghiệp cần quỹ đất công nghiệp, nhà xưởng, kho xưởng hoặc mặt bằng sản xuất. Đây là nhóm sản phẩm MACLAND định hướng khai thác theo hướng vừa làm content tổng quan, vừa mở rộng sang các bài con về chuyển nhượng đất, cho thuê nhà xưởng và mặt bằng công nghiệp.\n\nII. Vị trí và kết nối\nThuộc khu vực Tân Liên, Hải Phòng.\nLà lựa chọn bổ sung cho doanh nghiệp cần cụm công nghiệp quy mô vừa tại Hải Phòng.\n\nIII. Lợi thế khai thác\nNội dung cho Tân Liên B nên tiếp cận gần với nhu cầu thực tế của SME và doanh nghiệp phụ trợ.\nĐối với doanh nghiệp đang cần mở rộng sản xuất tại Hải Phòng, đây là dự án phù hợp để khảo sát theo cả hai hướng: khai thác nguồn hàng thực tế đang hiện hữu và tìm vị trí chiến lược cho nhu cầu vận hành trung hạn.\n\nIV. Nhóm doanh nghiệp phù hợp\nCông nghiệp hỗ trợ; SME; Mặt bằng sản xuất quy mô vừa.\n\nV. Giải pháp từ MACLAND\nMACLAND hỗ trợ doanh nghiệp tìm kiếm quỹ đất công nghiệp, nhà xưởng, kho xưởng và mặt bằng sản xuất phù hợp tại CCN Tân Liên B theo diện tích, ngành nghề, tiến độ triển khai và phương án khai thác thực tế.",
+        "highlights": [
+          "Phù hợp doanh nghiệp vừa và nhỏ",
+          "Bổ sung danh mục Tân Liên",
+          "Hướng nội dung SME và phụ trợ"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "ced9d064f4d5",
+      "slug": "chuyen-nhuong-cum-cong-nghiep-giang-bien-hai-phong",
+      "url": "https://macland.vn/san-pham/chuyen-nhuong-cum-cong-nghiep-giang-bien-hai-phong",
+      "title": "[CHUYỂN NHƯỢNG] Mặt bằng nhà xưởng tại cụm công nghiệp Giang Biên Hải Phòng",
+      "type": "cum-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Hải Phòng",
+        "address": "Thuộc khu vực Giang Biên, Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "Đang cập nhật",
+        "area_unit": "",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "Mặt bằng quy mô vừa",
+          "SME",
+          "Sản xuất linh hoạt"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Đã hình thành",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Cụm Công nghiệp Giang Biên phù hợp với doanh nghiệp cần mặt bằng sản xuất quy mô vừa tại Hải Phòng.",
+        "full_content": "Cụm Công nghiệp Giang Biên phù hợp với doanh nghiệp cần mặt bằng sản xuất quy mô vừa tại Hải Phòng.\n\nI. Tổng quan\nCụm Công Nghiệp Giang Biên Hải Phòng là cụm công nghiệp đang vận hành và là một trong những lựa chọn đáng chú ý tại Hải Phòng cho doanh nghiệp cần quỹ đất công nghiệp, nhà xưởng, kho xưởng hoặc mặt bằng sản xuất. Đây là nhóm sản phẩm MACLAND định hướng khai thác theo hướng vừa làm content tổng quan, vừa mở rộng sang các bài con về chuyển nhượng đất, cho thuê nhà xưởng và mặt bằng công nghiệp.\n\nII. Vị trí và kết nối\nThuộc khu vực Giang Biên, Hải Phòng.\nPhù hợp doanh nghiệp cần cụm công nghiệp quy mô vừa với khả năng bố trí xưởng sản xuất linh hoạt.\n\nIII. Lợi thế khai thác\nCCN Giang Biên bổ sung thêm độ phủ cho nhóm sản phẩm công nghiệp vừa và nhỏ tại Hải Phòng.\nĐối với doanh nghiệp đang cần mở rộng sản xuất tại Hải Phòng, đây là dự án phù hợp để khảo sát theo cả hai hướng: khai thác nguồn hàng thực tế đang hiện hữu và tìm vị trí chiến lược cho nhu cầu vận hành trung hạn.\n\nIV. Nhóm doanh nghiệp phù hợp\nMặt bằng quy mô vừa; SME; Sản xuất linh hoạt.\n\nV. Giải pháp từ MACLAND\nMACLAND hỗ trợ doanh nghiệp tìm kiếm quỹ đất công nghiệp, nhà xưởng, kho xưởng và mặt bằng sản xuất phù hợp tại CCN Giang Biên theo diện tích, ngành nghề, tiến độ triển khai và phương án khai thác thực tế.",
+        "highlights": [
+          "Mặt bằng quy mô vừa",
+          "Phù hợp SME",
+          "Tạo độ dày danh mục CCN"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "f39a52bdc665",
+      "slug": "chuyen-nhuong-cum-cong-nghiep-doan-tung-hai-phong",
+      "url": "https://macland.vn/san-pham/chuyen-nhuong-cum-cong-nghiep-doan-tung-hai-phong",
+      "title": "[CHUYỂN NHƯỢNG] Mặt bằng nhà xưởng tại cụm công nghiệp Đoàn Tùng Hải Phòng",
+      "type": "cum-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Hải Phòng",
+        "address": "Thuộc khu vực Đoàn Tùng, Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "Đang cập nhật",
+        "area_unit": "",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "SME",
+          "Cơ khí nhẹ",
+          "Nhà xưởng vừa"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Đã hình thành",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Cụm Công nghiệp Đoàn Tùng là lựa chọn phù hợp cho doanh nghiệp quy mô vừa cần mặt bằng sản xuất tại Hải Phòng.",
+        "full_content": "Cụm Công nghiệp Đoàn Tùng là lựa chọn phù hợp cho doanh nghiệp quy mô vừa cần mặt bằng sản xuất tại Hải Phòng.\n\nI. Tổng quan\nCụm Công Nghiệp Đoàn Tùng Hải Phòng là cụm công nghiệp đang vận hành và là một trong những lựa chọn đáng chú ý tại Hải Phòng cho doanh nghiệp cần quỹ đất công nghiệp, nhà xưởng, kho xưởng hoặc mặt bằng sản xuất. Đây là nhóm sản phẩm MACLAND định hướng khai thác theo hướng vừa làm content tổng quan, vừa mở rộng sang các bài con về chuyển nhượng đất, cho thuê nhà xưởng và mặt bằng công nghiệp.\n\nII. Vị trí và kết nối\nThuộc khu vực Đoàn Tùng, Hải Phòng.\nPhù hợp nhà sản xuất quy mô vừa, doanh nghiệp cơ khí nhẹ và kho xưởng SME.\n\nIII. Lợi thế khai thác\nĐây là nhóm nội dung nên đi theo hướng thực dụng: mặt bằng vừa, phù hợp mở xưởng, chi phí tiếp cận linh hoạt.\nĐối với doanh nghiệp đang cần mở rộng sản xuất tại Hải Phòng, đây là dự án phù hợp để khảo sát theo cả hai hướng: khai thác nguồn hàng thực tế đang hiện hữu và tìm vị trí chiến lược cho nhu cầu vận hành trung hạn.\n\nIV. Nhóm doanh nghiệp phù hợp\nSME; Cơ khí nhẹ; Nhà xưởng vừa.\n\nV. Giải pháp từ MACLAND\nMACLAND hỗ trợ doanh nghiệp tìm kiếm quỹ đất công nghiệp, nhà xưởng, kho xưởng và mặt bằng sản xuất phù hợp tại CCN Đoàn Tùng theo diện tích, ngành nghề, tiến độ triển khai và phương án khai thác thực tế.",
+        "highlights": [
+          "Phù hợp cơ khí nhẹ và SME",
+          "Mặt bằng sản xuất vừa",
+          "Nội dung theo hướng thực dụng"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "dd164f4b0b37",
+      "slug": "sap-mo-ban-cum-cong-nghiep-tien-cuong-ii-hai-phong",
+      "url": "https://macland.vn/san-pham/sap-mo-ban-cum-cong-nghiep-tien-cuong-ii-hai-phong",
+      "title": "[SẮP MỞ BÁN] Mặt bằng nhà xưởng tại cụm công nghiệp Tiên Cường II Hải Phòng",
+      "type": "cum-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Tiên Lãng",
+        "address": "Thuộc khu vực Tiên Lãng, thành phố Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "Hơn 50 ha",
+        "area_unit": "ha",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "Cơ khí",
+          "Điện tử",
+          "Công nghệ cao",
+          "Công nghiệp hỗ trợ",
+          "SME sản xuất"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Đang triển khai",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Cụm Công nghiệp Tiên Cường II là lựa chọn phù hợp cho doanh nghiệp vừa và nhỏ, doanh nghiệp công nghiệp hỗ trợ và đơn vị cần mặt bằng sản xuất linh hoạt tại Tiên Lãng.",
+        "full_content": "Cụm Công nghiệp Tiên Cường II là lựa chọn phù hợp cho doanh nghiệp vừa và nhỏ, doanh nghiệp công nghiệp hỗ trợ và đơn vị cần mặt bằng sản xuất linh hoạt tại Tiên Lãng.\n\nI. Tổng quan\nCụm Công Nghiệp Tiên Cường II Hải Phòng là cụm công nghiệp đang được MACLAND ưu tiên cập nhật theo định hướng phát triển công nghiệp tại Hải Phòng giai đoạn 2026 - 2030. Dự án phù hợp với doanh nghiệp muốn đón đầu quỹ đất, chuẩn bị kế hoạch mở rộng nhà máy hoặc khảo sát mặt bằng theo lộ trình đầu tư trung và dài hạn.\n\nII. Vị trí và tiềm năng kết nối\nThuộc khu vực Tiên Lãng, thành phố Hải Phòng.\nPhù hợp doanh nghiệp cần mặt bằng linh hoạt nhưng vẫn đảm bảo khả năng kết nối hàng hóa trong khu vực Hải Phòng.\n\nIII. Định hướng khai thác\nCCN Tiên Cường II phù hợp với nhóm doanh nghiệp vừa và nhỏ, doanh nghiệp phụ trợ và các đơn vị muốn tiếp cận mặt bằng theo từng giai đoạn đầu tư.\nTrạng thái hiện tại của dự án phù hợp với cách tiếp cận theo hướng đăng ký nhu cầu sớm, theo dõi tiến độ pháp lý - hạ tầng và chuẩn bị tiêu chí tìm mặt bằng trước khi nguồn cung đi vào thị trường.\n\nIV. Nhóm doanh nghiệp phù hợp\nCơ khí; Điện tử; Công nghệ cao; Công nghiệp hỗ trợ; SME sản xuất.\n\nV. Giải pháp từ MACLAND\nMACLAND tiếp nhận nhu cầu khảo sát quỹ đất, mặt bằng công nghiệp, nhà xưởng build-to-suit và phương án mở rộng phù hợp với lộ trình đầu tư của doanh nghiệp tại CCN Tiên Cường II.",
+        "highlights": [
+          "Khởi công ngày 18/05/2024",
+          "Phù hợp SME và công nghiệp hỗ trợ",
+          "Mặt bằng linh hoạt theo giai đoạn"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "92bca268405a",
+      "slug": "sap-mo-ban-cum-cong-nghiep-cam-van-hai-phong",
+      "url": "https://macland.vn/san-pham/sap-mo-ban-cum-cong-nghiep-cam-van-hai-phong",
+      "title": "[SẮP MỞ BÁN] Mặt bằng nhà xưởng tại cụm công nghiệp Cẩm Văn Hải Phòng",
+      "type": "cum-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "An Lão",
+        "address": "Thuộc khu vực An Lão, Hải Phòng; gần Quốc lộ 10 và cao tốc Hà Nội - Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "34.88 ha",
+        "area_unit": "ha",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "SME sản xuất",
+          "Nhà xưởng xây sẵn",
+          "Kho bãi",
+          "Công nghiệp hỗ trợ"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Mới khởi công",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Cụm Công nghiệp Cẩm Văn là dự án mới tại Hải Phòng, thu hút chú ý nhờ vị trí kết nối thuận lợi và định hướng phát triển hệ thống nhà xưởng, kho bãi xây sẵn.",
+        "full_content": "Cụm Công nghiệp Cẩm Văn là dự án mới tại Hải Phòng, thu hút chú ý nhờ vị trí kết nối thuận lợi và định hướng phát triển hệ thống nhà xưởng, kho bãi xây sẵn.\n\nI. Tổng quan\nCụm Công Nghiệp Cẩm Văn Hải Phòng là cụm công nghiệp đang được MACLAND ưu tiên cập nhật theo định hướng phát triển công nghiệp tại Hải Phòng giai đoạn 2026 - 2030. Dự án phù hợp với doanh nghiệp muốn đón đầu quỹ đất, chuẩn bị kế hoạch mở rộng nhà máy hoặc khảo sát mặt bằng theo lộ trình đầu tư trung và dài hạn.\n\nII. Vị trí và tiềm năng kết nối\nThuộc khu vực An Lão, Hải Phòng; gần Quốc lộ 10 và cao tốc Hà Nội - Hải Phòng.\nLợi thế vị trí giúp CCN Cẩm Văn phù hợp cho doanh nghiệp vừa và nhỏ vẫn muốn đảm bảo kết nối giao thông thuận tiện.\n\nIII. Định hướng khai thác\nCCN Cẩm Văn nên được kể theo hướng dự án mới, có tiềm năng phát triển nhà xưởng và kho bãi xây sẵn, tạo cảm giác nguồn hàng mới cho website.\nTrạng thái hiện tại của dự án phù hợp với cách tiếp cận theo hướng đăng ký nhu cầu sớm, theo dõi tiến độ pháp lý - hạ tầng và chuẩn bị tiêu chí tìm mặt bằng trước khi nguồn cung đi vào thị trường.\n\nIV. Nhóm doanh nghiệp phù hợp\nSME sản xuất; Nhà xưởng xây sẵn; Kho bãi; Công nghiệp hỗ trợ.\n\nV. Giải pháp từ MACLAND\nMACLAND tiếp nhận nhu cầu khảo sát quỹ đất, mặt bằng công nghiệp, nhà xưởng build-to-suit và phương án mở rộng phù hợp với lộ trình đầu tư của doanh nghiệp tại CCN Cẩm Văn.",
+        "highlights": [
+          "Khởi công ngày 03/10/2025",
+          "Định hướng nhà xưởng và kho bãi xây sẵn",
+          "Phù hợp doanh nghiệp vừa và nhỏ"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "a4ddebc960bd",
+      "slug": "sap-mo-ban-cum-cong-nghiep-le-thien-dai-ban-hai-phong",
+      "url": "https://macland.vn/san-pham/sap-mo-ban-cum-cong-nghiep-le-thien-dai-ban-hai-phong",
+      "title": "[SẮP MỞ BÁN] Mặt bằng nhà xưởng tại cụm công nghiệp Lê Thiện - Đại Bản Hải Phòng",
+      "type": "cum-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Hải Phòng",
+        "address": "Thuộc định hướng phát triển cụm công nghiệp mới tại Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "Đang cập nhật",
+        "area_unit": "",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "Công nghiệp hỗ trợ",
+          "SME",
+          "Mặt bằng vệ tinh cho KCN lớn"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Theo quy hoạch",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Cụm Công nghiệp Lê Thiện - Đại Bản là dự án phù hợp cho doanh nghiệp phụ trợ và doanh nghiệp vừa và nhỏ muốn đón đầu mặt bằng công nghiệp mới tại Hải Phòng.",
+        "full_content": "Cụm Công nghiệp Lê Thiện - Đại Bản là dự án phù hợp cho doanh nghiệp phụ trợ và doanh nghiệp vừa và nhỏ muốn đón đầu mặt bằng công nghiệp mới tại Hải Phòng.\n\nI. Tổng quan\nCụm Công Nghiệp Lê Thiện - Đại Bản Hải Phòng là cụm công nghiệp đang được MACLAND ưu tiên cập nhật theo định hướng phát triển công nghiệp tại Hải Phòng giai đoạn 2026 - 2030. Dự án phù hợp với doanh nghiệp muốn đón đầu quỹ đất, chuẩn bị kế hoạch mở rộng nhà máy hoặc khảo sát mặt bằng theo lộ trình đầu tư trung và dài hạn.\n\nII. Vị trí và tiềm năng kết nối\nThuộc định hướng phát triển cụm công nghiệp mới tại Hải Phòng.\nPhù hợp khai thác theo góc nhìn cụm công nghiệp vệ tinh cho các khu công nghiệp lớn của Hải Phòng.\n\nIII. Định hướng khai thác\nĐây là nội dung nên được phát triển theo hướng công nghiệp hỗ trợ, doanh nghiệp vệ tinh và mặt bằng linh hoạt cho SME.\nTrạng thái hiện tại của dự án phù hợp với cách tiếp cận theo hướng đăng ký nhu cầu sớm, theo dõi tiến độ pháp lý - hạ tầng và chuẩn bị tiêu chí tìm mặt bằng trước khi nguồn cung đi vào thị trường.\n\nIV. Nhóm doanh nghiệp phù hợp\nCông nghiệp hỗ trợ; SME; Mặt bằng vệ tinh cho KCN lớn.\n\nV. Giải pháp từ MACLAND\nMACLAND tiếp nhận nhu cầu khảo sát quỹ đất, mặt bằng công nghiệp, nhà xưởng build-to-suit và phương án mở rộng phù hợp với lộ trình đầu tư của doanh nghiệp tại CCN Lê Thiện - Đại Bản.",
+        "highlights": [
+          "Theo quy hoạch",
+          "Phù hợp doanh nghiệp vệ tinh",
+          "Hướng công nghiệp hỗ trợ"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "5fa17d3ec951",
+      "slug": "sap-mo-ban-cum-cong-nghiep-phu-tro-trang-due-hai-phong",
+      "url": "https://macland.vn/san-pham/sap-mo-ban-cum-cong-nghiep-phu-tro-trang-due-hai-phong",
+      "title": "[SẮP MỞ BÁN] Mặt bằng nhà xưởng tại cụm công nghiệp Phụ Trợ Tràng Duệ Hải Phòng",
+      "type": "cum-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Hải Phòng",
+        "address": "Thuộc định hướng phát triển cụm công nghiệp phụ trợ cho hệ sinh thái Tràng Duệ tại Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "Đang cập nhật",
+        "area_unit": "",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "Công nghiệp hỗ trợ điện tử",
+          "Vendor phụ trợ",
+          "SME sản xuất"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Theo quy hoạch",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Cụm Công nghiệp Phụ trợ Tràng Duệ là lựa chọn phù hợp cho doanh nghiệp công nghiệp hỗ trợ muốn đón đầu mặt bằng trong hệ sinh thái Tràng Duệ tại Hải Phòng.",
+        "full_content": "Cụm Công nghiệp Phụ trợ Tràng Duệ là lựa chọn phù hợp cho doanh nghiệp công nghiệp hỗ trợ muốn đón đầu mặt bằng trong hệ sinh thái Tràng Duệ tại Hải Phòng.\n\nI. Tổng quan\nCụm Công Nghiệp Phụ Trợ Tràng Duệ Hải Phòng là cụm công nghiệp đang được MACLAND ưu tiên cập nhật theo định hướng phát triển công nghiệp tại Hải Phòng giai đoạn 2026 - 2030. Dự án phù hợp với doanh nghiệp muốn đón đầu quỹ đất, chuẩn bị kế hoạch mở rộng nhà máy hoặc khảo sát mặt bằng theo lộ trình đầu tư trung và dài hạn.\n\nII. Vị trí và tiềm năng kết nối\nThuộc định hướng phát triển cụm công nghiệp phụ trợ cho hệ sinh thái Tràng Duệ tại Hải Phòng.\nGắn trực tiếp với nhu cầu công nghiệp hỗ trợ quanh hệ sinh thái Tràng Duệ.\n\nIII. Định hướng khai thác\nCCN Phụ trợ Tràng Duệ phù hợp để tiếp cận nhóm doanh nghiệp vendor, sản xuất linh kiện và dịch vụ phụ trợ cho chuỗi điện tử - công nghệ cao.\nTrạng thái hiện tại của dự án phù hợp với cách tiếp cận theo hướng đăng ký nhu cầu sớm, theo dõi tiến độ pháp lý - hạ tầng và chuẩn bị tiêu chí tìm mặt bằng trước khi nguồn cung đi vào thị trường.\n\nIV. Nhóm doanh nghiệp phù hợp\nCông nghiệp hỗ trợ điện tử; Vendor phụ trợ; SME sản xuất.\n\nV. Giải pháp từ MACLAND\nMACLAND tiếp nhận nhu cầu khảo sát quỹ đất, mặt bằng công nghiệp, nhà xưởng build-to-suit và phương án mở rộng phù hợp với lộ trình đầu tư của doanh nghiệp tại CCN Phụ trợ Tràng Duệ.",
+        "highlights": [
+          "Bám hệ sinh thái Tràng Duệ",
+          "Phù hợp vendor phụ trợ",
+          "Tốt cho chiến lược content theo chuỗi cung ứng"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "5c7216ff35d9",
+      "slug": "sap-mo-ban-cum-cong-nghiep-quoc-tuan-hai-phong",
+      "url": "https://macland.vn/san-pham/sap-mo-ban-cum-cong-nghiep-quoc-tuan-hai-phong",
+      "title": "[SẮP MỞ BÁN] Mặt bằng nhà xưởng tại cụm công nghiệp Quốc Tuấn Hải Phòng",
+      "type": "cum-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Hải Phòng",
+        "address": "Thuộc định hướng phát triển cụm công nghiệp mới tại Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "Đang cập nhật",
+        "area_unit": "",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "SME",
+          "Mặt bằng sản xuất mới",
+          "Kho xưởng vừa"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Theo quy hoạch",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Cụm Công nghiệp Quốc Tuấn là dự án phù hợp cho doanh nghiệp vừa và nhỏ muốn đón đầu mặt bằng công nghiệp mới tại Hải Phòng.",
+        "full_content": "Cụm Công nghiệp Quốc Tuấn là dự án phù hợp cho doanh nghiệp vừa và nhỏ muốn đón đầu mặt bằng công nghiệp mới tại Hải Phòng.\n\nI. Tổng quan\nCụm Công Nghiệp Quốc Tuấn Hải Phòng là cụm công nghiệp đang được MACLAND ưu tiên cập nhật theo định hướng phát triển công nghiệp tại Hải Phòng giai đoạn 2026 - 2030. Dự án phù hợp với doanh nghiệp muốn đón đầu quỹ đất, chuẩn bị kế hoạch mở rộng nhà máy hoặc khảo sát mặt bằng theo lộ trình đầu tư trung và dài hạn.\n\nII. Vị trí và tiềm năng kết nối\nThuộc định hướng phát triển cụm công nghiệp mới tại Hải Phòng.\nPhù hợp doanh nghiệp quy mô vừa và nhỏ cần mặt bằng công nghiệp mới tại Hải Phòng.\n\nIII. Định hướng khai thác\nCCN Quốc Tuấn phù hợp để phát triển nội dung theo hướng doanh nghiệp vừa và nhỏ, mặt bằng sản xuất mới và nhu cầu đi trước thị trường.\nTrạng thái hiện tại của dự án phù hợp với cách tiếp cận theo hướng đăng ký nhu cầu sớm, theo dõi tiến độ pháp lý - hạ tầng và chuẩn bị tiêu chí tìm mặt bằng trước khi nguồn cung đi vào thị trường.\n\nIV. Nhóm doanh nghiệp phù hợp\nSME; Mặt bằng sản xuất mới; Kho xưởng vừa.\n\nV. Giải pháp từ MACLAND\nMACLAND tiếp nhận nhu cầu khảo sát quỹ đất, mặt bằng công nghiệp, nhà xưởng build-to-suit và phương án mở rộng phù hợp với lộ trình đầu tư của doanh nghiệp tại CCN Quốc Tuấn.",
+        "highlights": [
+          "Phù hợp SME",
+          "Theo quy hoạch",
+          "Nội dung dễ chuyển thành bài mặt bằng mới"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "d5992927c285",
+      "slug": "sap-mo-ban-cum-cong-nghiep-chien-thang-2-hai-phong",
+      "url": "https://macland.vn/san-pham/sap-mo-ban-cum-cong-nghiep-chien-thang-2-hai-phong",
+      "title": "[SẮP MỞ BÁN] Mặt bằng nhà xưởng tại cụm công nghiệp Chiến Thắng 2 Hải Phòng",
+      "type": "cum-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Hải Phòng",
+        "address": "Thuộc nhóm dự án cụm công nghiệp theo quy hoạch của Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "Đang cập nhật",
+        "area_unit": "",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "Công nghiệp hỗ trợ",
+          "SME",
+          "Mặt bằng sản xuất"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Theo quy hoạch",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Cụm Công nghiệp Chiến Thắng 2 là dự án theo quy hoạch phù hợp với doanh nghiệp cần mặt bằng sản xuất mới tại Hải Phòng.",
+        "full_content": "Cụm Công nghiệp Chiến Thắng 2 là dự án theo quy hoạch phù hợp với doanh nghiệp cần mặt bằng sản xuất mới tại Hải Phòng.\n\nI. Tổng quan\nCụm Công Nghiệp Chiến Thắng 2 Hải Phòng là cụm công nghiệp đang được MACLAND ưu tiên cập nhật theo định hướng phát triển công nghiệp tại Hải Phòng giai đoạn 2026 - 2030. Dự án phù hợp với doanh nghiệp muốn đón đầu quỹ đất, chuẩn bị kế hoạch mở rộng nhà máy hoặc khảo sát mặt bằng theo lộ trình đầu tư trung và dài hạn.\n\nII. Vị trí và tiềm năng kết nối\nThuộc nhóm dự án cụm công nghiệp theo quy hoạch của Hải Phòng.\nPhù hợp doanh nghiệp cần mặt bằng mới và định hướng đầu tư sớm.\n\nIII. Định hướng khai thác\nNội dung nên đi theo hướng dự án mới cho công nghiệp hỗ trợ và doanh nghiệp quy mô vừa.\nTrạng thái hiện tại của dự án phù hợp với cách tiếp cận theo hướng đăng ký nhu cầu sớm, theo dõi tiến độ pháp lý - hạ tầng và chuẩn bị tiêu chí tìm mặt bằng trước khi nguồn cung đi vào thị trường.\n\nIV. Nhóm doanh nghiệp phù hợp\nCông nghiệp hỗ trợ; SME; Mặt bằng sản xuất.\n\nV. Giải pháp từ MACLAND\nMACLAND tiếp nhận nhu cầu khảo sát quỹ đất, mặt bằng công nghiệp, nhà xưởng build-to-suit và phương án mở rộng phù hợp với lộ trình đầu tư của doanh nghiệp tại CCN Chiến Thắng 2.",
+        "highlights": [
+          "Theo quy hoạch",
+          "Phù hợp công nghiệp hỗ trợ",
+          "Dễ triển khai content đón đầu"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "190f90407f84",
+      "slug": "sap-mo-ban-cum-cong-nghiep-cap-tien-hai-phong",
+      "url": "https://macland.vn/san-pham/sap-mo-ban-cum-cong-nghiep-cap-tien-hai-phong",
+      "title": "[SẮP MỞ BÁN] Mặt bằng nhà xưởng tại cụm công nghiệp Cấp Tiến Hải Phòng",
+      "type": "cum-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Tiên Lãng",
+        "address": "Thuộc khu vực Tiên Lãng, Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "Đang cập nhật",
+        "area_unit": "",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "SME",
+          "Mặt bằng công nghiệp linh hoạt",
+          "Kho xưởng vừa"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Theo quy hoạch",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Cụm Công nghiệp Cấp Tiến là dự án phù hợp cho doanh nghiệp vừa và nhỏ muốn đón đầu mặt bằng công nghiệp mới tại Tiên Lãng, Hải Phòng.",
+        "full_content": "Cụm Công nghiệp Cấp Tiến là dự án phù hợp cho doanh nghiệp vừa và nhỏ muốn đón đầu mặt bằng công nghiệp mới tại Tiên Lãng, Hải Phòng.\n\nI. Tổng quan\nCụm Công Nghiệp Cấp Tiến Hải Phòng là cụm công nghiệp đang được MACLAND ưu tiên cập nhật theo định hướng phát triển công nghiệp tại Hải Phòng giai đoạn 2026 - 2030. Dự án phù hợp với doanh nghiệp muốn đón đầu quỹ đất, chuẩn bị kế hoạch mở rộng nhà máy hoặc khảo sát mặt bằng theo lộ trình đầu tư trung và dài hạn.\n\nII. Vị trí và tiềm năng kết nối\nThuộc khu vực Tiên Lãng, Hải Phòng.\nPhù hợp cho doanh nghiệp muốn tìm mặt bằng mới tại Tiên Lãng theo lộ trình đầu tư.\n\nIII. Định hướng khai thác\nCCN Cấp Tiến nên được khai thác theo hướng linh hoạt, vừa tầm doanh nghiệp và dễ tiếp cận hơn so với KCN quy mô lớn.\nTrạng thái hiện tại của dự án phù hợp với cách tiếp cận theo hướng đăng ký nhu cầu sớm, theo dõi tiến độ pháp lý - hạ tầng và chuẩn bị tiêu chí tìm mặt bằng trước khi nguồn cung đi vào thị trường.\n\nIV. Nhóm doanh nghiệp phù hợp\nSME; Mặt bằng công nghiệp linh hoạt; Kho xưởng vừa.\n\nV. Giải pháp từ MACLAND\nMACLAND tiếp nhận nhu cầu khảo sát quỹ đất, mặt bằng công nghiệp, nhà xưởng build-to-suit và phương án mở rộng phù hợp với lộ trình đầu tư của doanh nghiệp tại CCN Cấp Tiến.",
+        "highlights": [
+          "Phù hợp SME",
+          "Hướng nội dung linh hoạt",
+          "Đón đầu nguồn cung mới"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "64a5553f421b",
+      "slug": "sap-mo-ban-cum-cong-nghiep-toan-thang-hai-phong",
+      "url": "https://macland.vn/san-pham/sap-mo-ban-cum-cong-nghiep-toan-thang-hai-phong",
+      "title": "[SẮP MỞ BÁN] Mặt bằng nhà xưởng tại cụm công nghiệp Toàn Thắng Hải Phòng",
+      "type": "cum-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Hải Phòng",
+        "address": "Thuộc định hướng phát triển cụm công nghiệp mới của Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "Đang cập nhật",
+        "area_unit": "",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "SME",
+          "Công nghiệp nhẹ",
+          "Mặt bằng sản xuất mới"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Theo quy hoạch",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Cụm Công nghiệp Toàn Thắng là dự án phù hợp với doanh nghiệp vừa và nhỏ cần mặt bằng sản xuất mới tại Hải Phòng.",
+        "full_content": "Cụm Công nghiệp Toàn Thắng là dự án phù hợp với doanh nghiệp vừa và nhỏ cần mặt bằng sản xuất mới tại Hải Phòng.\n\nI. Tổng quan\nCụm Công Nghiệp Toàn Thắng Hải Phòng là cụm công nghiệp đang được MACLAND ưu tiên cập nhật theo định hướng phát triển công nghiệp tại Hải Phòng giai đoạn 2026 - 2030. Dự án phù hợp với doanh nghiệp muốn đón đầu quỹ đất, chuẩn bị kế hoạch mở rộng nhà máy hoặc khảo sát mặt bằng theo lộ trình đầu tư trung và dài hạn.\n\nII. Vị trí và tiềm năng kết nối\nThuộc định hướng phát triển cụm công nghiệp mới của Hải Phòng.\nPhù hợp với doanh nghiệp vừa và nhỏ cần lựa chọn mặt bằng mới trong giai đoạn 2026 - 2030.\n\nIII. Định hướng khai thác\nCCN Toàn Thắng nên được khai thác như một lựa chọn mới cho doanh nghiệp sản xuất quy mô vừa.\nTrạng thái hiện tại của dự án phù hợp với cách tiếp cận theo hướng đăng ký nhu cầu sớm, theo dõi tiến độ pháp lý - hạ tầng và chuẩn bị tiêu chí tìm mặt bằng trước khi nguồn cung đi vào thị trường.\n\nIV. Nhóm doanh nghiệp phù hợp\nSME; Công nghiệp nhẹ; Mặt bằng sản xuất mới.\n\nV. Giải pháp từ MACLAND\nMACLAND tiếp nhận nhu cầu khảo sát quỹ đất, mặt bằng công nghiệp, nhà xưởng build-to-suit và phương án mở rộng phù hợp với lộ trình đầu tư của doanh nghiệp tại CCN Toàn Thắng.",
+        "highlights": [
+          "Phù hợp doanh nghiệp vừa và nhỏ",
+          "Theo quy hoạch",
+          "Bổ sung độ dày cho danh mục CCN"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "7454d9075b97",
+      "slug": "sap-mo-ban-cum-cong-nghiep-quyet-tien-hai-phong",
+      "url": "https://macland.vn/san-pham/sap-mo-ban-cum-cong-nghiep-quyet-tien-hai-phong",
+      "title": "[SẮP MỞ BÁN] Mặt bằng nhà xưởng tại cụm công nghiệp Quyết Tiến Hải Phòng",
+      "type": "cum-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Hải Phòng",
+        "address": "Thuộc nhóm dự án cụm công nghiệp mới tại Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "Đang cập nhật",
+        "area_unit": "",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "Công nghiệp hỗ trợ",
+          "SME",
+          "Sản xuất quy mô vừa"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Theo quy hoạch",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Cụm Công nghiệp Quyết Tiến là dự án theo quy hoạch phù hợp với doanh nghiệp công nghiệp hỗ trợ và sản xuất quy mô vừa tại Hải Phòng.",
+        "full_content": "Cụm Công nghiệp Quyết Tiến là dự án theo quy hoạch phù hợp với doanh nghiệp công nghiệp hỗ trợ và sản xuất quy mô vừa tại Hải Phòng.\n\nI. Tổng quan\nCụm Công Nghiệp Quyết Tiến Hải Phòng là cụm công nghiệp đang được MACLAND ưu tiên cập nhật theo định hướng phát triển công nghiệp tại Hải Phòng giai đoạn 2026 - 2030. Dự án phù hợp với doanh nghiệp muốn đón đầu quỹ đất, chuẩn bị kế hoạch mở rộng nhà máy hoặc khảo sát mặt bằng theo lộ trình đầu tư trung và dài hạn.\n\nII. Vị trí và tiềm năng kết nối\nThuộc nhóm dự án cụm công nghiệp mới tại Hải Phòng.\nPhù hợp tiếp cận theo hướng doanh nghiệp vừa và nhỏ cần mặt bằng đón đầu.\n\nIII. Định hướng khai thác\nCCN Quyết Tiến là nội dung phù hợp để triển khai theo hướng công nghiệp hỗ trợ và doanh nghiệp quy mô vừa.\nTrạng thái hiện tại của dự án phù hợp với cách tiếp cận theo hướng đăng ký nhu cầu sớm, theo dõi tiến độ pháp lý - hạ tầng và chuẩn bị tiêu chí tìm mặt bằng trước khi nguồn cung đi vào thị trường.\n\nIV. Nhóm doanh nghiệp phù hợp\nCông nghiệp hỗ trợ; SME; Sản xuất quy mô vừa.\n\nV. Giải pháp từ MACLAND\nMACLAND tiếp nhận nhu cầu khảo sát quỹ đất, mặt bằng công nghiệp, nhà xưởng build-to-suit và phương án mở rộng phù hợp với lộ trình đầu tư của doanh nghiệp tại CCN Quyết Tiến.",
+        "highlights": [
+          "Theo quy hoạch",
+          "Phù hợp công nghiệp hỗ trợ",
+          "Dễ phát triển bài SME"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "3e940bf083c1",
+      "slug": "sap-mo-ban-cum-cong-nghiep-chinh-my-hai-phong",
+      "url": "https://macland.vn/san-pham/sap-mo-ban-cum-cong-nghiep-chinh-my-hai-phong",
+      "title": "[SẮP MỞ BÁN] Mặt bằng nhà xưởng tại cụm công nghiệp Chính Mỹ Hải Phòng",
+      "type": "cum-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Hải Phòng",
+        "address": "Thuộc định hướng phát triển cụm công nghiệp mới tại Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "Đang cập nhật",
+        "area_unit": "",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "Mặt bằng công nghiệp mới",
+          "SME",
+          "Doanh nghiệp địa phương"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Theo quy hoạch",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Cụm Công nghiệp Chính Mỹ là dự án phù hợp với doanh nghiệp vừa và nhỏ muốn đón đầu mặt bằng công nghiệp mới tại Hải Phòng.",
+        "full_content": "Cụm Công nghiệp Chính Mỹ là dự án phù hợp với doanh nghiệp vừa và nhỏ muốn đón đầu mặt bằng công nghiệp mới tại Hải Phòng.\n\nI. Tổng quan\nCụm Công Nghiệp Chính Mỹ Hải Phòng là cụm công nghiệp đang được MACLAND ưu tiên cập nhật theo định hướng phát triển công nghiệp tại Hải Phòng giai đoạn 2026 - 2030. Dự án phù hợp với doanh nghiệp muốn đón đầu quỹ đất, chuẩn bị kế hoạch mở rộng nhà máy hoặc khảo sát mặt bằng theo lộ trình đầu tư trung và dài hạn.\n\nII. Vị trí và tiềm năng kết nối\nThuộc định hướng phát triển cụm công nghiệp mới tại Hải Phòng.\nPhù hợp doanh nghiệp cần theo dõi quỹ đất mới và lập kế hoạch đầu tư sớm.\n\nIII. Định hướng khai thác\nCCN Chính Mỹ nên được phát triển theo hướng lựa chọn mặt bằng mới cho doanh nghiệp địa phương và SME.\nTrạng thái hiện tại của dự án phù hợp với cách tiếp cận theo hướng đăng ký nhu cầu sớm, theo dõi tiến độ pháp lý - hạ tầng và chuẩn bị tiêu chí tìm mặt bằng trước khi nguồn cung đi vào thị trường.\n\nIV. Nhóm doanh nghiệp phù hợp\nMặt bằng công nghiệp mới; SME; Doanh nghiệp địa phương.\n\nV. Giải pháp từ MACLAND\nMACLAND tiếp nhận nhu cầu khảo sát quỹ đất, mặt bằng công nghiệp, nhà xưởng build-to-suit và phương án mở rộng phù hợp với lộ trình đầu tư của doanh nghiệp tại CCN Chính Mỹ.",
+        "highlights": [
+          "Theo quy hoạch",
+          "Phù hợp doanh nghiệp địa phương",
+          "Nội dung đón đầu mặt bằng mới"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "e07645dd4d59",
+      "slug": "sap-mo-ban-cum-cong-nghiep-an-hoa-hai-phong",
+      "url": "https://macland.vn/san-pham/sap-mo-ban-cum-cong-nghiep-an-hoa-hai-phong",
+      "title": "[SẮP MỞ BÁN] Mặt bằng nhà xưởng tại cụm công nghiệp An Hòa Hải Phòng",
+      "type": "cum-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Hải Phòng",
+        "address": "Thuộc nhóm dự án cụm công nghiệp mới tại Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "Đang cập nhật",
+        "area_unit": "",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "Công nghiệp nhẹ",
+          "Kho xưởng vừa",
+          "SME"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Theo quy hoạch",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Cụm Công nghiệp An Hòa là dự án phù hợp cho doanh nghiệp cần mặt bằng công nghiệp nhẹ và kho xưởng tại Hải Phòng.",
+        "full_content": "Cụm Công nghiệp An Hòa là dự án phù hợp cho doanh nghiệp cần mặt bằng công nghiệp nhẹ và kho xưởng tại Hải Phòng.\n\nI. Tổng quan\nCụm Công Nghiệp An Hòa Hải Phòng là cụm công nghiệp đang được MACLAND ưu tiên cập nhật theo định hướng phát triển công nghiệp tại Hải Phòng giai đoạn 2026 - 2030. Dự án phù hợp với doanh nghiệp muốn đón đầu quỹ đất, chuẩn bị kế hoạch mở rộng nhà máy hoặc khảo sát mặt bằng theo lộ trình đầu tư trung và dài hạn.\n\nII. Vị trí và tiềm năng kết nối\nThuộc nhóm dự án cụm công nghiệp mới tại Hải Phòng.\nCó thể khai thác theo hướng mặt bằng linh hoạt cho doanh nghiệp quy mô vừa và nhỏ.\n\nIII. Định hướng khai thác\nCCN An Hòa phù hợp với nội dung về nhà xưởng, kho xưởng và mặt bằng công nghiệp quy mô vừa.\nTrạng thái hiện tại của dự án phù hợp với cách tiếp cận theo hướng đăng ký nhu cầu sớm, theo dõi tiến độ pháp lý - hạ tầng và chuẩn bị tiêu chí tìm mặt bằng trước khi nguồn cung đi vào thị trường.\n\nIV. Nhóm doanh nghiệp phù hợp\nCông nghiệp nhẹ; Kho xưởng vừa; SME.\n\nV. Giải pháp từ MACLAND\nMACLAND tiếp nhận nhu cầu khảo sát quỹ đất, mặt bằng công nghiệp, nhà xưởng build-to-suit và phương án mở rộng phù hợp với lộ trình đầu tư của doanh nghiệp tại CCN An Hòa.",
+        "highlights": [
+          "Phù hợp công nghiệp nhẹ",
+          "Mặt bằng vừa và nhỏ",
+          "Theo quy hoạch"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "5166ad2c46b7",
+      "slug": "sap-mo-ban-cum-cong-nghiep-quang-phuc-hai-phong",
+      "url": "https://macland.vn/san-pham/sap-mo-ban-cum-cong-nghiep-quang-phuc-hai-phong",
+      "title": "[SẮP MỞ BÁN] Mặt bằng nhà xưởng tại cụm công nghiệp Quang Phục Hải Phòng",
+      "type": "cum-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Hải Phòng",
+        "address": "Thuộc định hướng phát triển cụm công nghiệp mới tại Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "Đang cập nhật",
+        "area_unit": "",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "SME",
+          "Mặt bằng sản xuất linh hoạt",
+          "Kho xưởng"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Theo quy hoạch",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Cụm Công nghiệp Quang Phục là dự án phù hợp với doanh nghiệp vừa và nhỏ cần mặt bằng công nghiệp mới tại Hải Phòng.",
+        "full_content": "Cụm Công nghiệp Quang Phục là dự án phù hợp với doanh nghiệp vừa và nhỏ cần mặt bằng công nghiệp mới tại Hải Phòng.\n\nI. Tổng quan\nCụm Công Nghiệp Quang Phục Hải Phòng là cụm công nghiệp đang được MACLAND ưu tiên cập nhật theo định hướng phát triển công nghiệp tại Hải Phòng giai đoạn 2026 - 2030. Dự án phù hợp với doanh nghiệp muốn đón đầu quỹ đất, chuẩn bị kế hoạch mở rộng nhà máy hoặc khảo sát mặt bằng theo lộ trình đầu tư trung và dài hạn.\n\nII. Vị trí và tiềm năng kết nối\nThuộc định hướng phát triển cụm công nghiệp mới tại Hải Phòng.\nPhù hợp doanh nghiệp muốn đón đầu quỹ đất và mặt bằng công nghiệp mới tại Hải Phòng.\n\nIII. Định hướng khai thác\nCCN Quang Phục nên được khai thác như một lựa chọn linh hoạt cho doanh nghiệp vừa và nhỏ.\nTrạng thái hiện tại của dự án phù hợp với cách tiếp cận theo hướng đăng ký nhu cầu sớm, theo dõi tiến độ pháp lý - hạ tầng và chuẩn bị tiêu chí tìm mặt bằng trước khi nguồn cung đi vào thị trường.\n\nIV. Nhóm doanh nghiệp phù hợp\nSME; Mặt bằng sản xuất linh hoạt; Kho xưởng.\n\nV. Giải pháp từ MACLAND\nMACLAND tiếp nhận nhu cầu khảo sát quỹ đất, mặt bằng công nghiệp, nhà xưởng build-to-suit và phương án mở rộng phù hợp với lộ trình đầu tư của doanh nghiệp tại CCN Quang Phục.",
+        "highlights": [
+          "Theo quy hoạch",
+          "Phù hợp SME",
+          "Mặt bằng linh hoạt"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "8555f7765b33",
+      "slug": "sap-mo-ban-cum-cong-nghiep-tran-duong-hoa-binh-hai-phong",
+      "url": "https://macland.vn/san-pham/sap-mo-ban-cum-cong-nghiep-tran-duong-hoa-binh-hai-phong",
+      "title": "[SẮP MỞ BÁN] Mặt bằng nhà xưởng tại cụm công nghiệp Trấn Dương - Hòa Bình Hải Phòng",
+      "type": "cum-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Hải Phòng",
+        "address": "Thuộc nhóm dự án cụm công nghiệp quy hoạch mới tại Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "Đang cập nhật",
+        "area_unit": "",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "Quỹ đất mới",
+          "SME",
+          "Mặt bằng sản xuất quy mô vừa"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Theo quy hoạch",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Cụm Công nghiệp Trấn Dương - Hòa Bình là dự án theo quy hoạch phù hợp với doanh nghiệp muốn đón đầu mặt bằng công nghiệp mới tại Hải Phòng.",
+        "full_content": "Cụm Công nghiệp Trấn Dương - Hòa Bình là dự án theo quy hoạch phù hợp với doanh nghiệp muốn đón đầu mặt bằng công nghiệp mới tại Hải Phòng.\n\nI. Tổng quan\nCụm Công Nghiệp Trấn Dương - Hòa Bình Hải Phòng là cụm công nghiệp đang được MACLAND ưu tiên cập nhật theo định hướng phát triển công nghiệp tại Hải Phòng giai đoạn 2026 - 2030. Dự án phù hợp với doanh nghiệp muốn đón đầu quỹ đất, chuẩn bị kế hoạch mở rộng nhà máy hoặc khảo sát mặt bằng theo lộ trình đầu tư trung và dài hạn.\n\nII. Vị trí và tiềm năng kết nối\nThuộc nhóm dự án cụm công nghiệp quy hoạch mới tại Hải Phòng.\nPhù hợp nhóm doanh nghiệp muốn đăng ký nhu cầu sớm theo quy hoạch 2030.\n\nIII. Định hướng khai thác\nCCN Trấn Dương - Hòa Bình nên được phát triển theo góc nhìn đón đầu nguồn cung và chuẩn bị vị trí từ sớm.\nTrạng thái hiện tại của dự án phù hợp với cách tiếp cận theo hướng đăng ký nhu cầu sớm, theo dõi tiến độ pháp lý - hạ tầng và chuẩn bị tiêu chí tìm mặt bằng trước khi nguồn cung đi vào thị trường.\n\nIV. Nhóm doanh nghiệp phù hợp\nQuỹ đất mới; SME; Mặt bằng sản xuất quy mô vừa.\n\nV. Giải pháp từ MACLAND\nMACLAND tiếp nhận nhu cầu khảo sát quỹ đất, mặt bằng công nghiệp, nhà xưởng build-to-suit và phương án mở rộng phù hợp với lộ trình đầu tư của doanh nghiệp tại CCN Trấn Dương - Hòa Bình.",
+        "highlights": [
+          "Theo quy hoạch 2030",
+          "Phù hợp đi trước đón đầu",
+          "Tạo độ phong phú cho nhóm CCN"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
+    {
+      "id": "5ee50fbfc19d",
+      "slug": "sap-mo-ban-cum-cong-nghiep-luu-kiem-hai-phong",
+      "url": "https://macland.vn/san-pham/sap-mo-ban-cum-cong-nghiep-luu-kiem-hai-phong",
+      "title": "[SẮP MỞ BÁN] Mặt bằng nhà xưởng tại cụm công nghiệp Lưu Kiếm Hải Phòng",
+      "type": "cum-cong-nghiep",
+      "date": "2026-03-25",
+      "location": {
+        "province": "Hải Phòng",
+        "district": "Hải Phòng",
+        "address": "Thuộc định hướng phát triển cụm công nghiệp mới tại Hải Phòng.",
+        "old_address": ""
+      },
+      "details": {
+        "area": "Đang cập nhật",
+        "area_unit": "",
+        "occupancy_rate": "Đang cập nhật",
+        "operating_period": "",
+        "investment_sectors": [
+          "Nhà xưởng vừa",
+          "Kho xưởng",
+          "SME"
+        ]
+      },
+      "pricing": {
+        "type": "thoa-thuan",
+        "price": null,
+        "price_min": null,
+        "price_unit": null
+      },
+      "legal": {
+        "status": "Theo quy hoạch",
+        "land_use_period": ""
+      },
+      "content": {
+        "description": "Cụm Công nghiệp Lưu Kiếm là dự án phù hợp với doanh nghiệp vừa và nhỏ cần mặt bằng nhà xưởng, kho xưởng mới tại Hải Phòng.",
+        "full_content": "Cụm Công nghiệp Lưu Kiếm là dự án phù hợp với doanh nghiệp vừa và nhỏ cần mặt bằng nhà xưởng, kho xưởng mới tại Hải Phòng.\n\nI. Tổng quan\nCụm Công Nghiệp Lưu Kiếm Hải Phòng là cụm công nghiệp đang được MACLAND ưu tiên cập nhật theo định hướng phát triển công nghiệp tại Hải Phòng giai đoạn 2026 - 2030. Dự án phù hợp với doanh nghiệp muốn đón đầu quỹ đất, chuẩn bị kế hoạch mở rộng nhà máy hoặc khảo sát mặt bằng theo lộ trình đầu tư trung và dài hạn.\n\nII. Vị trí và tiềm năng kết nối\nThuộc định hướng phát triển cụm công nghiệp mới tại Hải Phòng.\nPhù hợp doanh nghiệp cần mặt bằng xưởng và kho quy mô vừa trong giai đoạn phát triển tiếp theo của Hải Phòng.\n\nIII. Định hướng khai thác\nCCN Lưu Kiếm phù hợp để kể như một lựa chọn cho doanh nghiệp vừa và nhỏ cần xưởng, kho và mặt bằng sản xuất mới.\nTrạng thái hiện tại của dự án phù hợp với cách tiếp cận theo hướng đăng ký nhu cầu sớm, theo dõi tiến độ pháp lý - hạ tầng và chuẩn bị tiêu chí tìm mặt bằng trước khi nguồn cung đi vào thị trường.\n\nIV. Nhóm doanh nghiệp phù hợp\nNhà xưởng vừa; Kho xưởng; SME.\n\nV. Giải pháp từ MACLAND\nMACLAND tiếp nhận nhu cầu khảo sát quỹ đất, mặt bằng công nghiệp, nhà xưởng build-to-suit và phương án mở rộng phù hợp với lộ trình đầu tư của doanh nghiệp tại CCN Lưu Kiếm.",
+        "highlights": [
+          "Phù hợp nhà xưởng và kho xưởng",
+          "SME",
+          "Theo quy hoạch"
+        ]
+      },
+      "media": {
+        "images": []
+      }
+    },
     {
       "id": "99f06032d3c6",
       "slug": "khu-cong-nghiep-song-than-1-binh-duong",
@@ -446,7 +2785,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "55.0USD/m²",
-        "price_min": 55.0,
+        "price_min": 55,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -1724,7 +4063,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "115.0USD/m²",
-        "price_min": 115.0,
+        "price_min": 115,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -3521,7 +5860,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "4.0USD/m²",
-        "price_min": 4.0,
+        "price_min": 4,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -3774,7 +6113,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "100.0USD/m²",
-        "price_min": 100.0,
+        "price_min": 100,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -5839,7 +8178,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "109.0USD/m²",
-        "price_min": 109.0,
+        "price_min": 109,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -7593,7 +9932,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "185.0USD/m²",
-        "price_min": 185.0,
+        "price_min": 185,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -8232,7 +10571,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "110.0USD/m²",
-        "price_min": 110.0,
+        "price_min": 110,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -9078,7 +11417,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "85.0USD/m²",
-        "price_min": 85.0,
+        "price_min": 85,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -9563,7 +11902,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "105.0USD/m²",
-        "price_min": 105.0,
+        "price_min": 105,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -13413,7 +15752,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "168.0USD/m²",
-        "price_min": 168.0,
+        "price_min": 168,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -14657,7 +16996,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "90.0USD/m²",
-        "price_min": 90.0,
+        "price_min": 90,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -16878,7 +19217,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "130.0USD/m²",
-        "price_min": 130.0,
+        "price_min": 130,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -18529,7 +20868,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "130.0USD/m²",
-        "price_min": 130.0,
+        "price_min": 130,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -19138,7 +21477,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "75.0USD/m²",
-        "price_min": 75.0,
+        "price_min": 75,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -20754,7 +23093,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "3.0USD/m²",
-        "price_min": 3.0,
+        "price_min": 3,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -22819,7 +25158,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "100.0USD/m²",
-        "price_min": 100.0,
+        "price_min": 100,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -25465,7 +27804,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "110.0USD/m²",
-        "price_min": 110.0,
+        "price_min": 110,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -25876,7 +28215,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "60.0USD/m²",
-        "price_min": 60.0,
+        "price_min": 60,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -26552,7 +28891,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "75.0USD/m²",
-        "price_min": 75.0,
+        "price_min": 75,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -26862,7 +29201,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "110.0USD/m²",
-        "price_min": 110.0,
+        "price_min": 110,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -27583,7 +29922,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "95.0USD/m²",
-        "price_min": 95.0,
+        "price_min": 95,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -27942,7 +30281,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "120.0USD/m²",
-        "price_min": 120.0,
+        "price_min": 120,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -28189,7 +30528,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "99.0USD/m²",
-        "price_min": 99.0,
+        "price_min": 99,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -28887,7 +31226,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "185.0USD/m²",
-        "price_min": 185.0,
+        "price_min": 185,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -30048,7 +32387,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "115.0USD/m²",
-        "price_min": 115.0,
+        "price_min": 115,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -30752,7 +33091,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "120.0USD/m²",
-        "price_min": 120.0,
+        "price_min": 120,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -30943,7 +33282,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "90.0USD/m²",
-        "price_min": 90.0,
+        "price_min": 90,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -32351,7 +34690,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "80.0USD/m²",
-        "price_min": 80.0,
+        "price_min": 80,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -32574,7 +34913,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "80.0USD/m²",
-        "price_min": 80.0,
+        "price_min": 80,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -33755,7 +36094,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "79.0USD/m²",
-        "price_min": 79.0,
+        "price_min": 79,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -34031,7 +36370,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "100.0USD/m²",
-        "price_min": 100.0,
+        "price_min": 100,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -34757,7 +37096,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "150.0USD/m²",
-        "price_min": 150.0,
+        "price_min": 150,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -36014,7 +38353,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "95.0USD/m²",
-        "price_min": 95.0,
+        "price_min": 95,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -36860,7 +39199,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "140.0USD/m²",
-        "price_min": 140.0,
+        "price_min": 140,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -37326,7 +39665,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "79.0USD/m²",
-        "price_min": 79.0,
+        "price_min": 79,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -37657,7 +39996,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "130.0USD/m²",
-        "price_min": 130.0,
+        "price_min": 130,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -39598,7 +41937,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "115.0USD/m²",
-        "price_min": 115.0,
+        "price_min": 115,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -40584,7 +42923,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "120.0USD/m²",
-        "price_min": 120.0,
+        "price_min": 120,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -41195,7 +43534,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "155.0USD/m²",
-        "price_min": 155.0,
+        "price_min": 155,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -41795,7 +44134,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "85.0USD/m²",
-        "price_min": 85.0,
+        "price_min": 85,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -43170,7 +45509,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "120.0USD/m²",
-        "price_min": 120.0,
+        "price_min": 120,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -43995,7 +46334,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "95.0USD/m²",
-        "price_min": 95.0,
+        "price_min": 95,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -44172,7 +46511,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "100.0USD/m²",
-        "price_min": 100.0,
+        "price_min": 100,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -44486,7 +46825,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "145.0USD/m²",
-        "price_min": 145.0,
+        "price_min": 145,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -45019,7 +47358,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "138.0USD/m²",
-        "price_min": 138.0,
+        "price_min": 138,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -45546,7 +47885,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "150.0USD/m²",
-        "price_min": 150.0,
+        "price_min": 150,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -48375,7 +50714,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "155.0USD/m²",
-        "price_min": 155.0,
+        "price_min": 155,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -49053,7 +51392,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "135.0USD/m²",
-        "price_min": 135.0,
+        "price_min": 135,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -52963,7 +55302,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "89.0USD/m²",
-        "price_min": 89.0,
+        "price_min": 89,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -53520,7 +55859,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "190.0USD/m²",
-        "price_min": 190.0,
+        "price_min": 190,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -54017,7 +56356,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "115.0USD/m²",
-        "price_min": 115.0,
+        "price_min": 115,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -54709,7 +57048,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "125.0USD/m²",
-        "price_min": 125.0,
+        "price_min": 125,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -55013,7 +57352,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "55.0USD/m²",
-        "price_min": 55.0,
+        "price_min": 55,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -55345,7 +57684,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "70.0USD/m²",
-        "price_min": 70.0,
+        "price_min": 70,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -55509,7 +57848,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "131.0USD/m²",
-        "price_min": 131.0,
+        "price_min": 131,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -58684,7 +61023,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "70.0USD/m²",
-        "price_min": 70.0,
+        "price_min": 70,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -59383,7 +61722,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "120.0USD/m²",
-        "price_min": 120.0,
+        "price_min": 120,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -59801,7 +62140,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "85.0USD/m²",
-        "price_min": 85.0,
+        "price_min": 85,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -60977,7 +63316,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "130.0USD/m²",
-        "price_min": 130.0,
+        "price_min": 130,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -61232,7 +63571,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "130.0USD/m²",
-        "price_min": 130.0,
+        "price_min": 130,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -62012,7 +64351,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "4.0USD/m²",
-        "price_min": 4.0,
+        "price_min": 4,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -62512,7 +64851,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "91.0USD/m²",
-        "price_min": 91.0,
+        "price_min": 91,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -62815,7 +65154,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "120.0USD/m²",
-        "price_min": 120.0,
+        "price_min": 120,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -63534,7 +65873,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "110.0USD/m²",
-        "price_min": 110.0,
+        "price_min": 110,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -63865,7 +66204,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "110.0USD/m²",
-        "price_min": 110.0,
+        "price_min": 110,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -65609,7 +67948,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "115.0USD/m²",
-        "price_min": 115.0,
+        "price_min": 115,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -65912,7 +68251,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "95.0USD/m²",
-        "price_min": 95.0,
+        "price_min": 95,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -66299,7 +68638,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "130.0USD/m²",
-        "price_min": 130.0,
+        "price_min": 130,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -67081,7 +69420,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "135.0USD/m²",
-        "price_min": 135.0,
+        "price_min": 135,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -67837,7 +70176,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "65.0USD/m²",
-        "price_min": 65.0,
+        "price_min": 65,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -68091,7 +70430,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "180.0USD/m²",
-        "price_min": 180.0,
+        "price_min": 180,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -68993,7 +71332,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "125.0USD/m²",
-        "price_min": 125.0,
+        "price_min": 125,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -69243,7 +71582,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "156.0USD/m²",
-        "price_min": 156.0,
+        "price_min": 156,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -70737,7 +73076,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "90.0USD/m²",
-        "price_min": 90.0,
+        "price_min": 90,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -71713,7 +74052,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "140.0USD/m²",
-        "price_min": 140.0,
+        "price_min": 140,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -71967,7 +74306,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "80.0USD/m²",
-        "price_min": 80.0,
+        "price_min": 80,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -72653,7 +74992,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "105.0USD/m²",
-        "price_min": 105.0,
+        "price_min": 105,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -73477,7 +75816,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "130.0USD/m²",
-        "price_min": 130.0,
+        "price_min": 130,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -74145,7 +76484,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "85.0USD/m²",
-        "price_min": 85.0,
+        "price_min": 85,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -75190,7 +77529,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "220.0USD/m²",
-        "price_min": 220.0,
+        "price_min": 220,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -75381,7 +77720,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "140.0USD/m²",
-        "price_min": 140.0,
+        "price_min": 140,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -76734,7 +79073,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "110.0USD/m²",
-        "price_min": 110.0,
+        "price_min": 110,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -77896,7 +80235,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "90.0USD/m²",
-        "price_min": 90.0,
+        "price_min": 90,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -78348,7 +80687,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "95.0USD/m²",
-        "price_min": 95.0,
+        "price_min": 95,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -78601,7 +80940,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "165.0USD/m²",
-        "price_min": 165.0,
+        "price_min": 165,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -79263,7 +81602,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "95.0USD/m²",
-        "price_min": 95.0,
+        "price_min": 95,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -80476,7 +82815,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "85.0USD/m²",
-        "price_min": 85.0,
+        "price_min": 85,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -81432,7 +83771,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "92.0USD/m²",
-        "price_min": 92.0,
+        "price_min": 92,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -81959,7 +84298,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "85.0USD/m²",
-        "price_min": 85.0,
+        "price_min": 85,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -84982,7 +87321,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "147.0USD/m²",
-        "price_min": 147.0,
+        "price_min": 147,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -86136,7 +88475,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "135.0USD/m²",
-        "price_min": 135.0,
+        "price_min": 135,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -86576,7 +88915,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "4.0USD/m²",
-        "price_min": 4.0,
+        "price_min": 4,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -87693,7 +90032,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "180.0USD/m²",
-        "price_min": 180.0,
+        "price_min": 180,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -88052,7 +90391,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "125.0USD/m²",
-        "price_min": 125.0,
+        "price_min": 125,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -88744,7 +91083,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "85.0USD/m²",
-        "price_min": 85.0,
+        "price_min": 85,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -89402,7 +91741,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "194.0USD/m²",
-        "price_min": 194.0,
+        "price_min": 194,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -89840,7 +92179,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "50.0USD/m²",
-        "price_min": 50.0,
+        "price_min": 50,
         "price_unit": "USD/m²"
       },
       "legal": {
@@ -90568,7 +92907,7 @@
       "pricing": {
         "type": "tu-usd-m2",
         "price": "98.0USD/m²",
-        "price_min": 98.0,
+        "price_min": 98,
         "price_unit": "USD/m²"
       },
       "legal": {
