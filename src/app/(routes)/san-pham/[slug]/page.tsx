@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const displayTitle = getDisplayProductTitle(product)
 
   return {
-    title: `${displayTitle} - Macland`,
+    title: `${displayTitle} - Hai Phong Industrial Hub`,
     description: product.content.description || product.content.full_content?.slice(0, 160) || displayTitle,
   }
 }
@@ -85,9 +85,9 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
       <div className="bg-white">
         <div className="mx-auto w-full max-w-[1400px] px-4 py-5 sm:px-6 lg:px-8">
           <div className="flex items-center gap-2 text-sm text-gray-600">
-            <Link href="/" className="hover:text-red-600">{dict.products.homeBreadcrumb}</Link>
+            <Link href="/" className="hover:text-orange-600">{dict.products.homeBreadcrumb}</Link>
             <span>/</span>
-            <Link href="/san-pham" className="hover:text-red-600">{dict.nav.products}</Link>
+            <Link href="/san-pham" className="hover:text-orange-600">{dict.nav.products}</Link>
             <span>/</span>
             <span className="text-gray-900">{displayTitle}</span>
           </div>
@@ -97,7 +97,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
       <div className="mx-auto w-full max-w-[1400px] px-4 py-8 sm:px-6 sm:py-10 lg:px-8 lg:py-12">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:items-start lg:gap-10">
           <div className="min-w-0 lg:col-span-2">
-            <Link href="/san-pham" className="mb-6 inline-flex items-center text-red-600 hover:text-red-700">
+            <Link href="/san-pham" className="mb-6 inline-flex items-center text-orange-600 hover:text-orange-700">
               <ArrowLeft className="mr-2 h-4 w-4" />
               {dict.common.backToList}
             </Link>
@@ -105,11 +105,11 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
             <h1 className="mb-4 text-3xl font-bold text-gray-900 md:text-4xl">{displayTitle}</h1>
 
             <div className="mb-6 flex flex-wrap items-center gap-3">
-              <span className="inline-block rounded-lg bg-red-600 px-4 py-2 text-sm font-medium text-white">
+              <span className="inline-block rounded-lg bg-orange-600 px-4 py-2 text-sm font-medium text-white">
                 {formatProductType(product.type, locale)}
               </span>
               {transactionStatus && (
-                <span className="inline-flex items-center rounded-lg border border-red-200 bg-red-50 px-4 py-2 text-sm font-semibold text-red-700">
+                <span className="inline-flex items-center rounded-lg border border-orange-200 bg-orange-50 px-4 py-2 text-sm font-semibold text-orange-700">
                   {transactionStatus}
                 </span>
               )}
@@ -148,7 +148,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
 
             <div className="mb-8 rounded-2xl bg-white p-6 shadow-md sm:p-7 lg:p-8">
               <h2 className="mb-5 flex items-center text-2xl font-bold">
-                <FileText className="mr-2 h-6 w-6 text-red-600" />
+                <FileText className="mr-2 h-6 w-6 text-orange-600" />
                 {dict.products.detailsTitle}
               </h2>
               <div className="prose prose-lg max-w-none">
@@ -185,7 +185,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
                         <FileText className="mr-2 h-5 w-5" />
                         <span>{dict.products.status}</span>
                       </div>
-                      <span className="text-right font-semibold text-red-700">{transactionStatus}</span>
+                      <span className="text-right font-semibold text-orange-700">{transactionStatus}</span>
                     </div>
                   )}
 
@@ -202,7 +202,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
                       <DollarSign className="mr-2 h-5 w-5" />
                       <span>{dict.products.price}</span>
                     </div>
-                    <span className="font-semibold text-red-600">{formatPrice(product, locale)}</span>
+                    <span className="font-semibold text-orange-600">{formatPrice(product, locale)}</span>
                   </div>
 
                   {product.details.occupancy_rate && (

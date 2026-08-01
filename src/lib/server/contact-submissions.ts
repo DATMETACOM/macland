@@ -11,7 +11,7 @@ export type ContactSubmission = {
 }
 
 const localSubmissionsDir = path.join(/* turbopackIgnore: true */ process.cwd(), 'data')
-const fallbackSubmissionsDir = path.join('/tmp', 'macland')
+const fallbackSubmissionsDir = path.join('/tmp', 'haiphongindustrialhub')
 const submissionsFileName = 'contact-submissions.json'
 
 function getPreferredSubmissionsDir() {

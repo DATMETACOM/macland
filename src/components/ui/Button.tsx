@@ -17,9 +17,9 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
           'disabled:opacity-50 disabled:cursor-not-allowed',
           'active:scale-95 hover:scale-[1.02]',
           {
-            'bg-gradient-to-r from-red-600 to-red-700 text-white hover:from-red-700 hover:to-red-800 focus:ring-red-500 shadow-md hover:shadow-lg': variant === 'primary',
-            'bg-gray-700 text-white hover:bg-gray-800 focus:ring-gray-500 shadow-md': variant === 'secondary',
-            'border-2 border-red-600 text-red-600 hover:bg-red-50 hover:border-red-700 focus:ring-red-500': variant === 'outline',
+            'bg-gradient-to-r from-orange-600 to-orange-700 text-white hover:from-orange-700 hover:to-orange-800 focus:ring-orange-500 shadow-md hover:shadow-lg': variant === 'primary',
+            'bg-slate-900 text-white hover:bg-slate-800 focus:ring-slate-500 shadow-md': variant === 'secondary',
+            'border-2 border-orange-600 text-orange-600 hover:bg-orange-50 hover:border-orange-700 focus:ring-orange-500': variant === 'outline',
             'text-gray-700 hover:bg-gray-100': variant === 'ghost',
             'px-4 py-2 text-sm': size === 'sm',
             'px-5 py-2.5 text-sm': size === 'md',

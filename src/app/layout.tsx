@@ -19,7 +19,7 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   title: getDictionary(defaultLocale).metadata.title,
   description: getDictionary(defaultLocale).metadata.description,
-  keywords: 'industrial real estate, industrial park, factory, warehouse, Vietnam',
+  keywords: 'Hai Phong industrial real estate, industrial park, factory, warehouse, Haiphongindustrialhub.vn',
 }
 
 export default async function RootLayout({

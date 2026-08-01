@@ -11,7 +11,7 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'www.macland.vn',
+        hostname: 'haiphongindustrialhub.vn',
         port: '',
         pathname: '/wp-content/uploads/**',
       },

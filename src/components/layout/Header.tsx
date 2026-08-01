@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Menu, X } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
 import Button from '@/components/ui/Button'
@@ -48,15 +49,22 @@ export default function Header({ locale }: HeaderProps) {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
-            <Link href="/" className="flex items-center gap-2.5 group">
-              <div className="w-10 h-10 bg-red-600 rounded-lg flex items-center justify-center shadow-md group-hover:bg-red-700 transition-colors">
-                <span className="text-white font-bold text-xl">M</span>
+            <Link href="/" className="flex min-w-0 items-center gap-2.5 group">
+              <div className="relative h-10 w-10 flex-shrink-0 overflow-hidden rounded-lg bg-white shadow-md ring-1 ring-slate-200">
+                <Image
+                  src="/brand/haiphong-industrial-hub-logo.jpg"
+                  alt="Hai Phong Industrial Hub"
+                  fill
+                  sizes="40px"
+                  className="object-cover object-left"
+                  priority
+                />
               </div>
               <span className={cn(
-                "text-lg lg:text-xl font-bold tracking-tight",
+                "max-w-[190px] truncate text-sm font-bold tracking-tight sm:max-w-none sm:text-base xl:text-xl",
                 isScrolled ? "text-gray-900" : "text-gray-900 drop-shadow-lg"
               )}>
-                Macland
+                Hai Phong Industrial Hub
               </span>
             </Link>
 
@@ -69,8 +77,8 @@ export default function Header({ locale }: HeaderProps) {
                   className={cn(
                     "text-sm font-medium transition-all duration-200 hover:scale-105",
                     isScrolled
-                      ? "text-gray-700 hover:text-red-600"
-                      : "text-gray-900 hover:text-red-600 drop-shadow-md"
+                      ? "text-gray-700 hover:text-orange-600"
+                      : "text-gray-900 hover:text-orange-600 drop-shadow-md"
                   )}
                 >
                   {item.name}
@@ -139,7 +147,7 @@ export default function Header({ locale }: HeaderProps) {
                   <Link
                     key={item.name}
                     href={item.href}
-                    className="text-gray-900 hover:text-red-600 hover:bg-red-50 px-4 py-3 rounded-lg font-medium transition-all duration-200"
+                    className="text-gray-900 hover:text-orange-600 hover:bg-orange-50 px-4 py-3 rounded-lg font-medium transition-all duration-200"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     {item.name}

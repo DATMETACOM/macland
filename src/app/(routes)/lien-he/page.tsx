@@ -27,7 +27,7 @@ export default async function ContactPage() {
 
                 <div className="space-y-6">
                   <div className="flex items-start">
-                    <MapPin className="mr-3 mt-1 h-6 w-6 flex-shrink-0 text-red-600" />
+                    <MapPin className="mr-3 mt-1 h-6 w-6 flex-shrink-0 text-orange-600" />
                     <div>
                       <h3 className="mb-1 font-semibold">{dict.contact.address}</h3>
                       <p className="text-sm text-gray-600">{publicContact.address}</p>
@@ -35,13 +35,13 @@ export default async function ContactPage() {
                   </div>
 
                   <div className="flex items-start">
-                    <Phone className="mr-3 mt-1 h-6 w-6 flex-shrink-0 text-red-600" />
+                    <Phone className="mr-3 mt-1 h-6 w-6 flex-shrink-0 text-orange-600" />
                     <div>
                       <h3 className="mb-1 font-semibold">{dict.contact.hotline}</h3>
                       <div className="space-y-1">
                         {publicContact.phones.map((phone) => (
                           <div key={phone.raw}>
-                            <a href={phone.href} className="text-sm text-red-600 hover:text-red-700">
+                            <a href={phone.href} className="text-sm text-orange-600 hover:text-orange-700">
                               {phone.display}
                             </a>
                           </div>
@@ -51,17 +51,17 @@ export default async function ContactPage() {
                   </div>
 
                   <div className="flex items-start">
-                    <Mail className="mr-3 mt-1 h-6 w-6 flex-shrink-0 text-red-600" />
+                    <Mail className="mr-3 mt-1 h-6 w-6 flex-shrink-0 text-orange-600" />
                     <div>
                       <h3 className="mb-1 font-semibold">{dict.contact.email}</h3>
-                      <a href={publicContact.emailHref} className="text-sm text-red-600 hover:text-red-700">
+                      <a href={publicContact.emailHref} className="text-sm text-orange-600 hover:text-orange-700">
                         {publicContact.email}
                       </a>
                     </div>
                   </div>
 
                   <div className="flex items-start">
-                    <Clock className="mr-3 mt-1 h-6 w-6 flex-shrink-0 text-red-600" />
+                    <Clock className="mr-3 mt-1 h-6 w-6 flex-shrink-0 text-orange-600" />
                     <div>
                       <h3 className="mb-1 font-semibold">{dict.contact.hours}</h3>
                       <p className="text-sm text-gray-600">{dict.contact.weekdayHours}</p>
@@ -89,11 +89,11 @@ export default async function ContactPage() {
         </div>
       </section>
 
-      <section className="bg-gradient-to-r from-red-600 to-red-700 py-16 text-white">
+      <section className="bg-gradient-to-r from-orange-600 to-orange-700 py-16 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="mb-4 text-3xl font-bold">{dict.contact.urgentTitle}</h2>
-          <p className="mx-auto mb-8 max-w-2xl text-xl text-red-100">{dict.contact.urgentDescription}</p>
-          <a href={primaryPhone.href} className="inline-block rounded-lg bg-white px-8 py-4 text-lg font-bold text-red-600 transition-colors hover:bg-gray-100">
+          <p className="mx-auto mb-8 max-w-2xl text-xl text-orange-100">{dict.contact.urgentDescription}</p>
+          <a href={primaryPhone.href} className="inline-block rounded-lg bg-white px-8 py-4 text-lg font-bold text-orange-600 transition-colors hover:bg-gray-100">
             📞 {dict.common.contactNow}: {primaryPhone.display}
           </a>
         </div>

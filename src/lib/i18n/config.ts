@@ -1,4 +1,4 @@
-export const languageCookieName = 'macland-lang'
+export const languageCookieName = 'haiphongindustrialhub-lang'
 
 export const locales = ['vi', 'en', 'zh', 'ko', 'ja'] as const
 

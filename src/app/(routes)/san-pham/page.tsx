@@ -37,7 +37,7 @@ export default async function ProductsPage({
           <aside className="flex-shrink-0 lg:w-64">
             <div className="sticky top-24 rounded-2xl bg-white p-6 shadow-md lg:p-7">
               <div className="mb-6 flex items-center gap-2">
-                <SlidersHorizontal className="h-5 w-5 text-red-600" />
+                <SlidersHorizontal className="h-5 w-5 text-orange-600" />
                 <h3 className="font-semibold">{dict.products.filterTitle}</h3>
               </div>
 
@@ -47,7 +47,7 @@ export default async function ProductsPage({
                   <Link
                     href="/san-pham"
                     className={`block rounded-lg px-3 py-2 text-sm transition-colors ${
-                      !params.type ? 'bg-red-600 text-white' : 'text-gray-700 hover:bg-gray-100'
+                      !params.type ? 'bg-orange-600 text-white' : 'text-gray-700 hover:bg-gray-100'
                     }`}
                   >
                     {dict.products.all}
@@ -57,7 +57,7 @@ export default async function ProductsPage({
                       key={type}
                       href={`/san-pham?type=${type}`}
                       className={`block rounded-lg px-3 py-2 text-sm transition-colors ${
-                        params.type === type ? 'bg-red-600 text-white' : 'text-gray-700 hover:bg-gray-100'
+                        params.type === type ? 'bg-orange-600 text-white' : 'text-gray-700 hover:bg-gray-100'
                       }`}
                     >
                       {formatProductType(type, locale)}
@@ -99,7 +99,7 @@ export default async function ProductsPage({
                             key={pageNum}
                             href={`/san-pham?page=${pageNum}${params.type ? `&type=${params.type}` : ''}`}
                             className={`flex h-10 w-10 items-center justify-center rounded-lg text-sm font-medium transition-colors ${
-                              pageNum === page ? 'bg-red-600 text-white' : 'bg-white text-gray-700 hover:bg-gray-100'
+                              pageNum === page ? 'bg-orange-600 text-white' : 'bg-white text-gray-700 hover:bg-gray-100'
                             }`}
                           >
                             {pageNum}

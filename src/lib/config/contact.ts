@@ -16,8 +16,8 @@ export const publicContact = {
       display: '+84 936 762 386',
     },
   ],
-  email: 'info@macland.vn',
-  emailHref: 'mailto:info@macland.vn',
+  email: 'info@haiphongindustrialhub.vn',
+  emailHref: 'mailto:info@haiphongindustrialhub.vn',
   address: 'TLA-505 Đường Tương Lai, Vinhomes Royal Vũ Yên, Hải Phòng',
 } as const
 

@@ -1,4 +1,4 @@
-# 🎨 Macland Design System
+# 🎨 Hai Phong Industrial Hub Design System
 
 ## ✅ Fixed Issues & Improvements
 
@@ -12,7 +12,7 @@
 - ✅ **Transparent state**: White text with drop-shadow
 - ✅ **Scrolled state**: Gray-900 text on white background
 - ✅ **Contrast ratios**: WCAG AA compliant
-- ✅ **Hover effects**: Red-600 for CTAs
+- ✅ **Hover effects**: Orange-coral accent for CTAs
 
 ### 3. **Spacing & Sizing**
 | Element | Size | Notes |
@@ -31,7 +31,7 @@
 - Shadow: md on primary
 - Hover: scale-[1.02]
 - Active: scale-95
-- Focus: ring-2 red-500
+- Focus: ring-2 orange-500
 ```
 
 #### **Product Cards**
@@ -55,7 +55,7 @@
 ```css
 - Container: max-w-7xl with responsive padding
 - Scrollbar: 10px gray (custom styled)
-- Focus: ring-2 red-500 (accessibility)
+- Focus: ring-2 orange-500 (accessibility)
 - Smooth scroll: enabled
 ```
 
@@ -65,8 +65,8 @@
 
 ### Colors
 ```css
---primary: #dc2626 (red-600)
---secondary: #b91c1c (red-700)
+--primary: #071b3a (navy)
+--secondary: #f05a2a (coral accent)
 --success: #16a34a (green-600)
 --warning: #f59e0b (amber-500)
 ```
@@ -177,7 +177,7 @@
 ## 🔧 Accessibility
 
 ### Focus States
-- All interactive elements: ring-2 ring-red-500 ring-offset-2
+- All interactive elements: ring-2 ring-orange-500 ring-offset-2
 - Keyboard navigation: full support
 - ARIA labels: where needed
 

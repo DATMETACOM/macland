@@ -61,7 +61,7 @@ export default function LanguageSwitcher({
       <button
         type="button"
         className={cn(
-          'inline-flex items-center gap-2 rounded-xl border border-gray-200 bg-white px-3 py-2 text-sm font-medium text-gray-700 shadow-sm transition hover:border-red-200 hover:text-red-600',
+          'inline-flex items-center gap-2 rounded-xl border border-gray-200 bg-white px-3 py-2 text-sm font-medium text-gray-700 shadow-sm transition hover:border-orange-200 hover:text-orange-600',
           buttonClassName
         )}
         aria-label={label}
@@ -90,7 +90,7 @@ export default function LanguageSwitcher({
                 className={cn(
                   'flex w-full items-center justify-between rounded-xl px-3 py-2.5 text-left text-sm transition',
                   isActive
-                    ? 'bg-red-50 text-red-700'
+                    ? 'bg-orange-50 text-orange-700'
                     : 'text-gray-700 hover:bg-gray-50 hover:text-gray-900'
                 )}
                 onClick={() => {
@@ -104,7 +104,7 @@ export default function LanguageSwitcher({
                   <span className="font-semibold">{option.nativeLabel}</span>
                   <span className="text-xs text-gray-500">{option.label}</span>
                 </span>
-                {isActive && <Check className="h-4 w-4 text-red-600" />}
+                {isActive && <Check className="h-4 w-4 text-orange-600" />}
               </button>
             )
           })}

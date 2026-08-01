@@ -47,8 +47,8 @@ export default async function AboutPage() {
               { icon: Award, ...dict.about.values[3] },
             ].map((value, index) => (
               <div key={index} className="rounded-xl bg-white p-6 shadow-md transition-shadow hover:shadow-lg">
-                <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-red-100">
-                  <value.icon className="h-6 w-6 text-red-600" />
+                <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-orange-100">
+                  <value.icon className="h-6 w-6 text-orange-600" />
                 </div>
                 <h3 className="mb-2 text-xl font-semibold">{value.title}</h3>
                 <p className="text-sm text-gray-600">{value.description}</p>
@@ -63,7 +63,7 @@ export default async function AboutPage() {
           <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
             {dict.about.stats.map((stat, index) => (
               <div key={index} className="text-center">
-                <div className="mb-2 text-4xl font-bold text-red-600">{stat.value}</div>
+                <div className="mb-2 text-4xl font-bold text-orange-600">{stat.value}</div>
                 <div className="text-gray-600">{stat.label}</div>
               </div>
             ))}
@@ -71,11 +71,11 @@ export default async function AboutPage() {
         </div>
       </section>
 
-      <section className="bg-gradient-to-r from-red-600 to-red-700 py-16 text-white">
+      <section className="bg-gradient-to-r from-orange-600 to-orange-700 py-16 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="mb-4 text-3xl font-bold">{dict.about.ctaTitle}</h2>
-          <p className="mx-auto mb-8 max-w-2xl text-xl text-red-100">{dict.about.ctaDescription}</p>
-          <a href={primaryPhone.href} className="inline-block rounded-lg bg-white px-8 py-3 font-bold text-red-600 transition-colors hover:bg-gray-100">
+          <p className="mx-auto mb-8 max-w-2xl text-xl text-orange-100">{dict.about.ctaDescription}</p>
+          <a href={primaryPhone.href} className="inline-block rounded-lg bg-white px-8 py-3 font-bold text-orange-600 transition-colors hover:bg-gray-100">
             {dict.common.contactNow}: {primaryPhone.display}
           </a>
         </div>

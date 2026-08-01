@@ -8,8 +8,8 @@ import ContactForm from '@/components/contact/ContactForm'
 import { Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
 
-const firstSeenKey = 'macland-chatbot-first-seen-at'
-const readyKey = 'macland-chatbot-ready'
+const firstSeenKey = 'haiphongindustrialhub-chatbot-first-seen-at'
+const readyKey = 'haiphongindustrialhub-chatbot-ready'
 const delayMs = 10_000
 
 type ChatbotWidgetProps = {
@@ -87,9 +87,9 @@ export default function ChatbotWidget({ locale }: ChatbotWidgetProps) {
               onClick={(e) => e.stopPropagation()}
             >
               <div className="flex h-full flex-col overflow-hidden rounded-3xl border border-white/70 bg-white shadow-2xl">
-                <div className="flex items-center justify-between border-b border-gray-100 bg-gradient-to-r from-red-600 to-red-700 px-6 py-4 text-white">
+                <div className="flex items-center justify-between border-b border-gray-100 bg-gradient-to-r from-orange-600 to-orange-700 px-6 py-4 text-white">
                   <div>
-                    <p className="text-sm font-semibold uppercase tracking-[0.18em] text-red-100">Chatbot</p>
+                    <p className="text-sm font-semibold uppercase tracking-[0.18em] text-orange-100">Chatbot</p>
                     <h2 className="text-xl font-bold">{dict.chatbot.panelTitle}</h2>
                   </div>
                   <button
@@ -118,14 +118,14 @@ export default function ChatbotWidget({ locale }: ChatbotWidgetProps) {
 
       <div className="fixed bottom-5 right-5 z-[80] flex flex-col items-end gap-3">
         {!isOpen && (
-          <div className="max-w-[220px] rounded-2xl border border-red-100 bg-white px-4 py-3 text-sm text-gray-700 shadow-lg">
+          <div className="max-w-[220px] rounded-2xl border border-orange-100 bg-white px-4 py-3 text-sm text-gray-700 shadow-lg">
             {dict.chatbot.teaser}
           </div>
         )}
         <button
           type="button"
           onClick={() => setIsOpen((current) => !current)}
-          className="group flex items-center gap-3 rounded-full bg-gradient-to-r from-red-600 to-red-700 px-5 py-4 text-white shadow-xl transition hover:from-red-700 hover:to-red-800"
+          className="group flex items-center gap-3 rounded-full bg-gradient-to-r from-orange-600 to-orange-700 px-5 py-4 text-white shadow-xl transition hover:from-orange-700 hover:to-orange-800"
           aria-label={isOpen ? dict.chatbot.close : dict.chatbot.open}
         >
           <div className="relative flex h-11 w-11 items-center justify-center rounded-full bg-white/15">
@@ -133,7 +133,7 @@ export default function ChatbotWidget({ locale }: ChatbotWidgetProps) {
             {isOpen ? <X className="relative h-5 w-5" /> : <Bot className="relative h-5 w-5" />}
           </div>
           <div className="hidden text-left sm:block">
-            <p className="text-xs uppercase tracking-[0.18em] text-red-100">{dict.chatbot.eyebrow}</p>
+            <p className="text-xs uppercase tracking-[0.18em] text-orange-100">{dict.chatbot.eyebrow}</p>
             <p className="text-sm font-semibold">{isOpen ? dict.chatbot.close : dict.chatbot.open}</p>
           </div>
           <MessageCircle className="h-5 w-5 sm:hidden" />

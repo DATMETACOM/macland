@@ -68,9 +68,9 @@ export async function POST(request: Request) {
       submission.productContext.productUrl
     )
 
-    const emailSubject = `[MACLAND] Liên hệ mới: ${submission.subject}`
+    const emailSubject = `[HAI PHONG INDUSTRIAL HUB] Liên hệ mới: ${submission.subject}`
     const emailText = [
-      'MACLAND vừa nhận được thông tin liên hệ mới.',
+      'HAI PHONG INDUSTRIAL HUB vừa nhận được thông tin liên hệ mới.',
       '',
       `Họ tên: ${submission.name}`,
       `Email: ${submission.email}`,
@@ -95,7 +95,7 @@ export async function POST(request: Request) {
     ].join('\n')
 
     const emailHtml = `
-      <h2>MACLAND vừa nhận được thông tin liên hệ mới</h2>
+      <h2>HAI PHONG INDUSTRIAL HUB vừa nhận được thông tin liên hệ mới</h2>
       <p><strong>Họ tên:</strong> ${submission.name}</p>
       <p><strong>Email:</strong> ${submission.email}</p>
       <p><strong>Số điện thoại:</strong> ${submission.phone}</p>

@@ -1,6 +1,6 @@
-# 🏢 Macland - Bất Động Sản Công Nghiệp
+# 🏢 Hai Phong Industrial Hub - Nền tảng dữ liệu nhà xưởng & KCN
 
-Website bất động sản công nghiệp được xây dựng với **Next.js 14**, **TypeScript**, và **Tailwind CSS**.
+Website dữ liệu nhà xưởng và khu công nghiệp được xây dựng với **Next.js 16**, **TypeScript**, và **Tailwind CSS**.
 
 ## ✨ Tính năng
 
@@ -9,7 +9,7 @@ Website bất động sản công nghiệp được xây dựng với **Next.js 
 - 📱 **Responsive**: Mobile-first design
 - 🖼️ **Image Optimization**: Tự động optimize ảnh với Next.js Image
 - 🔍 **SEO**: Server-side rendering cho Google indexing
-- 📄 **Pagination**: Load sản phẩm theo trang (20 items/trang)
+- 📄 **Pagination**: Load dữ liệu theo trang (20 items/trang)
 - 🎯 **Type Safety**: TypeScript toàn bộ
 
 ## 🚀 Quick Start
@@ -49,7 +49,7 @@ src/
 
 ## 🎨 Tech Stack
 
-- **Framework**: Next.js 14 (App Router)
+- **Framework**: Next.js 16 (App Router)
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
 - **Animations**: Framer Motion

@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { Facebook, Youtube, Linkedin, Mail, Phone, MapPin } from 'lucide-react'
 import { publicContact } from '@/lib/config/contact'
 import { Locale } from '@/lib/i18n/config'
@@ -18,22 +19,28 @@ export default function Footer({ locale }: FooterProps) {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2.5 mb-6">
-              <div className="w-10 h-10 bg-red-600 rounded-lg flex items-center justify-center shadow-md">
-                <span className="text-white font-bold text-xl">M</span>
+              <div className="relative h-10 w-10 flex-shrink-0 overflow-hidden rounded-lg bg-white shadow-md ring-1 ring-white/20">
+                <Image
+                  src="/brand/haiphong-industrial-hub-logo.jpg"
+                  alt="Hai Phong Industrial Hub"
+                  fill
+                  sizes="40px"
+                  className="object-cover object-left"
+                />
               </div>
-              <span className="text-xl font-bold text-white">MACLAND</span>
+              <span className="text-base font-bold leading-tight text-white">HAI PHONG INDUSTRIAL HUB</span>
             </div>
             <p className="text-sm text-gray-400 mb-6 leading-relaxed">
               {dict.common.companyTagline}
             </p>
             <div className="flex gap-3">
-              <a href="#" className="w-10 h-10 bg-gray-800 hover:bg-red-600 rounded-lg flex items-center justify-center transition-colors">
+              <a href="#" className="w-10 h-10 bg-gray-800 hover:bg-orange-600 rounded-lg flex items-center justify-center transition-colors">
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 bg-gray-800 hover:bg-red-600 rounded-lg flex items-center justify-center transition-colors">
+              <a href="#" className="w-10 h-10 bg-gray-800 hover:bg-orange-600 rounded-lg flex items-center justify-center transition-colors">
                 <Youtube className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 bg-gray-800 hover:bg-red-600 rounded-lg flex items-center justify-center transition-colors">
+              <a href="#" className="w-10 h-10 bg-gray-800 hover:bg-orange-600 rounded-lg flex items-center justify-center transition-colors">
                 <Linkedin className="w-5 h-5" />
               </a>
             </div>
@@ -98,19 +105,19 @@ export default function Footer({ locale }: FooterProps) {
             <h3 className="text-white font-semibold mb-6 text-sm uppercase tracking-wider">{dict.footer.contact}</h3>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
-                <MapPin className="w-5 h-5 text-red-500 flex-shrink-0 mt-0.5" />
+                <MapPin className="w-5 h-5 text-orange-500 flex-shrink-0 mt-0.5" />
                 <span className="text-sm text-gray-400">{publicContact.address}</span>
               </li>
               {publicContact.phones.map((phone) => (
                 <li key={phone.raw} className="flex items-center gap-3">
-                  <Phone className="w-5 h-5 text-red-500 flex-shrink-0" />
+                  <Phone className="w-5 h-5 text-orange-500 flex-shrink-0" />
                   <a href={phone.href} className="text-sm text-gray-400 hover:text-white transition-colors">
                     {phone.display}
                   </a>
                 </li>
               ))}
               <li className="flex items-center gap-3">
-                <Mail className="w-5 h-5 text-red-500 flex-shrink-0" />
+                <Mail className="w-5 h-5 text-orange-500 flex-shrink-0" />
                 <a href={publicContact.emailHref} className="text-sm text-gray-400 hover:text-white transition-colors">
                   {publicContact.email}
                 </a>
@@ -122,7 +129,7 @@ export default function Footer({ locale }: FooterProps) {
         {/* Bottom bar */}
         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
           <p className="text-sm text-gray-500">
-            © {new Date().getFullYear()} Macland. {dict.common.allRightsReserved} {dict.common.builtWith} ❤️
+            © {new Date().getFullYear()} Haiphongindustrialhub.vn. {dict.common.allRightsReserved}
           </p>
         </div>
       </div>

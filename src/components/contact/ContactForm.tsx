@@ -91,28 +91,28 @@ export default function ContactForm({
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-2">
-              {dict.form.name} <span className="text-red-600">*</span>
+              {dict.form.name} <span className="text-orange-600">*</span>
             </label>
             <input
               type="text"
               required
               value={formData.name}
               onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-600 focus:border-transparent"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent"
               placeholder={dict.form.namePlaceholder}
             />
           </div>
 
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-2">
-              {dict.form.email} <span className="text-red-600">*</span>
+              {dict.form.email} <span className="text-orange-600">*</span>
             </label>
             <input
               type="email"
               required
               value={formData.email}
               onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-600 focus:border-transparent"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent"
               placeholder={dict.form.emailPlaceholder}
             />
           </div>
@@ -120,27 +120,27 @@ export default function ContactForm({
 
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-2">
-            {dict.form.phone} <span className="text-red-600">*</span>
+            {dict.form.phone} <span className="text-orange-600">*</span>
           </label>
           <input
             type="tel"
             required
             value={formData.phone}
             onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-600 focus:border-transparent"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent"
             placeholder={dict.form.phonePlaceholder}
           />
         </div>
 
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-2">
-            {dict.form.subject} <span className="text-red-600">*</span>
+            {dict.form.subject} <span className="text-orange-600">*</span>
           </label>
           <select
             required
             value={formData.subject}
             onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-600 focus:border-transparent"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent"
           >
             <option value="">{dict.form.chooseSubject}</option>
             <option value="dau-tu">{dict.form.subjects.investment}</option>
@@ -152,14 +152,14 @@ export default function ContactForm({
 
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-2">
-            {dict.form.message} <span className="text-red-600">*</span>
+            {dict.form.message} <span className="text-orange-600">*</span>
           </label>
           <textarea
             required
             value={formData.message}
             onChange={(e) => setFormData({ ...formData, message: e.target.value })}
             rows={5}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-600 focus:border-transparent resize-none"
+            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent resize-none"
             placeholder={dict.form.messagePlaceholder}
           />
         </div>
@@ -169,7 +169,7 @@ export default function ContactForm({
             className={`rounded-lg px-4 py-3 text-sm ${
               submitMessage.type === 'success'
                 ? 'bg-green-50 text-green-700'
-                : 'bg-red-50 text-red-700'
+                : 'bg-orange-50 text-orange-700'
             }`}
           >
             {submitMessage.text}
@@ -179,7 +179,7 @@ export default function ContactForm({
         <button
           type="submit"
           disabled={isSubmitting}
-          className="w-full bg-red-600 text-white py-3 rounded-lg font-medium hover:bg-red-700 transition-colors disabled:opacity-70 disabled:cursor-not-allowed"
+          className="w-full bg-orange-600 text-white py-3 rounded-lg font-medium hover:bg-orange-700 transition-colors disabled:opacity-70 disabled:cursor-not-allowed"
         >
           {isSubmitting ? dict.form.sending : (submitLabel || dict.form.submit)}
         </button>
