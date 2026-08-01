@@ -31,6 +31,9 @@ const nextConfig: NextConfig = {
 
   // Generate static pages where possible
   output: undefined, // Keep default for now, can switch to 'export' later for static hosting
+  outputFileTracingIncludes: {
+    '/*': ['./public/data.json'],
+  },
 
   // Experimental features for better performance
   experimental: {
