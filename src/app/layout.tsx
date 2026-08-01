@@ -8,7 +8,7 @@ import Header from '@/components/layout/Header'
 import LanguageSelectionModal from '@/components/layout/LanguageSelectionModal'
 import { defaultLocale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
-import { getRequestLocale, hasLanguageCookie } from '@/lib/i18n/server'
+import { getRequestLocale } from '@/lib/i18n/server'
 
 const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ['latin'],
@@ -28,7 +28,6 @@ export default async function RootLayout({
   children: React.ReactNode
 }>) {
   const locale = await getRequestLocale()
-  const isFirstVisit = !(await hasLanguageCookie())
   const dict = getDictionary(locale)
 
   return (
@@ -45,7 +44,7 @@ export default async function RootLayout({
         <Footer locale={locale} />
         <LanguageSelectionModal
           initialLocale={locale}
-          isFirstVisit={isFirstVisit}
+          isFirstVisit={false}
           title={dict.language.modalTitle}
           description={dict.language.modalDescription}
           confirmLabel={dict.language.confirm}
