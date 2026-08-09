@@ -32,6 +32,7 @@ export default function Header({ locale }: HeaderProps) {
     { name: dict.nav.home, href: '/' },
     { name: dict.nav.products, href: '/san-pham' },
     { name: dict.nav.services, href: '/dich-vu' },
+    { name: locale === 'vi' ? 'Tin tức' : 'News', href: '/tin-tuc' },
     { name: dict.nav.about, href: '/ve-chung-toi' },
     { name: dict.nav.contact, href: '/lien-he' },
   ]
@@ -49,27 +50,21 @@ export default function Header({ locale }: HeaderProps) {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
-            <Link href="/" className="flex min-w-0 items-center gap-2.5 group">
-              <div className="relative h-10 w-10 flex-shrink-0 overflow-hidden rounded-lg bg-white shadow-md ring-1 ring-slate-200">
+            <Link href="/" className="group flex min-w-0 items-center">
+              <div className="relative h-11 w-[205px] flex-shrink-0 overflow-hidden bg-white sm:h-12 sm:w-[245px] lg:w-[220px] xl:h-14 xl:w-[285px]">
                 <Image
-                  src="/brand/haiphong-industrial-hub-logo.jpg"
+                  src="/brand/haiphong-industrial-hub-logo-full.png"
                   alt="Hai Phong Industrial Hub"
                   fill
-                  sizes="40px"
-                  className="object-cover object-left"
+                  sizes="(min-width: 1280px) 285px, (min-width: 1024px) 220px, (min-width: 640px) 245px, 205px"
+                  className="object-contain object-left"
                   priority
                 />
               </div>
-              <span className={cn(
-                "max-w-[190px] truncate text-sm font-bold tracking-tight sm:max-w-none sm:text-base xl:text-xl",
-                isScrolled ? "text-gray-900" : "text-gray-900 drop-shadow-lg"
-              )}>
-                Hai Phong Industrial Hub
-              </span>
             </Link>
 
             {/* Desktop Navigation */}
-            <nav className="hidden lg:flex items-center gap-8">
+            <nav className="hidden lg:flex items-center gap-5 xl:gap-8">
               {navigation.map((item) => (
                 <Link
                   key={item.name}
@@ -87,7 +82,7 @@ export default function Header({ locale }: HeaderProps) {
             </nav>
 
             {/* CTA Section */}
-            <div className="hidden lg:flex items-center gap-4">
+            <div className="hidden lg:flex items-center gap-3 xl:gap-4">
               <LanguageSwitcher
                 currentLocale={locale}
                 label={dict.language.label}

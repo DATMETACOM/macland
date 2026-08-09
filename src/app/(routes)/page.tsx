@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { ArrowRight, Building2, CheckCircle, Shield, TrendingUp, Users } from 'lucide-react'
 
 import ProductCard from '@/components/product/ProductCard'
@@ -11,19 +12,30 @@ export default async function HomePage() {
   const products = await getAllProducts(locale)
 
   const featuredProducts = products.slice(0, 8)
+  const valueBackgrounds = [
+    '/images/hero/hai-phong-port-industrial-hero.png',
+    '/images/products/khu-cong-nghiep-trang-due-hai-phong/original_1_1-1-1.png',
+    '/images/products/khu-cong-nghiep-vsip-hai-phong/original_1_khu-cong-nghiep-vsip-hai-phong-macland-1.jpg',
+  ]
+  const serviceBackgrounds = [
+    '/images/products/khu-cong-nghiep-trang-due-hai-phong/original_1_1-1-1.png',
+    '/images/products/nha-xuong-kcn-deep-c-ii-001/original_1_Nha-xuong-KCN-Deep-C-II-Hai-Phong-2.jpg',
+    '/images/products/khu-cong-nghiep-vsip-hai-phong/original_1_khu-cong-nghiep-vsip-hai-phong-macland-1.jpg',
+    '/images/hero/hai-phong-port-industrial-hero.png',
+  ]
 
   return (
     <>
-      <section className="relative overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-20 text-white lg:py-32">
-        <div className="absolute inset-0 opacity-10">
-          <div
-            className="absolute inset-0"
-            style={{
-              backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)',
-              backgroundSize: '40px 40px',
-            }}
-          />
-        </div>
+      <section className="relative overflow-hidden bg-gray-950 py-20 text-white lg:py-32">
+        <Image
+          src="/images/hero/hai-phong-port-industrial-hero.png"
+          alt="Cảng biển và khu công nghiệp Hải Phòng"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-gray-950/82 via-gray-950/46 to-gray-950/24" />
 
         <div className="container relative z-10 mx-auto px-4">
           <div className="mx-auto max-w-4xl text-center">
@@ -56,7 +68,7 @@ export default async function HomePage() {
               { icon: Shield, value: '500+', label: dict.home.statsProjects },
               { icon: Users, value: '1000+', label: dict.home.statsClients },
             ].map((stat, index) => (
-              <div key={index} className="rounded-xl bg-white/5 p-4 text-center backdrop-blur-sm lg:p-6">
+              <div key={index} className="rounded-xl bg-white/10 p-4 text-center shadow-lg backdrop-blur-sm lg:p-6">
                 <stat.icon className="mx-auto mb-3 h-8 w-8 text-orange-500 lg:h-10 lg:w-10" />
                 <div className="mb-1 text-3xl font-bold lg:text-4xl">{stat.value}</div>
                 <div className="text-xs text-gray-400 lg:text-sm">{stat.label}</div>
@@ -102,12 +114,19 @@ export default async function HomePage() {
               { icon: Shield, color: 'text-orange-600', bgColor: 'bg-orange-50', ...dict.home.values[1] },
               { icon: TrendingUp, color: 'text-orange-600', bgColor: 'bg-orange-50', ...dict.home.values[2] },
             ].map((item, index) => (
-              <div key={index} className="rounded-2xl bg-white p-8 shadow-md transition-all duration-300 hover:shadow-xl">
-                <div className={`mb-6 flex h-16 w-16 items-center justify-center rounded-2xl ${item.bgColor}`}>
-                  <item.icon className={`h-8 w-8 ${item.color}`} />
+              <div
+                key={index}
+                className="relative overflow-hidden rounded-2xl bg-white p-8 shadow-md transition-all duration-300 hover:shadow-xl"
+                style={{ backgroundImage: `url(${valueBackgrounds[index]})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+              >
+                <div className="absolute inset-0 bg-white/90" />
+                <div className="relative">
+                  <div className={`mb-6 flex h-16 w-16 items-center justify-center rounded-2xl ${item.bgColor}`}>
+                    <item.icon className={`h-8 w-8 ${item.color}`} />
+                  </div>
+                  <h3 className="mb-3 text-xl font-bold">{item.title}</h3>
+                  <p className="leading-relaxed text-gray-600">{item.description}</p>
                 </div>
-                <h3 className="mb-3 text-xl font-bold">{item.title}</h3>
-                <p className="leading-relaxed text-gray-600">{item.description}</p>
               </div>
             ))}
           </div>
@@ -123,12 +142,19 @@ export default async function HomePage() {
 
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {dict.home.services.map((service, index) => (
-              <div key={index} className="group cursor-pointer rounded-2xl bg-white p-6 shadow-md transition-all duration-300 hover:shadow-lg lg:p-8">
-                <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-orange-100 transition-colors group-hover:bg-orange-600">
-                  <div className="h-6 w-6 rounded-full bg-orange-600 transition-colors group-hover:bg-white" />
+              <div
+                key={index}
+                className="group relative cursor-pointer overflow-hidden rounded-2xl bg-white p-6 shadow-md transition-all duration-300 hover:shadow-lg lg:p-8"
+                style={{ backgroundImage: `url(${serviceBackgrounds[index] || serviceBackgrounds[0]})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+              >
+                <div className="absolute inset-0 bg-gray-950/68 transition-colors group-hover:bg-gray-950/58" />
+                <div className="relative">
+                  <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-white/15 ring-1 ring-white/20 transition-colors group-hover:bg-orange-600">
+                    <div className="h-6 w-6 rounded-full bg-orange-500 transition-colors group-hover:bg-white" />
+                  </div>
+                  <h3 className="mb-2 text-lg font-bold text-white">{service.title}</h3>
+                  <p className="text-sm text-gray-100">{service.description}</p>
                 </div>
-                <h3 className="mb-2 text-lg font-bold">{service.title}</h3>
-                <p className="text-sm text-gray-600">{service.description}</p>
               </div>
             ))}
           </div>

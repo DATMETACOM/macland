@@ -1,19 +1,9 @@
 export const publicContact = {
   phones: [
     {
-      raw: '+84856068856',
-      href: 'tel:+84856068856',
-      display: '+84 856 068 856',
-    },
-    {
       raw: '+84936834444',
       href: 'tel:+84936834444',
       display: '+84 936 834 444',
-    },
-    {
-      raw: '+84936762386',
-      href: 'tel:+84936762386',
-      display: '+84 936 762 386',
     },
   ],
   email: 'info@haiphongindustrialhub.vn',
@@ -22,3 +12,9 @@ export const publicContact = {
 } as const
 
 export const primaryPhone = publicContact.phones[0]
+
+export const primaryConsultant = {
+  name: 'Đoàn Đình Vượng',
+  role: 'Tư vấn khu công nghiệp Hải Phòng',
+  image: '/images/team/doan-dinh-vuong.png',
+} as const

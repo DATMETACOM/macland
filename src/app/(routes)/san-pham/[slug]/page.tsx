@@ -3,7 +3,9 @@ import Link from 'next/link'
 import { ArrowLeft, DollarSign, FileText, MapPin, Ruler } from 'lucide-react'
 
 import Button from '@/components/ui/Button'
+import ConsultantContactCard from '@/components/contact/ConsultantContactCard'
 import ProductImage from '@/components/product/ProductImage'
+import { primaryPhone } from '@/lib/config/contact'
 import {
   formatArea,
   formatPrice,
@@ -229,13 +231,14 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
                       {dict.nav.consultation}
                     </Button>
                   </Link>
-                  <a href="tel:0912949393">
+                  <a href={primaryPhone.href}>
                     <Button variant="outline" className="w-full">
-                      {dict.common.contactNow}
+                      {dict.common.contactNow}: {primaryPhone.display}
                     </Button>
                   </a>
                 </div>
               </div>
+              <ConsultantContactCard />
             </div>
           </aside>
         </div>

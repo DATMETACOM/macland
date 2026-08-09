@@ -13,6 +13,14 @@ export default async function ServicesPage() {
     { icon: Users, ...dict.services.items[4] },
     { icon: Shield, ...dict.services.items[5] },
   ]
+  const serviceBackgrounds = [
+    '/images/hero/hai-phong-port-industrial-hero.png',
+    '/images/products/khu-cong-nghiep-trang-due-hai-phong/original_1_1-1-1.png',
+    '/images/products/khu-cong-nghiep-vsip-hai-phong/original_1_khu-cong-nghiep-vsip-hai-phong-macland-1.jpg',
+    '/images/products/nha-xuong-kcn-deep-c-ii-001/original_1_Nha-xuong-KCN-Deep-C-II-Hai-Phong-2.jpg',
+    '/images/products/cum-cong-nghiep-dai-thang-thanh-pho-hai-phong/original_1_cum-cong-nghiep-dai-thang-6.jpg',
+    '/images/products/khu-cong-nghiep-vsip-hai-phong/original_1_khu-cong-nghiep-vsip-hai-phong-macland-1.jpg',
+  ]
 
   return (
     <div className="min-h-screen">
@@ -29,8 +37,13 @@ export default async function ServicesPage() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             {services.map((service, index) => (
-              <div key={index} className="group overflow-hidden rounded-xl bg-white shadow-md transition-all duration-300 hover:shadow-xl">
-                <div className="p-6">
+              <div
+                key={index}
+                className="group relative overflow-hidden rounded-xl bg-white shadow-md transition-all duration-300 hover:shadow-xl"
+                style={{ backgroundImage: `url(${serviceBackgrounds[index]})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+              >
+                <div className="absolute inset-0 bg-white/92 transition-colors group-hover:bg-white/88" />
+                <div className="relative p-6">
                   <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-lg bg-orange-100 transition-colors group-hover:bg-orange-600">
                     <service.icon className="h-7 w-7 text-orange-600 transition-colors group-hover:text-white" />
                   </div>

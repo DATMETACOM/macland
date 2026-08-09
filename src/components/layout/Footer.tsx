@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { Facebook, Youtube, Linkedin, Mail, Phone, MapPin } from 'lucide-react'
+import ConsultantContactCard from '@/components/contact/ConsultantContactCard'
 import { publicContact } from '@/lib/config/contact'
 import { Locale } from '@/lib/i18n/config'
 import { getDictionary } from '@/lib/i18n/dictionaries'
@@ -18,17 +19,16 @@ export default function Footer({ locale }: FooterProps) {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
           {/* Company Info */}
           <div className="lg:col-span-1">
-            <div className="flex items-center gap-2.5 mb-6">
-              <div className="relative h-10 w-10 flex-shrink-0 overflow-hidden rounded-lg bg-white shadow-md ring-1 ring-white/20">
+            <div className="mb-6">
+              <div className="relative h-14 w-[260px] max-w-full overflow-hidden bg-white">
                 <Image
-                  src="/brand/haiphong-industrial-hub-logo.jpg"
+                  src="/brand/haiphong-industrial-hub-logo-full.png"
                   alt="Hai Phong Industrial Hub"
                   fill
-                  sizes="40px"
-                  className="object-cover object-left"
+                  sizes="260px"
+                  className="object-contain object-left"
                 />
               </div>
-              <span className="text-base font-bold leading-tight text-white">HAI PHONG INDUSTRIAL HUB</span>
             </div>
             <p className="text-sm text-gray-400 mb-6 leading-relaxed">
               {dict.common.companyTagline}
@@ -58,6 +58,11 @@ export default function Footer({ locale }: FooterProps) {
               <li>
                 <Link href="/dich-vu" className="text-gray-400 hover:text-white transition-colors text-sm">
                   {dict.nav.services}
+                </Link>
+              </li>
+              <li>
+                <Link href="/tin-tuc" className="text-gray-400 hover:text-white transition-colors text-sm">
+                  {locale === 'vi' ? 'Tin tức' : 'News'}
                 </Link>
               </li>
               <li>
@@ -123,6 +128,7 @@ export default function Footer({ locale }: FooterProps) {
                 </a>
               </li>
             </ul>
+            <ConsultantContactCard compact className="mt-6 border-white/10 bg-gray-800 text-white [&_p]:text-white [&_a]:text-orange-400" />
           </div>
         </div>
 
